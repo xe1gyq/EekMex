@@ -30,7 +30,7 @@ class emObdh(object):
         return altitude, pressure, sealevelpressure, temperature
 
     def emObdhGps(self):
-        latitude = self.emgpsfd.emGpsAltitudeGet()
+        latitude = self.emgpsfd.emGpsLatitudeGet()
         longitude = self.emgpsfd.emGpsLongitudeGet()
         altitude = self.emgpsfd.emGpsAltitudeGet()
         return latitude, longitude, altitude
