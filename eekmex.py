@@ -6,7 +6,7 @@ import sys
 import threading
 import time
 
-from subsystems.emobdh import emOnBoardDataHandling
+from subsystems.emobdh import emObdh
 
 from core.alive import Alive
 from core.imu import Imu
@@ -60,7 +60,7 @@ if __name__=='__main__':
     parser = argparse.ArgumentParser(description)
     args = parser.parse_args()
 
-    obdh = emOnBoardDataHandling()
+    obdh = emObdh()
 
     while True:
 
