@@ -16,11 +16,11 @@ class emObdh(object):
     def __init__(self):
 
         logging.info('On Board Data Handling')
-        thread = Thread(target=self.emObdhCapture)
-        thread.start()
 
         self.emgpsfd = emGps()
-        self.emgpsfd.emGpsPoller()
+
+        thread = Thread(target=self.emObdhCapture)
+        thread.start()
 
     def emObdhSensors(self):
         altitude = emAltitudeGet()
