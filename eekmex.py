@@ -2,12 +2,14 @@
 
 import argparse
 import logging
+import sys
 import threading
 import time
 
+from core.emobdh import emOnBoardDataHandling
+
 from core.alive import Alive
 from core.imu import Imu
-from core.bpta import Bpta
 from core.remote import Remote
 
 def eekMexLogging():
@@ -58,18 +60,22 @@ if __name__=='__main__':
     parser = argparse.ArgumentParser(description)
     args = parser.parse_args()
 
+    obdh = emOnBoardDataHandling()
+
+    while True:
+
+        time.sleep(1)
+
+    sys.exit(0)
+
     alive = Alive()
-    bpta = Bpta()
     imu = Imu()
     remote = Remote()
 
-    threadbpta = threading.Thread(name='bpta', target=bpta.data)
     threadimu = threading.Thread(name='imu', target=imu.data)
 
-    threadbpta.daemon = True
     threadimu.daemon = True
 
-    threadbpta.start()
     threadimu.start()
 
     seconds = 0
