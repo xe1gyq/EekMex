@@ -6,7 +6,7 @@ import sys
 import threading
 import time
 
-from core.emobdh import emOnBoardDataHandling
+from subsystems.emobdh import emOnBoardDataHandling
 
 from core.alive import Alive
 from core.imu import Imu

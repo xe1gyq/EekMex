@@ -4,10 +4,10 @@ import logging
 import time
 from threading import Thread
 
-from core.emaltitude import emAltitudeGet
-from core.empressure import emPressureGet
-from core.emsealevelpressure import emSeaLevelPressureGet
-from core.emtemperature import emTemperatureGet
+from sensors.emaltitude import emAltitudeGet
+from sensors.empressure import emPressureGet
+from sensors.emsealevelpressure import emSeaLevelPressureGet
+from sensors.emtemperature import emTemperatureGet
 
 class emOnBoardDataHandling(object):
 
