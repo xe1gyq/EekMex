@@ -15,6 +15,5 @@ class emTelemetry(object):
     def emTelemetrySend(self, data):
 
         self.serial.write('%s\n' % data)
-        time.sleep(5)
 
 # End of File
