@@ -14,6 +14,7 @@ class emTelemetry(object):
 
     def emTelemetrySend(self, data):
 
+        logging.info(data)
         self.serial.write('%s\n' % data)
 
 # End of File

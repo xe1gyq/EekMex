@@ -56,14 +56,14 @@ class emObdh(object):
             gpsdata = ("Gps: {0}," "{1}," "{2}".format(latitude, longitude, altitude))
             logging.info(gpsdata)
 
-            gpsdatage = ("{0} " "{1} " "{2} " "{3} " "{4} " .format(latitude, longitude, altitude, pressure, temperature))
-            logging.warning(gpsdatage)
-
             roll, pitch, yaw = self.emObdhImu()
             imudata = ("Imu: {0}," "{1}," "{2},".format(roll, pitch, yaw))
             logging.info(imudata)
 
-            self.emtelemetry.emTelemetrySend(gpsdatage)
+            datage = ("{0} " "{1} " "{2} " "{3} " "{4} " "{5} " "{6} " "{6} ".format(latitude, longitude, altitude, pressure, temperature, roll, pitch, yaw))
+            logging.warning(datage)
+
+            self.emtelemetry.emTelemetrySend(datage)
 
             time.sleep(5)
 
