@@ -7,10 +7,7 @@ import threading
 import time
 
 from subsystems.emobdh import emObdh
-
-from core.alive import Alive
-from core.imu import Imu
-from core.remote import Remote
+from subsystems.emimu import emImu
 
 def eekMexLogging():
 
@@ -75,7 +72,6 @@ if __name__=='__main__':
 
     sys.exit(0)
 
-    alive = Alive()
     imu = Imu()
     remote = Remote()
 
@@ -88,7 +84,6 @@ if __name__=='__main__':
     seconds = 0
 
     while seconds != 5:
-        alive.data()
         time.sleep(1)
         seconds += 1
         remote.send()
