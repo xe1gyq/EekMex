@@ -1,2 +1,5 @@
-# eekmex
-oftware Satellite Learning Platform
+# EekMex
+
+Amateur Satellite Learning Platform
+
+# End of File
