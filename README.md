@@ -1,5 +1,5 @@
 # EekMex
 
-Amateur Satellite Learning Platform
+Amateur Radio Satellite Learning Platform
 
 # End of File
