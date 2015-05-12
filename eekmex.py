@@ -2,31 +2,41 @@
 
 import argparse
 import logging
+import time
+
+from core.alive import alive
+from core.imu import Imu
 
 def eekMexLogging():
 
     logging.basicConfig(level=logging.DEBUG,
-                        format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s',
+                        format='%(asctime)s %(name)-2s %(module)-10s %(levelname)-4s %(message)s',
                         #datefmt='%m-%d %H:%M',
-                        filename='/home/root/eekmex/eekmex.log',
-                        filemode='w')
+                        filename='/media/sdcard/eekmex.log',
+                        filemode='a')
 
     console = logging.StreamHandler()
     console.setLevel(logging.INFO)
 
-    formatter = logging.Formatter('%(name)-12s: %(levelname)-8s %(message)s')
+    formatter = logging.Formatter('%(name)-2s: %(module)-10s %(levelname)-4s %(message)s')
     console.setFormatter(formatter)
     logging.getLogger('').addHandler(console)
 
-    logging.info('EekMex Logging')
-
 if __name__=='__main__':
 
-    parser = argparse.ArgumentParser(description='EekMex, Amateur Radio Satellite Learning Platform')
+    eekMexLogging()
+
+    description = 'EekMex, Amateur Radio Satellite Learning Platform'
+    logging.info(description)
+
+    parser = argparse.ArgumentParser(description)
     args = parser.parse_args()
 
-    eekMexLogging()
+    imu = Imu()
+
     while True:
-        pass
+        alive()
+        imu.data()
+        time.sleep(5)
 
 # End of File
