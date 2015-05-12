@@ -4,7 +4,7 @@ import argparse
 import logging
 import time
 
-from core.alive import alive
+from core.alive import Alive
 from core.imu import Imu
 
 def eekMexLogging():
@@ -33,10 +33,11 @@ if __name__=='__main__':
     args = parser.parse_args()
 
     imu = Imu()
+    alive = Alive()
 
     while True:
-        alive()
+        alive.data()
         imu.data()
-        time.sleep(5)
+        time.sleep(1)
 
 # End of File

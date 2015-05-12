@@ -4,12 +4,18 @@ import logging
 
 from system import System
 
-def alive():
+class Alive(object):
 
-    system = System()
-    cpu = system.cpu()
-    memory = system.memory()
-    message = "Cpu %s / Memory %s" % (cpu, memory)
-    logging.info(message)
+    def __init__(self):
+
+        self.system = System()
+        logging.info('Alive Initialization Succeeded!')
+
+    def data(self):
+
+        cpu = self.system.cpu()
+        memory = self.system.memory()
+        message = "Cpu %s / Memory %s" % (cpu, memory)
+        logging.info(message)
 
 # End of File
