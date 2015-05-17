@@ -64,11 +64,17 @@ if __name__=='__main__':
     threadbpta = threading.Thread(name='bpta', target=bpta.data)
     threadimu = threading.Thread(name='imu', target=imu.data)
 
+    threadbpta.daemon = True
+    threadimu.daemon = True
+
     threadbpta.start()
     threadimu.start()
 
-    while True:
+    seconds = 0
+
+    while seconds != 15:
         alive.data()
         time.sleep(1)
+        seconds += 1
 
 # End of File
