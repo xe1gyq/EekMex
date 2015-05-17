@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Ubilinux
+
 apt-get update
 pip install numpy psutil
 
@@ -27,5 +29,8 @@ cd build
 cmake .. -DBUILDSWIGNODE=OFF
 make
 make install
+
+export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
+mount -o umask=0,uid=nobody /dev/mmcblk1p1 /media/sdcard/
 
 # End of File
