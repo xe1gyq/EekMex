@@ -2,10 +2,12 @@
 
 import argparse
 import logging
+import threading
 import time
 
 from core.alive import Alive
 from core.imu import Imu
+from core.bpta import Bpta
 
 def eekMexLogging():
 
@@ -32,12 +34,18 @@ if __name__=='__main__':
     parser = argparse.ArgumentParser(description)
     args = parser.parse_args()
 
-    imu = Imu()
     alive = Alive()
+    bpta = Bpta()
+    imu = Imu()
+
+    threadbpta = threading.Thread(name='bpta', target=bpta.data)
+    threadimu = threading.Thread(name='imu', target=imu.data)
+
+    threadbpta.start()
+    threadimu.start()
 
     while True:
         alive.data()
-        imu.data()
         time.sleep(1)
 
 # End of File
