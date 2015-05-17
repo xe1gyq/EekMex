@@ -6,6 +6,9 @@
 - [ ] Design Pattern Research
 - [ ] Python Logging
 
+## ToDo
+- [ ] Auto StartUp Initialization
+
 # Links
 http://www.giantflyingsaucer.com/blog/?p=5117
 
