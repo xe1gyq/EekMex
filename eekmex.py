@@ -11,18 +11,41 @@ from core.bpta import Bpta
 
 def eekMexLogging():
 
+    # ------------------------------------------------------------
+    # Base Logging Setup
+    # ------------------------------------------------------------
+
     logging.basicConfig(level=logging.DEBUG,
                         format='%(asctime)s %(name)-2s %(module)-10s %(levelname)-4s %(message)s',
-                        #datefmt='%m-%d %H:%M',
-                        filename='/media/sdcard/eekmex.log',
+                        filename='eekmex.log',
                         filemode='a')
 
-    console = logging.StreamHandler()
-    console.setLevel(logging.INFO)
+    # ------------------------------------------------------------
+    # Logging Handlers
+    # ------------------------------------------------------------
 
-    formatter = logging.Formatter('%(name)-2s: %(module)-10s %(levelname)-4s %(message)s')
-    console.setFormatter(formatter)
-    logging.getLogger('').addHandler(console)
+    loggerConsole = logging.StreamHandler()
+    loggerConsole.setLevel(logging.INFO)
+
+    loggerFile = logging.FileHandler('/media/sdcard/eekmex.log', 'a')
+    loggerFile.setLevel(logging.DEBUG)
+
+    # ------------------------------------------------------------
+    # Logging Formatters
+    # ------------------------------------------------------------
+
+    loggerConsoleFormatter = logging.Formatter('%(name)-2s: %(module)-10s %(levelname)-4s %(message)s')
+    loggerConsole.setFormatter(loggerConsoleFormatter)
+
+    loggerFileFormatter = logging.Formatter('%(asctime)s %(name)-2s %(module)-10s %(levelname)-4s %(message)s')
+    loggerFile.setFormatter(loggerFileFormatter)
+
+    # ------------------------------------------------------------
+    # Logging Handlers
+    # ------------------------------------------------------------
+
+    logging.getLogger('').addHandler(loggerFile)
+    logging.getLogger('').addHandler(loggerConsole)
 
 if __name__=='__main__':
 
