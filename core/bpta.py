@@ -14,7 +14,7 @@ class Bpta(object):
 
         logging.info('Barometric Pressure Temperature Altitude')
 
-        self.myBarometer = upmBmpx8x.BMPX8X(1, upmBmpx8x.ADDR);
+        self.bpta = upmBmpx8x.BMPX8X(1, upmBmpx8x.ADDR);
 
     def data(self):
 
@@ -23,10 +23,10 @@ class Bpta(object):
                          "Temperature {1} | "
                          "Altitude {2} | "
                          "Sealevel {3}".format(
-                         self.myBarometer.getPressure(),
-                         self.myBarometer.getTemperature(),
-                         self.myBarometer.getAltitude(),
-                         self.myBarometer.getSealevelPressure()))
+                         self.bpta.getPressure(),
+                         self.bpta.getTemperature(),
+                         self.bpta.getAltitude(),
+                         self.bpta.getSealevelPressure()))
 
             logging.debug(bptadata)
             time.sleep(.1)
