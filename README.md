@@ -1,5 +1,6 @@
 ## Hardware
 - [ ] Inertial Measurements Unit, 9 Degrees of Freedom
+- [ ] Barometric, Pressure, Temperature, Altitude Sensor
 
 ## Software
 - [ ] Design Pattern Research
