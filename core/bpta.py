@@ -28,7 +28,7 @@ class Bpta(object):
                          self.myBarometer.getAltitude(),
                          self.myBarometer.getSealevelPressure()))
 
-            logging.info(bptadata)
+            logging.debug(bptadata)
             time.sleep(.1)
 
 # End of File

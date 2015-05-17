@@ -40,7 +40,7 @@ class Imu(object):
                 # print("%f %f %f" % (x,y,z))
                 data = self.imu.getIMUData()
                 fusionPose = data["fusionPose"]
-                logging.info('Roll %f | Pitch %f | Yaw %f' %
+                logging.debug('Roll %f | Pitch %f | Yaw %f' %
                     (math.degrees(fusionPose[0]),
                     math.degrees(fusionPose[1]),
                     math.degrees(fusionPose[2])))
