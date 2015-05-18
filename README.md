@@ -5,6 +5,7 @@
 ## Software
 - [ ] Design Pattern Research
 - [ ] Python Logging
+- [ ] Plot Ly
 
 ## ToDo
 - [ ] Auto StartUp Initialization
