@@ -21,6 +21,7 @@
 - [ ] Operations Center
 - [ ] Satellite
 - [ ] Unmanned Autonomous Vehicle
+- [ ] Helicopter
 
 ## Subsystems
 - [ ] Micro Controller Unit
