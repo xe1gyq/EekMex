@@ -38,4 +38,7 @@
 # Links
 http://www.giantflyingsaucer.com/blog/?p=5117
 
+# Practices
+- [ ] Solar Conjunction
+
 # End of File
