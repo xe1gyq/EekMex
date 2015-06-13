@@ -3,7 +3,7 @@
 # Ubilinux
 
 apt-get update
-pip install numpy psutil
+pip install numpy psutil XBee
 
 # Adafruit BMP108 Python
 git clone https://github.com/adafruit/Adafruit_Python_BMP.git
