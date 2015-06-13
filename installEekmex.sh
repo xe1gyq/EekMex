@@ -34,4 +34,9 @@ make install
 export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
 mount -o umask=0,uid=nobody /dev/mmcblk1p1 /media/sdcard/
 
+# GPS
+
+gpsd -N -D3 -F /var/run/gpsd.sock /dev/ttyUSB0
+gpspipe -w -n 100
+
 # End of File
