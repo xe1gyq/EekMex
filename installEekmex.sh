@@ -38,5 +38,6 @@ mount -o umask=0,uid=nobody /dev/mmcblk1p1 /media/sdcard/
 
 gpsd -N -D3 -F /var/run/gpsd.sock /dev/ttyUSB0
 gpspipe -w -n 100
+gpsmon /dev/ttyUSB1 4800
 
 # End of File
