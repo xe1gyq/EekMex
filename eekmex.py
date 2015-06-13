@@ -8,6 +8,7 @@ import time
 from core.alive import Alive
 from core.imu import Imu
 from core.bpta import Bpta
+from core.remote import Remote
 
 def eekMexLogging():
 
@@ -60,6 +61,7 @@ if __name__=='__main__':
     alive = Alive()
     bpta = Bpta()
     imu = Imu()
+    remote = Remote()
 
     threadbpta = threading.Thread(name='bpta', target=bpta.data)
     threadimu = threading.Thread(name='imu', target=imu.data)
@@ -72,9 +74,12 @@ if __name__=='__main__':
 
     seconds = 0
 
-    while seconds != 15:
+    while seconds != 5:
         alive.data()
         time.sleep(1)
         seconds += 1
+        remote.send()
+
+    remote.close()
 
 # End of File
