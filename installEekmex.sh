@@ -3,7 +3,8 @@
 # Ubilinux
 
 apt-get update
-pip install numpy psutil XBee pyserial gpsd gpsd-clients python-gps
+apt-get install gpsd gpsd-clients python-gps
+pip install numpy psutil XBee pyserial 
 
 # Adafruit BMP108 Python
 git clone https://github.com/adafruit/Adafruit_Python_BMP.git
