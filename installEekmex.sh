@@ -3,7 +3,7 @@
 # Ubilinux
 
 apt-get update
-apt-get install gpsd gpsd-clients python-gps libxml2-dev libxslt1-dev python-dev minicom setserial
+apt-get install gpsd gpsd-clients python-gps libxml2-dev libxslt1-dev python-dev minicom setserial python-matplotlib
 pip install numpy psutil XBee pyserial pykml
 
 # Adafruit BMP108 Python
