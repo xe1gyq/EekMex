@@ -3,7 +3,8 @@
 # Ubilinux
 
 apt-get update
-pip install numpy psutil XBee pyserial
+apt-get install gpsd gpsd-clients python-gps
+pip install numpy psutil XBee pyserial 
 
 # Adafruit BMP108 Python
 git clone https://github.com/adafruit/Adafruit_Python_BMP.git
@@ -32,5 +33,11 @@ make install
 
 export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
 mount -o umask=0,uid=nobody /dev/mmcblk1p1 /media/sdcard/
+
+# GPS
+
+gpsd -N -D3 -F /var/run/gpsd.sock /dev/ttyUSB0
+gpspipe -w -n 100
+gpsmon /dev/ttyUSB1 4800
 
 # End of File
