@@ -21,7 +21,7 @@ def beachball(data):
         beach = Beachball([strike[j],dip[j],rake[j]],outfile=str(int(event[j])),\
             facecolor='black',edgecolor='black') #create and save beachball in a outfile in the directory where the .py file is
  
-data=np.loadtxt('googleearth.log',\
+data=np.loadtxt('eekmexprekml.log',\
     skiprows=1) #import your data. (table format: index yyyy mm dd hr mn ss lat lon strike dip rake) the first row isn't used
 latitude = data[:,7]
 longitude = data[:,8]

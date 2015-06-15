@@ -33,7 +33,7 @@ def eekMexLogging():
     loggerFile = logging.FileHandler('/media/sdcard/eekmex.log', 'a')
     loggerFile.setLevel(logging.INFO)
 
-    loggerFileGoogleEarth = logging.FileHandler('/media/sdcard/googleearth.log', 'a')
+    loggerFileGoogleEarth = logging.FileHandler('/media/sdcard/eekmexprekml.log', 'a')
     loggerFileGoogleEarth.setLevel(logging.WARNING)
 
     # ------------------------------------------------------------
