@@ -15,6 +15,7 @@
 - [ ] Auto StartUp Initialization
 - [ ] Tracker Habhub Org
 - [ ] Python Kml
+- [ ] http://rhodesmill.org/pyephem/
 
 # Architecture
 

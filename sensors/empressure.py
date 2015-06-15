@@ -7,7 +7,7 @@ def emPressureGet():
 
     pressure = upmBmpx8x.BMPX8X(1, upmBmpx8x.ADDR);
     pressuredata = pressure.getPressure()
-    logging.debug('Pressure %s' % pressuredata)
+    logging.info('Pressure %s' % pressuredata)
     return pressuredata
 
 # End of File

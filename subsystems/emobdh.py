@@ -46,6 +46,9 @@ class emObdh(object):
             gpsdata = ("Gps: {0}," "{1}," "{2}".format(latitude, longitude, altitude))
             logging.info(gpsdata)
 
+            gpsdatage = ("{0} " "{1} " "{2} " "{3} " "{4} " .format(latitude, longitude, altitude, pressure, temperature))
+            logging.warning(gpsdatage)
+
             time.sleep(5)
 
 # End of File

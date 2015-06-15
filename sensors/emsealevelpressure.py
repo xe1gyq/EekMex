@@ -7,7 +7,7 @@ def emSeaLevelPressureGet():
 
     sealevelpressure = upmBmpx8x.BMPX8X(1, upmBmpx8x.ADDR);
     sealevelpressuredata = sealevelpressure.getSealevelPressure()
-    logging.debug('Sea Level Pressure %s' % sealevelpressuredata)
+    logging.info('Sea Level Pressure %s' % sealevelpressuredata)
     return sealevelpressuredata
 
 # End of File

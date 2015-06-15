@@ -7,7 +7,7 @@ def emTemperatureGet():
 
     temperature = upmBmpx8x.BMPX8X(1, upmBmpx8x.ADDR);
     temperaturedata = temperature.getTemperature()
-    logging.debug('Temperature %s' % temperaturedata)
+    logging.info('Temperature %s' % temperaturedata)
     return temperaturedata
 
 # End of File

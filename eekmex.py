@@ -18,7 +18,7 @@ def eekMexLogging():
     # Base Logging Setup
     # ------------------------------------------------------------
 
-    logging.basicConfig(level=logging.DEBUG,
+    logging.basicConfig(level=logging.INFO,
                         format='%(asctime)s %(name)-2s %(module)-10s %(levelname)-4s %(message)s',
                         filename='eekmex.log',
                         filemode='a')
@@ -31,7 +31,10 @@ def eekMexLogging():
     loggerConsole.setLevel(logging.INFO)
 
     loggerFile = logging.FileHandler('/media/sdcard/eekmex.log', 'a')
-    loggerFile.setLevel(logging.DEBUG)
+    loggerFile.setLevel(logging.INFO)
+
+    loggerFileGoogleEarth = logging.FileHandler('/media/sdcard/googleearth.log', 'a')
+    loggerFileGoogleEarth.setLevel(logging.WARNING)
 
     # ------------------------------------------------------------
     # Logging Formatters
@@ -43,12 +46,16 @@ def eekMexLogging():
     loggerFileFormatter = logging.Formatter('%(asctime)s %(name)-2s %(module)-10s %(levelname)-4s %(message)s')
     loggerFile.setFormatter(loggerFileFormatter)
 
+    loggerFileGoogleEarthFormatter = logging.Formatter('%(asctime)s %(message)s', datefmt="%m %d %Y %H %M %S ")
+    loggerFileGoogleEarth.setFormatter(loggerFileGoogleEarthFormatter)
+
     # ------------------------------------------------------------
     # Logging Handlers
     # ------------------------------------------------------------
 
-    logging.getLogger('').addHandler(loggerFile)
     logging.getLogger('').addHandler(loggerConsole)
+    logging.getLogger('').addHandler(loggerFile)
+    logging.getLogger('').addHandler(loggerFileGoogleEarth)
 
 if __name__=='__main__':
 
