@@ -46,7 +46,7 @@ def eekMexLogging():
     loggerFileFormatter = logging.Formatter('%(asctime)s %(name)-2s %(module)-10s %(levelname)-4s %(message)s')
     loggerFile.setFormatter(loggerFileFormatter)
 
-    loggerFileGoogleEarthFormatter = logging.Formatter('%(asctime)s %(message)s', datefmt="%m %d %Y %H %M %S ")
+    loggerFileGoogleEarthFormatter = logging.Formatter('%(process)d %(asctime)s %(message)s', datefmt="%d %m %Y %H %M %S ")
     loggerFileGoogleEarth.setFormatter(loggerFileGoogleEarthFormatter)
 
     # ------------------------------------------------------------
