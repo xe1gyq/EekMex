@@ -23,6 +23,10 @@ def beachball(data):
  
 data=np.loadtxt('eekmexprekml.log',\
     skiprows=1) #import your data. (table format: index yyyy mm dd hr mn ss lat lon strike dip rake) the first row isn't used
+
+temperature = data[:,11]
+pressure = data[:,10]
+altitude = data[:,9]
 latitude = data[:,7]
 longitude = data[:,8]
 yyyy,mm,dd=data[:,3],data[:,2],data[:,1]
@@ -56,6 +60,9 @@ for j in range(len(yyyy)):  #create the ref icons we will use
 for i in range(len(yyyy)):
     datum = str(date.date(int(yyyy[i]),int(mm[i]),int(dd[i])))
     ev_time = str(date.time(int(hr[i]),int(mn[i]),int(ss[i])))
+    alt = str(altitude[i])
+    press = str(pressure[i])
+    temp = str(temperature[i])
  
     kmlobj.Document.append(
         KML.Placemark(
@@ -69,8 +76,20 @@ for i in range(len(yyyy)):
                     KML.value('%s'%ev_time),        #add value of the specific info
                 name ='time'                        #name of 'info' you add.
                 ),                                     #more data can be added, following the same structure (line 65-68)
+                KML.Data(
+                    KML.value('%s'%alt),        #add value of the specific info
+                name ='altitude'                        #name of 'info' you add.
+                ),                                     #more data can be added, following the same structure (line 65-68)
+                KML.Data(
+                    KML.value('%s'%press),        #add value of the specific info
+                name ='pressure'                        #name of 'info' you add.
+                ),                                     #more data can be added, following the same structure (line 65-68)
+                KML.Data(
+                    KML.value('%s'%temp),        #add value of the specific info
+                name ='temperature'                        #name of 'info' you add.
+                ),                                     #more data can be added, following the same structure (line 65-68)
             ),
-            KML.styleUrl('#beach_ball_%i'%i),       #get the correct beachball in the directory as marker
+            KML.styleUrl('#EekMex %i'%i),       #get the correct beachball in the directory as marker
             KML.Point(
                 KML.coordinates(longitude[i],',',latitude[i]),
             ),
