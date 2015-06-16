@@ -5,6 +5,7 @@ import time
 from threading import Thread
 
 from subsystems.emgps import emGps
+from subsystems.emimu import emImu
 
 from sensors.emaltitude import emAltitudeGet
 from sensors.empressure import emPressureGet
@@ -18,6 +19,7 @@ class emObdh(object):
         logging.info('On Board Data Handling')
 
         self.emgpsfd = emGps()
+        self.emimu = emImu()
 
         thread = Thread(target=self.emObdhCapture)
         thread.start()
@@ -35,6 +37,12 @@ class emObdh(object):
         altitude = self.emgpsfd.emGpsAltitudeGet()
         return latitude, longitude, altitude
 
+    def emObdhImu(self):
+        roll = self.emimu.emImuRollGet()
+        pitch = self.emimu.emImuPitchGet()
+        yaw = self.emimu.emImuYawGet()
+        return roll, pitch, yaw
+
     def emObdhCapture(self):
 
         while True:
@@ -48,6 +56,10 @@ class emObdh(object):
 
             gpsdatage = ("{0} " "{1} " "{2} " "{3} " "{4} " .format(latitude, longitude, altitude, pressure, temperature))
             logging.warning(gpsdatage)
+
+            roll, pitch, yaw = self.emObdhImu()
+            imudata = ("Imu: {0}," "{1}," "{2},".format(roll, pitch, yaw))
+            logging.info(imudata)
 
             time.sleep(5)
 
