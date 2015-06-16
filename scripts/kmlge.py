@@ -52,7 +52,7 @@ for j in range(len(yyyy)):  #create the ref icons we will use
                 ),
                 KML.heading(0.0),
             ),
-        id='beach_ball_%i'%j    #gives the icon a ref that will be used later
+        id='EekMex_%i'%j    #gives the icon a ref that will be used later
         ),
     )
  
@@ -89,7 +89,7 @@ for i in range(len(yyyy)):
                 name ='temperature'                        #name of 'info' you add.
                 ),                                     #more data can be added, following the same structure (line 65-68)
             ),
-            KML.styleUrl('#EekMex %i'%i),       #get the correct beachball in the directory as marker
+            KML.styleUrl('#EekMex_%i'%i),       #get the correct beachball in the directory as marker
             KML.Point(
                 KML.coordinates(longitude[i],',',latitude[i]),
             ),
