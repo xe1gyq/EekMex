@@ -22,7 +22,7 @@ class emImu(object):
         thread.start()
 
     def emImuInitialize(self):
-        self.imuSettingsFilePath = "/home/root/eekmex/configuration/imu.ini"
+        self.imuSettingsFilePath = "/home/root/eekmex/configuration/emimu.ini"
         self.imuSettingsFileDescriptor = RTIMU.Settings(self.imuSettingsFilePath)
 
         self.imu = RTIMU.RTIMU(self.imuSettingsFileDescriptor)
