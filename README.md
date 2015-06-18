@@ -1,4 +1,29 @@
-# Background
+# Mission Operations
+
+## Mission Types
+- [ ] Classroom
+- [ ] High Altitude Balloon
+- [ ] CanSat
+- [ ] CubeSat
+
+# Infrastructure
+
+- [ ] Control Center
+- [ ] Ground Station
+- [ ] Spacecraft
+- [ ] Unmanned Autonomous Vehicle
+- [ ] Helicopter
+
+# Spacecraft
+
+## Subsystem Operations
+- [ ] Sensors
+- [ ] Orbit Control
+- [ ] On-Board Data Handling
+- [ ] Telemetry, Commanding and Ranging
+- [ ] Power
+
+# Others
 
 ## Hardware
 - [ ] [Inertial Measurements Unit, 9 Degrees of Freedom](https://www.sparkfun.com/products/13033)
@@ -11,37 +36,16 @@
 - [ ] Python Logging
 - [ ] Plot Ly
 
+## Links
+http://www.giantflyingsaucer.com/blog/?p=5117
+
+## Practices
+- [ ] Solar Conjunction
+
 ## To Research
 - [ ] Auto StartUp Initialization
 - [ ] Tracker Habhub Org
 - [ ] Python Kml
 - [ ] http://rhodesmill.org/pyephem/
-
-# Architecture
-
-## Modules
-- [ ] Operations Center
-- [ ] Satellite
-- [ ] Unmanned Autonomous Vehicle
-- [ ] Helicopter
-
-## Subsystems
-- [ ] Micro Controller Unit
-- [ ] Sensors
-- [ ] Communications
-- [ ] On-Board Data Handling
-- [ ] Power
-
-## Operations
-- [ ] Classroom
-- [ ] High Altitude Balloon
-- [ ] CanSat
-- [ ] CubeSat
-
-# Links
-http://www.giantflyingsaucer.com/blog/?p=5117
-
-# Practices
-- [ ] Solar Conjunction
 
 # End of File
