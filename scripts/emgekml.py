@@ -24,6 +24,9 @@ def beachball(data):
 data=np.loadtxt('eekmexprekml.log',\
     skiprows=1) #import your data. (table format: index yyyy mm dd hr mn ss lat lon strike dip rake) the first row isn't used
 
+yaw = data[:,14]
+pitch = data[:,13]
+roll = data[:,12]
 temperature = data[:,11]
 pressure = data[:,10]
 altitude = data[:,9]
@@ -63,6 +66,9 @@ for i in range(len(yyyy)):
     alt = str(altitude[i])
     press = str(pressure[i])
     temp = str(temperature[i])
+    imur = str(roll[i])
+    imup = str(pitch[i])
+    imuy = str(yaw[i])
  
     kmlobj.Document.append(
         KML.Placemark(
@@ -87,6 +93,18 @@ for i in range(len(yyyy)):
                 KML.Data(
                     KML.value('%s'%temp),        #add value of the specific info
                 name ='temperature'                        #name of 'info' you add.
+                ),                                     #more data can be added, following the same structure (line 65-68)
+                KML.Data(
+                    KML.value('%s'%roll),        #add value of the specific info
+                name ='roll'                        #name of 'info' you add.
+                ),                                     #more data can be added, following the same structure (line 65-68)
+                KML.Data(
+                    KML.value('%s'%pitch),        #add value of the specific info
+                name ='pitch'                        #name of 'info' you add.
+                ),                                     #more data can be added, following the same structure (line 65-68)
+                KML.Data(
+                    KML.value('%s'%yaw),        #add value of the specific info
+                name ='yaw'                        #name of 'info' you add.
                 ),                                     #more data can be added, following the same structure (line 65-68)
             ),
             KML.styleUrl('#EekMex_%i'%i),       #get the correct beachball in the directory as marker
