@@ -1,4 +1,5 @@
-# Introduction
+Introduction
+==
 
 # Mission Types
 - [ ] Classroom
