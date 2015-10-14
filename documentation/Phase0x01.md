@@ -9,6 +9,7 @@ Phase 0x01
 - [1] [GPS Receiver - GP-2106 SiRF IV (48 Chaxnel)](https://www.sparkfun.com/products/10890)
 - [2] [Interface Cable - GP-2106](https://www.sparkfun.com/products/10896)
 - [1] [SparkFun GPS Evaluation Board - GP-2106](https://www.sparkfun.com/products/10995)
+- [](https://www.sparkfun.com/products/9873)
 
 ## Communications
 - [2] [XBee Pro 60mW Wire Antenna - Series 1 (802.15.4)](https://www.sparkfun.com/products/8742)
