@@ -1,7 +1,7 @@
 Phase 0x01
 ==
 
-## Hardware Base
+## Spacecraft
 - [1] [SparkFun Starter Pack for Intel® Edison](https://www.sparkfun.com/products/13276)
 - [1] [SparkFun Sensor Pack for Intel® Edison](https://www.sparkfun.com/products/13094)
 - [1] [SparkFun Barometric Pressure Sensor Breakout - BMP180](https://www.sparkfun.com/products/11824)
