@@ -11,7 +11,7 @@ Phase 0x01
 - [SparkFun GPS Evaluation Board - GP-2106](https://www.sparkfun.com/products/10995)
 
 ## Communications
-- [XBee Pro 60mW Wire Antenna - Series 1 (802.15.4)](https://www.sparkfun.com/products/8742)
+- [2 XBee Pro 60mW Wire Antenna - Series 1 (802.15.4)](https://www.sparkfun.com/products/8742)
 - [SparkFun XBee Explorer Dongle](https://www.sparkfun.com/products/11697)
 - [SparkFun XBee Explorer USB ](https://www.sparkfun.com/products/11812)
 
