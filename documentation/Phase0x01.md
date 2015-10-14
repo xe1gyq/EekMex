@@ -13,4 +13,3 @@ Phase 0x01
 - [GPS Receiver - GP-2106 SiRF IV (48 Chaxnel)](https://www.sparkfun.com/products/10890)
 - [Interface Cable - GP-2106](https://www.sparkfun.com/products/10896)
 - [SparkFun GPS Evaluation Board - GP-2106](https://www.sparkfun.com/products/10995)
-- []()
