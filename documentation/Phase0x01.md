@@ -16,3 +16,5 @@ Phase 0x01
 - [1] [SparkFun XBee Explorer Dongle](https://www.sparkfun.com/products/11697)
 - [1] [SparkFun XBee Explorer USB ](https://www.sparkfun.com/products/11812)
 
+## Others
+- [4] [Break Away Headers - Straight](https://www.sparkfun.com/products/116)
