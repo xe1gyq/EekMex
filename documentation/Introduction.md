@@ -29,8 +29,6 @@ Introduction
 - [ ] [SparkFun Infrared Proximity Breakout - VCNL4000](https://www.sparkfun.com/products/10901)
 - [ ] [SparkFun RGB Light Sensor - ISL29125](https://www.sparkfun.com/products/12829)
 
-
-
 # To Research
 - [ ] Architecture
 - [ ] Xbee
