@@ -18,4 +18,4 @@ Phase 0x01
 
 ## Others
 - [4] [Break Away Headers - Straight](https://www.sparkfun.com/products/116)
-- [2] []()
+- [2] [Break Away Male Headers - Right Angle](https://www.sparkfun.com/products/553)
