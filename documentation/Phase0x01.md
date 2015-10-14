@@ -2,6 +2,7 @@ Phase 0x01
 ==
 
 # Hardware Base
+- [SparkFun Starter Pack for Intel® Edison](https://www.sparkfun.com/products/13276)
 - [SparkFun Block for Intel® Edison - 9 Degrees of Freedom](https://www.sparkfun.com/products/13033)
 - [SparkFun Barometric Pressure Sensor Breakout - BMP180](https://www.sparkfun.com/products/11824)
 - [GPS Receiver - GP-2106 SiRF IV (48 Chaxnel)](https://www.sparkfun.com/products/10890)
