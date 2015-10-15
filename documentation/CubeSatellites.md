@@ -13,7 +13,7 @@ Cube Satellites
 - Antenna Systems
 - Command & Data Handling
 - Cameras & Payloads
-- 
+- Ground Stations 
 
 # Links
 
