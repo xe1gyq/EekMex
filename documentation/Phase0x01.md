@@ -24,5 +24,7 @@ Phase 0x01
 
 ## Software
 
+    
+    root@ubilinux:~# 
 
     
