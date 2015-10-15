@@ -20,6 +20,6 @@ Software
     root@ubilinux:~# cd Adafruit_Python_BMP
     root@ubilinux:~# python setup.py install
     
-    root@ubilinux:~# pip install gps
+    root@ubilinux:~# pip install python-gps
 
     
