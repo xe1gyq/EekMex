@@ -23,5 +23,6 @@ gpsd
     root@ubilinux:~# python setup.py install
     
     root@ubilinux:~# apt-get install gpsd gpsd-clients python-gps
+    
 
     
