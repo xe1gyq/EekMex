@@ -22,6 +22,6 @@ gpsd
     root@ubilinux:~# cd Adafruit_Python_BMP
     root@ubilinux:~# python setup.py install
     
-    root@ubilinux:~# pip install python-gps
+    root@ubilinux:~# apt-get install gpsd gpsd-clients python-gps
 
     
