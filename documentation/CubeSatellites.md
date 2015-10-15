@@ -6,7 +6,8 @@ Cube Satellites
 # Components
 
 - CubeStas Structures
-- Communication Systems
+- Communication System
+- Power System
 - 
 
 # Links
