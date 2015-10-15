@@ -10,6 +10,7 @@ Cube Satellites
 - Power System
 - Solar Panels
 - Attiude Control Systems
+- Antenna Systems
 - 
 
 # Links
