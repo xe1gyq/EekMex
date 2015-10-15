@@ -8,6 +8,8 @@ Cube Satellites
 - CubeStas Structures
 - Communication System
 - Power System
+- Solar Panels
+- Attiude Control Systems
 - 
 
 # Links
