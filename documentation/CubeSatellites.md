@@ -5,7 +5,7 @@ Cube Satellites
 
 # Components
 
-- CubeStas Structures
+- CubeSat Structures
 - Communication System
 - Power System
 - Solar Panels
