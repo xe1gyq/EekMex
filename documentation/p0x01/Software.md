@@ -10,7 +10,7 @@ Software
   - Log into
   - Enable WiFi
 
-### Dependencies Installation
+## Dependencies Installation
 
     root@ubilinux:~# apt-get install python-pip
 
