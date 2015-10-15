@@ -9,7 +9,7 @@ Cube Satellites
 - Communication System
 - Power System
 - Solar Panels
-- Attiude Control Systems
+- Attitude Control Systems
 - Antenna Systems
 - Command & Data Handling
 - Cameras & Payloads
