@@ -4,5 +4,6 @@
 * [Introduction](documentation/Introduction.md)
 * [Phase 0x01](documentation/Phase0x01.md)
    * [Hardware](documentation/p0x01/Hardware.md/hardware.md)
+   * Software
 * [Cube Satellites](documentation/CubeSatellites.md)
 
