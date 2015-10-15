@@ -21,7 +21,6 @@ gpsd
     root@ubilinux:~# git clone https://github.com/adafruit/Adafruit_Python_BMP.git
     root@ubilinux:~# cd Adafruit_Python_BMP
     root@ubilinux:~# python setup.py install
-    
     root@ubilinux:~# apt-get install gpsd gpsd-clients python-gps
     
 
