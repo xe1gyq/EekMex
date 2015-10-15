@@ -14,5 +14,9 @@ Software
 
     root@ubilinux:~# apt-get install python-pip
     root@ubilinux:~# apt-get install git build-essential python-dev python-smbus
+    root@ubilinux:~# 
+    root@ubilinux:~# 
+    root@ubilinux:~# 
+    root@ubilinux:~# 
 
     
