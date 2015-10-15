@@ -11,6 +11,8 @@ Cube Satellites
 - Solar Panels
 - Attiude Control Systems
 - Antenna Systems
+- Command & Data Handling
+- Cameras & Payloads
 - 
 
 # Links
