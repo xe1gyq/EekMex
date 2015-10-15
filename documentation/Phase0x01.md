@@ -33,6 +33,6 @@ Phase 0x01
 
 ### Dependencies Installation
 
-    root@ubilinux:~# apt-get install pip
+    root@ubilinux:~# apt-get install python-pip
 
     
