@@ -8,6 +8,8 @@ Software
 - [Loading Debian (Ubilinux) on the Edison ](https://learn.sparkfun.com/tutorials/loading-debian-ubilinux-on-the-edison)
   - Install 
   - Log into
+    - user: edison
+    - password: edison
   - Enable WiFi
 
 ## Packages
