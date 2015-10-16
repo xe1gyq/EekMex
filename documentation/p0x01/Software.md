@@ -76,6 +76,7 @@ Software
     root@ubilinux:~# ldconfig
     root@ubilinux:~# nano /etc/ld.so.conf
     /usr/local/lib/
+    root@ubilinux:~$ python setup.py build
 
 ## Testing GPS
 
