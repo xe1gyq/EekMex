@@ -6,15 +6,6 @@ try:
 except ImportError:
     raise ImportError,"The wxPython module is required to run this program"
 
-def maf(code):
-    code = hex_to_int(code)
-    return code * 0.00132276
-
-def throttle_pos(code):
-    code = hex_to_int(code)
-    return code * 100.0 / 255.0
-
-
 class EmText(wx.TextCtrl):
 
     def __init__(self, parent):
@@ -28,7 +19,7 @@ class EmText(wx.TextCtrl):
     def AddText(self, text):
         self.AppendText(text)
 
-class EmStaticBox(wx.StaticBox):
+class OBDStaticBox(wx.StaticBox):
 
     def __init__(self, *args, **kwargs):
 
@@ -89,7 +80,8 @@ class EmPanelGauges(wx.Panel):
     def setConnection(self, connection):
         self.connection = connection
     
-    def setSensors(self, sensors):
+    def 
+setSensors(self, sensors):
         self.sensors = sensors
         
     def setPort(self, port):
@@ -99,7 +91,6 @@ class EmPanelGauges(wx.Panel):
         """
         Get at most 6 sensors to be display on screen.
         """
-        return
         sensors_display = []
         if istart<len(self.sensors):
             iend = istart + 6
@@ -112,6 +103,7 @@ class EmPanelGauges(wx.Panel):
         """
         
         sensors = self.getSensorsToDisplay(self.istart)
+        sensors = []
 
         # Destroy previous widgets
         for b in self.boxes: b.Destroy()
@@ -128,15 +120,11 @@ class EmPanelGauges(wx.Panel):
         gridSizer = wx.GridSizer(nrows, ncols, vgap, hgap)
 
         # Create a box for each sensor
-        a = {'test 1': 1, 'test 2': 2}
-        for index, sensor in a.iteritems():
+        for index, sensor in sensors:
             
-            #(name, value, unit) = self.port.sensor(index)
-            name = "Temp"
-            value = "0.9876"
-            unit = "Fm" 
+            (name, value, unit) = self.port.sensor(index)
 
-            box = EmStaticBox(self, wx.ID_ANY)
+            box = OBDStaticBox(self, wx.ID_ANY)
             self.boxes.append(box)
             boxSizer = wx.StaticBoxSizer(box, wx.VERTICAL)
 
@@ -145,7 +133,7 @@ class EmPanelGauges(wx.Panel):
                 value = str("%.2f"%round(value, 3))                    
             t1 = wx.StaticText(parent=self, label=str(value), style=wx.ALIGN_CENTER)
             t1.SetForegroundColour('WHITE')
-            font1 = wx.Font(12, wx.ROMAN, wx.NORMAL, wx.NORMAL, faceName="Monaco")
+            font1 = wx.Font(32, wx.ROMAN, wx.NORMAL, wx.NORMAL, faceName="Monaco")
             t1.SetFont(font1)
             boxSizer.Add(t1, 0, wx.ALIGN_CENTER | wx.ALL, 20)
             boxSizer.AddStretchSpacer()
@@ -154,17 +142,16 @@ class EmPanelGauges(wx.Panel):
             # Text for sensor name
             t2 = wx.StaticText(parent=self, label=unit+"\n"+name, style=wx.ALIGN_CENTER)
             t2.SetForegroundColour('WHITE')
-            font2 = wx.Font(10, wx.ROMAN, wx.NORMAL, wx.BOLD, faceName="Monaco")
+            font2 = wx.Font(13, wx.ROMAN, wx.NORMAL, wx.BOLD, faceName="Monaco")
             t2.SetFont(font2)
             boxSizer.Add(t2, 0, wx.ALIGN_CENTER | wx.ALL, 5)
             self.texts.append(t2)
             gridSizer.Add(boxSizer, 1, wx.EXPAND | wx.ALL)
 
         # Add invisible boxes if necessary
-        sensors = ("A", "B")
         nsensors = len(sensors)
         for i in range(6-nsensors):
-            box = EmStaticBox(self)
+            box = OBDStaticBox(self)
             boxSizer = wx.StaticBoxSizer(box, wx.VERTICAL)
             self.boxes.append(box)
             box.Show(False)
@@ -184,7 +171,7 @@ class EmPanelGauges(wx.Panel):
 
     def refresh(self, event):
         sensors = self.getSensorsToDisplay(self.istart)   
-
+        
         itext = 0
         for index, sensor in sensors:
 
@@ -298,14 +285,8 @@ class EmGroundStation(wx.Frame):
 
     def update(self, event):
         if self.panelLoading:
-            #sensors = self.panelLoading.getSensors()
             self.panelLoading.Destroy()
         self.panelGauges = EmPanelGauges(self)
-
-        sensors = 1
-
-        if sensors:
-            self.panelGauges.setSensors(sensors)
 
         self.sizer = wx.BoxSizer(wx.VERTICAL)
         self.sizer.Add(self.panelGauges, 1, wx.EXPAND)
@@ -324,6 +305,6 @@ if __name__ == "__main__":
 
     app = wx.App()
     frame = EmGroundStation(None,-1,'EekMex Ground Station')
-    #frame.ShowFullScreen(True)
+    frame.ShowFullScreen(True)
     frame.Show(True)
     app.MainLoop()
