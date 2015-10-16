@@ -4,7 +4,6 @@
 - [1] [SparkFun Starter Pack for Intel® Edison](https://www.sparkfun.com/products/13276)
 - [1] [SparkFun Sensor Pack for Intel® Edison](https://www.sparkfun.com/products/13094)
 - [1] [SparkFun Barometric Pressure Sensor Breakout - BMP180](https://www.sparkfun.com/products/11824)
-- [1] [Intel® Edison Hardware Pack](https://www.sparkfun.com/products/13187)
 
 ## Communications
 - [2] [XBee Pro 60mW Wire Antenna - Series 1 (802.15.4)](https://www.sparkfun.com/products/8742)
@@ -18,6 +17,7 @@
 - [2] [SparkFun FTDI Basic Breakout - 3.3V](https://www.sparkfun.com/products/9873)
 
 ## Others
+- [1] [Intel® Edison Hardware Pack](https://www.sparkfun.com/products/13187)
 - [4] [Break Away Headers - Straight](https://www.sparkfun.com/products/116)
 - [2] [Break Away Male Headers - Right Angle](https://www.sparkfun.com/products/553)
 
