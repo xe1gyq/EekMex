@@ -54,7 +54,7 @@ Software
     root@ubilinux:~$ nano ~/.bashrc
     export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
 
-## UPM
+### UPM
     
     root@ubilinux:~$ git clone https://github.com/intel-iot-devkit/upm.git
     root@ubilinux:~$ mkdir upm/build
