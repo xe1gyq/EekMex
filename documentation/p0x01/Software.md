@@ -46,7 +46,7 @@ Software
     root@ubilinux:~# ldconfig
     root@ubilinux:~# ldconfig -p | grep mraa
     root@ubilinux:~$ nano ~/.bashrc
-    export PYTHONPATH=$PYTHONPATH:$(dirname $(find /usr/local -name mraa.py)) 
+    export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
     root@ubilinux:~$ 
     
     
