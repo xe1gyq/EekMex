@@ -59,8 +59,8 @@ Software
     root@ubilinux:~$ git clone https://github.com/intel-iot-devkit/upm.git
     root@ubilinux:~$ mkdir upm/build
     root@ubilinux:~$ cd upm/build
-    root@ubilinux:~$ cmake .. -DBUILDSWIGNODE=OFF
-    root@ubilinux:~$ make
+    root@ubilinux:~# cmake .. -DBUILDSWIGNODE=OFF
+    root@ubilinux:~# make
     root@ubilinux:~# make install
     root@ubilinux:~$ nano ~/.bashrc
     export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
