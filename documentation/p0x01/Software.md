@@ -12,15 +12,18 @@ Software
     - password: edison
   - Enable WiFi
 
-## Packages
+## Packages Apt-Get
 
     root@ubilinux:~# apt-get install python-pip
     root@ubilinux:~# apt-get install git build-essential python-dev python-smbus
+    root@ubilinux:~# apt-get install gpsd gpsd-clients python-gps libxml2-dev libxslt1-dev
+
     root@ubilinux:~# git clone https://github.com/adafruit/Adafruit_Python_BMP.git
     root@ubilinux:~# cd Adafruit_Python_BMP
     root@ubilinux:~# python setup.py install
-    root@ubilinux:~# apt-get install gpsd gpsd-clients python-gps libxml2-dev libxslt1-dev
-    
+
+## Packages Pip
+
     root@ubilinux:~# pip install numpy psutil XBee pyserial pykml
 
 ## Testing GPS    
