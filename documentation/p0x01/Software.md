@@ -65,6 +65,10 @@ Software
     root@ubilinux:~$ nano ~/.bashrc
     export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
 
+
+    root@ubilinux:~# nano /etc/ld.so.conf
+    /usr/local/lib/
+
 ## Testing GPS
 
     root@ubilinux:~# gpsd /dev/ttyUSB0 -F /var/run/gpsd.sock
