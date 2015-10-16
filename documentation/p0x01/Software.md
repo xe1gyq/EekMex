@@ -24,11 +24,13 @@ Software
 
 ## Packages Manual Installation
 
-### 
+### Adafruit BMP180 Python Library
 
     root@ubilinux:~# git clone https://github.com/adafruit/Adafruit_Python_BMP.git
     root@ubilinux:~# cd Adafruit_Python_BMP
     root@ubilinux:~# python setup.py install
+
+### Cmake
 
     root@ubilinux:~$ wget http://www.cmake.org/files/v3.2/cmake-3.2.2.tar.gz
     root@ubilinux:~$ tar xvf cmake-3.2.2.tar.gz
