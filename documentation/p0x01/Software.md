@@ -65,7 +65,7 @@ Software
     root@ubilinux:~$ nano ~/.bashrc
     export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
 
-## RTIMULIB
+## RTIMULib
 
     root@ubilinux:~$ git clone https://github.com/richards-tech/RTIMULib.git
     root@ubilinux:~$ mkdir RTIMULib/build
