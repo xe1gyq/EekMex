@@ -73,3 +73,4 @@ Software
 ## Testing SD Card
 
     root@ubilinux:~# mount -o umask=0,uid=nobody /dev/mmcblk1p1 /media/sdcard/
+    
