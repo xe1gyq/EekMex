@@ -49,7 +49,6 @@ Software
     export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
     root@ubilinux:~$ 
     
-    
     root@ubilinux:~$ git clone https://github.com/intel-iot-devkit/upm.git
     root@ubilinux:~$ mkdir upm/build
     root@ubilinux:~$ cd upm/build
