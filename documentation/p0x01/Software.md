@@ -37,6 +37,10 @@ Software
     root@ubilinux:~# cd
     root@ubilinux:~# nano /etc/ld.so.conf
     /usr/local/lib/i386-linux-gnu/
+    root@ubilinux:~# ldconfig
+    root@ubilinux:~# 
+    root@ubilinux:~# 
+    root@ubilinux:~# 
 
 ## Testing GPS
 
