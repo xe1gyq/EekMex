@@ -21,7 +21,7 @@ Software
     root@ubilinux:~# python setup.py install
     root@ubilinux:~# apt-get install gpsd gpsd-clients python-gps libxml2-dev libxslt1-dev
     
-    pip install numpy psutil XBee pyserial pykml
+    root@ubilinux:~# pip install numpy psutil XBee pyserial pykml
 
 ## Testing GPS    
 
