@@ -39,8 +39,9 @@ Software
     /usr/local/lib/i386-linux-gnu/
     root@ubilinux:~# ldconfig
     root@ubilinux:~# ldconfig -p | grep mraa
-    root@ubilinux:~# 
-    root@ubilinux:~# 
+    root@ubilinux:~$ nano ~/.bashrc
+    export PYTHONPATH=$PYTHONPATH:$(dirname $(find /usr/local -name mraa.py)) 
+    root@ubilinux:~$ 
 
 ## Testing GPS
 
