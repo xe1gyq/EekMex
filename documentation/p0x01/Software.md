@@ -30,15 +30,6 @@ Software
     root@ubilinux:~# cd Adafruit_Python_BMP
     root@ubilinux:~# python setup.py install
 
-### Cmake
-
-    root@ubilinux:~$ wget http://www.cmake.org/files/v3.2/cmake-3.2.2.tar.gz
-    root@ubilinux:~$ tar xvf cmake-3.2.2.tar.gz
-    root@ubilinux:~$ cd cmake-3.2.2
-    root@ubilinux:~$ ./bootstrap
-    root@ubilinux:~$ make
-    root@ubilinux:~$ make install
-
 ### MRAA
 
     root@ubilinux:~$ git clone https://github.com/intel-iot-devkit/mraa.git
@@ -53,6 +44,15 @@ Software
     root@ubilinux:~# ldconfig -p | grep mraa
     root@ubilinux:~$ nano ~/.bashrc
     export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
+
+### Cmake
+
+    root@ubilinux:~$ wget http://www.cmake.org/files/v3.2/cmake-3.2.2.tar.gz
+    root@ubilinux:~$ tar xvf cmake-3.2.2.tar.gz
+    root@ubilinux:~$ cd cmake-3.2.2
+    root@ubilinux:~$ ./bootstrap
+    root@ubilinux:~$ make
+    root@ubilinux:~$ make install
 
 ### UPM
     
