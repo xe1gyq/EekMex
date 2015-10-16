@@ -65,7 +65,14 @@ Software
     root@ubilinux:~$ nano ~/.bashrc
     export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
 
+## RTIMULIB
 
+    root@ubilinux:~$ mkdir build
+    root@ubilinux:~$ cd build
+    root@ubilinux:~$ cmake ..
+    root@ubilinux:~$ make -j4
+    root@ubilinux:~# make install
+    root@ubilinux:~# ldconfig
     root@ubilinux:~# nano /etc/ld.so.conf
     /usr/local/lib/
 
