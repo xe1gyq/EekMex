@@ -79,12 +79,14 @@ Software
     root@ubilinux:~$ python setup.py build
     root@ubilinux:~# python setup.py install
 
-## Testing GPS
+## Testing
+
+### GPS
 
     root@ubilinux:~# gpsd /dev/ttyUSB0 -F /var/run/gpsd.sock
     root@ubilinux:~# cgps -s
 
-## Testing SD Card
+### SD Card
 
     root@ubilinux:~# mkdir /media/sdcard/
     root@ubilinux:~# mount -o umask=0,uid=nobody /dev/mmcblk1p1 /media/sdcard/
