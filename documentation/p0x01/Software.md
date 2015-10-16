@@ -20,8 +20,12 @@ Software
     root@ubilinux:~# cd Adafruit_Python_BMP
     root@ubilinux:~# python setup.py install
     root@ubilinux:~# apt-get install gpsd gpsd-clients python-gps libxml2-dev libxslt1-dev
+    
+    pip install numpy psutil XBee pyserial pykml
+
+## Testing GPS    
+
     root@ubilinux:~# gpsd /dev/ttyUSB0 -F /var/run/gpsd.sock
     root@ubilinux:~# cgps -s
-    
 
     
