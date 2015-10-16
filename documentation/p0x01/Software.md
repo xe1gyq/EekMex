@@ -35,6 +35,7 @@ Software
     root@ubilinux:~# make
     root@ubilinux:~# make install
     root@ubilinux:~# cd
+    root@ubilinux:~# nano /etc/ld.so.conf
 
 ## Testing GPS
 
