@@ -29,13 +29,14 @@ Software
     root@ubilinux:~# python setup.py install
 
 
-    root@ubilinux:~# git clone https://github.com/intel-iot-devkit/mraa.git
-    root@ubilinux:~# mkdir mraa/build && cd $_
-    root@ubilinux:~# cmake .. -DBUILDSWIGNODE=OFF
-    root@ubilinux:~# make
+    root@ubilinux:~$ git clone https://github.com/intel-iot-devkit/mraa.git
+    root@ubilinux:~$ mkdir mraa/build && cd $_
+    root@ubilinux:~$ cmake .. -DBUILDSWIGNODE=OFF
+    root@ubilinux:~$ make
     root@ubilinux:~# make install
     root@ubilinux:~# cd
     root@ubilinux:~# nano /etc/ld.so.conf
+    /usr/local/lib/i386-linux-gnu/
 
 ## Testing GPS
 
