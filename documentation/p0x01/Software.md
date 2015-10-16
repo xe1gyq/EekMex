@@ -56,6 +56,7 @@ Software
     root@ubilinux:~$ cmake .. -DBUILDSWIGNODE=OFF
     root@ubilinux:~$ make
     root@ubilinux:~# make install
+    root@ubilinux:~$ export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
 
 ## Testing GPS
 
