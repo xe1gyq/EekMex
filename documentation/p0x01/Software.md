@@ -23,6 +23,7 @@ gpsd
     root@ubilinux:~# python setup.py install
     root@ubilinux:~# apt-get install gpsd gpsd-clients python-gps
     root@ubilinux:~# gpsd /dev/ttyUSB0 -F /var/run/gpsd.sock
+    root@ubilinux:~# cgps -s
     
 
     
