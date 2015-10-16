@@ -70,4 +70,6 @@ Software
     root@ubilinux:~# gpsd /dev/ttyUSB0 -F /var/run/gpsd.sock
     root@ubilinux:~# cgps -s
 
-    
+## Testing SD Card
+
+    root@ubilinux:~# mount -o umask=0,uid=nobody /dev/mmcblk1p1 /media/sdcard/
