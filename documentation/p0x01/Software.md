@@ -53,7 +53,8 @@ Software
     root@ubilinux:~# ldconfig -p | grep mraa
     root@ubilinux:~$ nano ~/.bashrc
     export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
-    root@ubilinux:~$ 
+
+## UPM
     
     root@ubilinux:~$ git clone https://github.com/intel-iot-devkit/upm.git
     root@ubilinux:~$ mkdir upm/build
