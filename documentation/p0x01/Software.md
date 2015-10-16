@@ -68,7 +68,7 @@ Software
 ## RTIMULIB
 
     root@ubilinux:~$ git clone https://github.com/richards-tech/RTIMULib.git
-    root@ubilinux:~$ mkdir build
+    root@ubilinux:~$ mkdir RTIMULIB/build
     root@ubilinux:~$ cd build
     root@ubilinux:~$ cmake ..
     root@ubilinux:~$ make -j4
