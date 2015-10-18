@@ -1,6 +1,8 @@
 Mission
 ==
 
+## System Architecture
+
 ## General Requirements
 
 - NASA(NCLI) CubeSat Requirements
