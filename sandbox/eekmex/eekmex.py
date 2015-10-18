@@ -2,12 +2,12 @@
 
 import argparse
 import logging
+import os
 import sys
 import threading
 import time
 
 from subsystems.emobdh import emObdh
-from subsystems.emimu import emImu
 
 def eekMexLogging():
 
@@ -62,8 +62,17 @@ if __name__=='__main__':
     logging.info(description)
 
     parser = argparse.ArgumentParser(description)
+    parser.add_argument('-c', '--clean', help='Clean Up')
     parser.add_argument('-d', '--demo', help='Demo Mode')
     args = parser.parse_args()
+
+    if args.clean == 'files':
+
+        logging.info('Clean Up, Remove Files')
+
+        os.remove('eekmex.log')
+        os.remove('/media/sdcard/eekmex.log')
+        os.remove('/media/sdcard/eekmexprekml.log')
 
     if args.demo == 'platform':
 
@@ -72,9 +81,5 @@ if __name__=='__main__':
         while True:
             obdh.emObdhRefresh()
             time.sleep(1)
-
-if __name__ == "__main__":
-
-    main(sys.argv[1:])
 
 # End of File
