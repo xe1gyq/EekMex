@@ -4,7 +4,9 @@ Mission
 ## Subsystems
 
 - Storage Subsystem
-  - How much data?
-  - How much time between transfers to free storage?
+  - Means
+  - Data amount
+  - Free up time
 - Communication Subsystems
   - Radio Frequency
+  - 
