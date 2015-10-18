@@ -85,6 +85,24 @@ Software
 
 ### GPS
 
+    root@ubilinux:~# dmesg
+    [  514.492900] usb 1-1: reset full-speed USB device number 2 using dwc3-host
+    [  514.513505] dwc3-host dwc3-host.2: xHCI xhci_drop_endpoint called with disabled ep f5626500
+    [  514.513566] usb 1-1: ep 0x81 - rounding interval to 1024 microframes, ep desc says 2040 microframes
+    [  514.922543] usb 1-1.2: new full-speed USB device number 3 using dwc3-host
+    [  514.953097] usb 1-1.2: New USB device found, idVendor=0403, idProduct=6001
+    [  514.953128] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+    [  514.953149] usb 1-1.2: Product: FT232R USB UART
+    [  514.953168] usb 1-1.2: Manufacturer: FTDI
+    [  514.953186] usb 1-1.2: SerialNumber: A60442H3
+    [  514.959035] ftdi_sio 1-1.2:1.0: FTDI USB Serial Device converter detected
+    [  514.959298] usb 1-1.2: Detected FT232RL
+    [  514.959322] usb 1-1.2: Number of endpoints 2
+    [  514.959341] usb 1-1.2: Endpoint 1 MaxPacketSize 64
+    [  514.959360] usb 1-1.2: Endpoint 2 MaxPacketSize 64
+    [  514.959378] usb 1-1.2: Setting MaxPacketSize 64
+    [  514.960259] usb 1-1.2: FTDI USB Serial Device converter now attached to ttyUSB0
+    
     root@ubilinux:~# gpsd /dev/ttyUSB0 -F /var/run/gpsd.sock
     root@ubilinux:~# cgps -s
 
