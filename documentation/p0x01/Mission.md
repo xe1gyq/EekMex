@@ -1,14 +1,16 @@
 Mission
 ==
 
-## System Architecture
-
 ## General Requirements
 
 - NASA(NCLI) CubeSat Requirements
 
+## System Architecture
+
+
 ## Subsystems Requirements
 
+- Payload
 - On Board Data Handling
 - Communication Subsystems
 - Power Subsystem
