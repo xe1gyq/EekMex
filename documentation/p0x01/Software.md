@@ -104,6 +104,25 @@ Software
     [  514.960259] usb 1-1.2: FTDI USB Serial Device converter now attached to ttyUSB0
     root@ubilinux:~# gpsd /dev/ttyUSB0 -F /var/run/gpsd.sock
     root@ubilinux:~# cgps -s
+    
+    lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqklqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk
+    x    Time:       2011-11-13T00:00:39.090Z   xxPRN:   Elev:  Azim:  SNR:  Used: x
+    x    Latitude:   n/a                        xx                                 x
+    x    Longitude:  n/a                        xx                                 x
+    x    Altitude:   n/a                        xx                                 x
+    x    Speed:      n/a                        xx                                 x
+    x    Heading:    n/a                        xx                                 x
+    x    Climb:      n/a                        xx                                 x
+    x    Status:     NO FIX (15 secs)           xx                                 x
+    x    Longitude Err:   n/a                   xx                                 x
+    x    Latitude Err:    n/a                   xx                                 x
+    x    Altitude Err:    n/a                   xx                                 x
+    x    Course Err:      n/a                   xx                                 x
+    x    Speed Err:       n/a                   xx                                 x
+    x    Time offset:     124046999.723         xx                                 x
+    x    Grid Square:     n/a                   xx                                 x
+    mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqjmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
 
 ### SD Card
 
