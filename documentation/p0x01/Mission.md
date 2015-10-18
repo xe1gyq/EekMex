@@ -1,11 +1,7 @@
 Mission
 ==
 
-
 ## System Architecture
-
-
-## Subsystems Requirements
 
 - Payload
 - On Board Data Handling
