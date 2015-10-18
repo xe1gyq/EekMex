@@ -17,7 +17,8 @@ Mission
 
 ## Operations
 
-- 
+- Payload to gather data
+- On Board Data Handling to add Timestamp & GPS
 
 ## Subsystems, Questions
 
