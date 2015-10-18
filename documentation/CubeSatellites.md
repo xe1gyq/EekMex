@@ -26,4 +26,5 @@ Cube Satellites
 - [Clyde Space Homepage](http://www.clyde-space.com/cubesat_shop)
 - https://github.com/satellogic/canopus/tree/master/src/lib
 - https://github.com/MLAB-project/satellite-observer/tree/master/gr-sat_observer
+- http://www.cubesat.org/index.php/documents/developers
 
