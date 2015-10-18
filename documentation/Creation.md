@@ -1,5 +1,6 @@
 # Creation
 
+    root@jessie:/home/xe1gyq/Projects# easy_install python_boilerplate_template
     xe1gyq@jessie:~$ paster create -t python_boilerplate eekmex
     Selected and implied templates:
       python-boilerplate-template#python_boilerplate  A buildout/py.test/travis-enabled Python project with support for one or more setuptools-enabled packages.
