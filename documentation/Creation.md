@@ -9,3 +9,7 @@
       egg:      eekmex
       package:  eekmex
       project:  eekmex
+
+## Links
+
+- https://pypi.python.org/pypi/python_boilerplate_template
