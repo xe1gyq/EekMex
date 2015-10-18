@@ -3,7 +3,7 @@ Mission
 
 ## General Requirements
 
-- NASA(NCLI) CubeSat Requirements
+- [NASA CubeSat Requirements](http://www.nasa.gov/pdf/627972main_LSP-REQ-317_01A.pdf)
 
 ## System Architecture
 
