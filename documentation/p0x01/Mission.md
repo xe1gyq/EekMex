@@ -5,6 +5,7 @@ Mission
 
 - On Board Data Handling
 - Communication Subsystems
+- Power Subsystem
 
 ## Subsystems, Questions
 
