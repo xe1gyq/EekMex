@@ -1,7 +1,12 @@
 Mission
 ==
 
-## Subsystems
+## Subsystems, Requirements
+
+- On Board Data Handling
+- Communication Subsystems
+
+## Subsystems, Questions
 
 - Storage Subsystem
   - Means
