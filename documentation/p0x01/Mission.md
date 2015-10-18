@@ -8,5 +8,5 @@ Mission
   - Data amount
   - Free up time
 - Communication Subsystems
-  - Radio Frequency
-  - 
+  - Band
+  - Transmission timing
