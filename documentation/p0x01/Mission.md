@@ -9,7 +9,7 @@ Mission
   - Antenna 
 - Power Subsystem
   - Battery
-  - Solar Panel Array
+  - Solar Panels
 
 ## Operations
 
