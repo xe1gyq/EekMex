@@ -73,19 +73,6 @@ if __name__=='__main__':
             obdh.emObdhRefresh()
             time.sleep(1)
 
-    sys.exit(0)
-    imu = emImu()
-    #remote = Remote()
-    #threadimu = threading.Thread(name='imu', target=imu.data)
-    #threadimu.daemon = True
-    #threadimu.start()
-    seconds = 0
-    while seconds != 5:
-        time.sleep(1)
-        seconds += 1
-        #remote.send()
-    #remote.close()
-
 if __name__ == "__main__":
 
     main(sys.argv[1:])
