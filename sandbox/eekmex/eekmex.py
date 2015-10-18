@@ -58,36 +58,36 @@ if __name__=='__main__':
 
     eekMexLogging()
 
-    description = 'EekMex, Amateur Radio Satellite Learning Platform'
+    description = 'EekMex, Aerospace Learning Platform'
     logging.info(description)
 
     parser = argparse.ArgumentParser(description)
+    parser.add_argument('-d', '--demo', help='Demo Mode')
     args = parser.parse_args()
 
-    obdh = emObdh()
+    if args.demo == 'platform':
 
-    while True:
-
-        time.sleep(1)
+        logging.info('Demo Mode, Platform')
+        obdh = emObdh()
+        while True:
+            obdh.emObdhRefresh()
+            time.sleep(1)
 
     sys.exit(0)
-
-    imu = Imu()
-    remote = Remote()
-
-    threadimu = threading.Thread(name='imu', target=imu.data)
-
-    threadimu.daemon = True
-
-    threadimu.start()
-
+    imu = emImu()
+    #remote = Remote()
+    #threadimu = threading.Thread(name='imu', target=imu.data)
+    #threadimu.daemon = True
+    #threadimu.start()
     seconds = 0
-
     while seconds != 5:
         time.sleep(1)
         seconds += 1
-        remote.send()
+        #remote.send()
+    #remote.close()
 
-    remote.close()
+if __name__ == "__main__":
+
+    main(sys.argv[1:])
 
 # End of File

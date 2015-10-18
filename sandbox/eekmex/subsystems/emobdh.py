@@ -23,8 +23,9 @@ class emObdh(object):
         self.emimu = emImu()
         self.emtelemetry = emTelemetry()
 
-        thread = Thread(target=self.emObdhCapture)
-        thread.start()
+        #thread = Thread(target=self.emObdhRefresh)
+        #thread.start()
+        self.emObdhRefresh()
 
     def emObdhSensors(self):
         altitude = emAltitudeGet()
@@ -45,26 +46,23 @@ class emObdh(object):
         yaw = self.emimu.emImuYawGet()
         return roll, pitch, yaw
 
-    def emObdhCapture(self):
+    def emObdhRefresh(self):
 
-        while True:
-            altitude, pressure, sealevelpressure, temperature = self.emObdhSensors()
-            sensorsdata = ("Sensors: {0}," "{1}," "{2}," "{3}".format(altitude, pressure, sealevelpressure, temperature))
-            logging.info(sensorsdata)
+        altitude, pressure, sealevelpressure, temperature = self.emObdhSensors()
+        sensorsdata = ("Sensors: {0}," "{1}," "{2}," "{3}".format(altitude, pressure, sealevelpressure, temperature))
+        logging.info(sensorsdata)
 
-            latitude, longitude, altitude =  self.emObdhGps()
-            gpsdata = ("Gps: {0}," "{1}," "{2}".format(latitude, longitude, altitude))
-            logging.info(gpsdata)
+        latitude, longitude, altitude =  self.emObdhGps()
+        gpsdata = ("Gps: {0}," "{1}," "{2}".format(latitude, longitude, altitude))
+        logging.info(gpsdata)
 
-            roll, pitch, yaw = self.emObdhImu()
-            imudata = ("Imu: {0}," "{1}," "{2},".format(roll, pitch, yaw))
-            logging.info(imudata)
+        roll, pitch, yaw = self.emObdhImu()
+        imudata = ("Imu: {0}," "{1}," "{2},".format(roll, pitch, yaw))
+        logging.info(imudata)
 
-            datage = ("{0} " "{1} " "{2} " "{3} " "{4} " "{5} " "{6} " "{6} ".format(latitude, longitude, altitude, pressure, temperature, roll, pitch, yaw))
-            logging.warning(datage)
+        datage = ("{0} " "{1} " "{2} " "{3} " "{4} " "{5} " "{6} " "{6} ".format(latitude, longitude, altitude, pressure, temperature, roll, pitch, yaw))
+        logging.warning(datage)
 
-            self.emtelemetry.emTelemetrySend(datage)
-
-            time.sleep(5)
+        self.emtelemetry.emTelemetrySend(datage)
 
 # End of File
