@@ -16,7 +16,8 @@ Mission
 - Payload to gather data
 - On Board Data Handling to process
 - Data Packets creation
-- data Packets Transmission
+- Data Packets Transmission
+- Automatic Packet Reporting System
 
 ## Subsystems, Questions
 
