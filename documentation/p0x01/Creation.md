@@ -10,6 +10,10 @@
       package:  eekmex
       project:  eekmex
 
+## Frame
+
+https://github.com/librecube-repos/LC-2102/tree/master/production/mechanical/stl
+
 ## Links
 
 - https://pypi.python.org/pypi/python_boilerplate_template
