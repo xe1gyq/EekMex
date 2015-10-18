@@ -22,4 +22,5 @@ Cube Satellites
 # Links
 
 - [Wikipedia CubeSat](https://en.wikipedia.org/wiki/CubeSat)
+- [Clyde Space Homepage](http://www.clyde-space.com/cubesat_shop)
 
