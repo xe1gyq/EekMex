@@ -13,3 +13,4 @@
 ## Links
 
 - https://pypi.python.org/pypi/python_boilerplate_template
+- https://github.com/GomSpace/libcsp
