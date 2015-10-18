@@ -15,6 +15,10 @@ Mission
 - Communication Subsystems
 - Power Subsystem
 
+## Operations
+
+
+
 ## Subsystems, Questions
 
 - Storage Subsystem
