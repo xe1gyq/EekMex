@@ -18,6 +18,7 @@ Cube Satellites
 ## General Requirements
 
 - [NASA CubeSat Requirements](http://www.nasa.gov/pdf/627972main_LSP-REQ-317_01A.pdf)
+- [CubeSat Design Specification](http://www.cubesat.org/images/developers/cds_rev13_final2.pdf)
 
 # Links
 
