@@ -136,7 +136,7 @@ Software
     edison@ubilinux:~/upm/build$ cd build
     edison@ubilinux:~/upm/build$ export CMAKE_ROOT=/usr/local/share/cmake-3.2
     edison@ubilinux:~/upm/build$ cmake .. -DBUILDSWIGNODE=OFF
-    edison@ubilinux:~/upm/build$ make
+    edison@ubilinux:~/upm/build$ make -j3
     edison@ubilinux:~/upm/build$ su
     Password: 
     root@ubilinux:~/upm/build# make install
