@@ -14,6 +14,21 @@ Software
   - 
   
 
+    Debian GNU/Linux 7 ubilinux ttyMFD2
+
+    ubilinux login: edison
+    Password: 
+    Last login: Sat Jan  1 00:01:37 UTC 2000 on ttyMFD2
+    Linux ubilinux 3.10.17-yocto-standard-r2 #7 SMP PREEMPT Thu Feb 26 6
+
+    The programs included with the Debian GNU/Linux system are free sof;
+    the exact distribution terms for each program are described in the
+    individual files in /usr/share/doc/*/copyright.
+
+    Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+    permitted by applicable law.
+    edison@ubilinux:~$ 
+
 
 ## Packages Apt-Get Installation
 
