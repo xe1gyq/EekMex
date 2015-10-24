@@ -146,7 +146,7 @@ Software
     root@ubilinux:/home/edison/upm/build# exit
     edison@ubilinux:~/upm/build$ nano ~/.bashrc
     
-    edison@ubilinux:~/upm/build$ 
+    edison@ubilinux:~/upm/build$ export 
     edison@ubilinux:~/upm/build$ cd
     edison@ubilinux:~$ 
 
