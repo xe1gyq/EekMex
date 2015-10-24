@@ -92,11 +92,11 @@ Software
     root@ubilinux:~# apt-get update
     root@ubilinux:~# apt-cache search pcre
     root@ubilinux:~# apt-get install libpcre3-dev
-    edison@ubilinux:~# apt-get install git
-    edison@ubilinux:~# apt-get install cmake
-    edison@ubilinux:~# apt-get install python-dev
-    edison@ubilinux:~# apt-get install swig
-    edison@ubilinux:~# exit
+    root@ubilinux:~# apt-get install git
+    root@ubilinux:~# apt-get install cmake
+    root@ubilinux:~# apt-get install python-dev
+    root@ubilinux:~# apt-get install swig
+    root@ubilinux:~# exit
     edison@ubilinux:~$ cd
     edison@ubilinux:~$ git clone https://github.com/intel-iot-devkit/mraa.git
     edison@ubilinux:~$ mkdir mraa/build && cd $_
