@@ -174,7 +174,7 @@ Software
     Password: edison
     root@ubilinux:/home/edison/RTIMULib/Linux/python# python setup.py install
 
-### Intel.IoT.Roadshow Git Repository
+### NuupXe Git Repository
 
     root@ubilinux:~$
     root@ubilinux:/home/edison# su
