@@ -154,12 +154,12 @@ Software
 
 ## RTIMULib
 
-    edison@ubilinux:~$ cd
-    root@ubilinux:~$ git clone https://github.com/richards-tech/RTIMULib.git
-    root@ubilinux:~$ mkdir -p RTIMULib/RTIMULib/build
-    root@ubilinux:~$ cd RTIMULib/RTIMULib/build
-    root@ubilinux:~$ cmake ..
-    root@ubilinux:~$ make -j4
+    edison@ubilinux:~$ 
+    edison@ubilinux:~$ git clone https://github.com/richards-tech/RTIMULib.git
+    edison@ubilinux:~$ mkdir -p RTIMULib/RTIMULib/build
+    edison@ubilinux:~$ cd RTIMULib/RTIMULib/build
+    edison@ubilinux:~$ cmake ..
+    edison@ubilinux:~$ make -j4
     root@ubilinux:~# make install
     root@ubilinux:~# ldconfig
     root@ubilinux:~# nano /etc/ld.so.conf
