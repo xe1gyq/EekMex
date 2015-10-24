@@ -162,9 +162,10 @@ Software
     edison@ubilinux:~/RTIMULib/RTIMULib/build$ make -j3
     edison@ubilinux:~/RTIMULib/RTIMULib/build$ su
     Password: edison
-    root@ubilinux:~# make install
-    root@ubilinux:~# ldconfig
-    root@ubilinux:~# nano /etc/ld.so.conf
+    root@ubilinux:/home/edison/RTIMULib/RTIMULib/build# make install
+    root@ubilinux:/home/edison/RTIMULib/RTIMULib/build# ldconfig
+    root@ubilinux:/home/edison/RTIMULib/RTIMULib/build# nano /etc/ld.so.conf
+    ...
     /usr/local/lib/
     root@ubilinux:~$ python setup.py build
     root@ubilinux:~# python setup.py install
