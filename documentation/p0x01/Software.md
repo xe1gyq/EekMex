@@ -141,7 +141,7 @@ Software
     edison@ubilinux:~/Intel.IoT.Roadshow$ git config --global user.email "you@example.com"
     edison@ubilinux:~/Intel.IoT.Roadshow$ git config --global user.name "Your Name"
     edison@ubilinux:~/Intel.IoT.Roadshow$ cd
-    
+
 ## Testing
 
 ### I2C
