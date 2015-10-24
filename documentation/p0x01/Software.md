@@ -88,7 +88,7 @@ Software
     /usr/local/lib/i386-linux-gnu/
     root@ubilinux:~# ldconfig
     root@ubilinux:~# ldconfig -p | grep mraa
-    root@ubilinux:~$ nano ~/.bashrc
+    root@ubilinux:~# nano ~/.bashrc
     export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
 
 ### Cmake
