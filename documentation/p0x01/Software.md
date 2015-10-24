@@ -201,7 +201,7 @@ Software
     edison@ubilinux:~/eekmex/eekmex$ git config --global user.email "you@example.com"
     edison@ubilinux:~/eekmex/eekmex$ git config --global user.name "Your Name"
     edison@ubilinux:~/eekmex/eekmex$ cd
-    edison@ubilinux:~/$ cd
+    edison@ubilinux:~$ cd
     
 ## Testing
 
