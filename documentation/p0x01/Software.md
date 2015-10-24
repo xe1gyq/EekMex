@@ -112,7 +112,6 @@ Software
     edison@ubilinux:~/mraa/build# nano ~/.bashrc
     export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
     edison@ubilinux:~/mraa/build$ export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
-    edison@ubilinux:~/mraa/build# exit
     edison@ubilinux:~/mraa/build$ cd
     edison@ubilinux:~$ 
 
