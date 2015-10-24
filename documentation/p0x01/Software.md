@@ -220,7 +220,7 @@ Software
 
 ### Inertial Measurement Unit
 
-    root@ubilinux:~# i2cdetect -y -r 1
+    root@ubilinux:/home/edison/eekmex/eekmex# i2cdetect -y -r 1
     ...
     10: -- -- -- -- -- -- -- -- -- -- -- -- -- 1d -- -- 
     ...
