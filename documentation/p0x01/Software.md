@@ -76,42 +76,72 @@ Software
     
 [Why not using UPM Library?](https://github.com/xe1gyq/eekmex/issues/1)
 
-### MRAA
-
-    root@ubilinux:~# git clone https://github.com/intel-iot-devkit/mraa.git
-    root@ubilinux:~# mkdir mraa/build && cd $_
-    root@ubilinux:~# cmake .. -DBUILDSWIGNODE=OFF
-    root@ubilinux:~# make
-    root@ubilinux:~# make install
-    root@ubilinux:~# cd
-    root@ubilinux:~# nano /etc/ld.so.conf
+### Mraa
+    
+    edison@ubilinux:~# su
+    Password: 
+    edison@ubilinux:~# apt-get update
+    edison@ubilinux:~# apt-cache search pcre
+    edison@ubilinux:~# apt-get install libpcre3-dev
+    edison@ubilinux:~# apt-get install git
+    edison@ubilinux:~# apt-get install cmake
+    edison@ubilinux:~# apt-get install python-dev
+    edison@ubilinux:~# apt-get install swig
+    edison@ubilinux:~# exit
+    edison@ubilinux:~$ cd
+    edison@ubilinux:~$ git clone https://github.com/intel-iot-devkit/mraa.git
+    edison@ubilinux:~$ mkdir mraa/build && cd $_
+    edison@ubilinux:~/mraa/build$ cmake .. -DBUILDSWIGNODE=OFF
+    edison@ubilinux:~/mraa/build$ make
+    edison@ubilinux:~/mraa/build$ su
+    Password: 
+    edison@ubilinux:~/mraa/build# make install
+    edison@ubilinux:~/mraa/build# nano /etc/ld.so.conf
+    include /etc/ld.so.config.d/*.conf
     /usr/local/lib/i386-linux-gnu/
-    root@ubilinux:~# ldconfig
-    root@ubilinux:~# ldconfig -p | grep mraa
-    root@ubilinux:~# nano ~/.bashrc
+    edison@ubilinux:~/mraa/build# ldconfig
+    edison@ubilinux:~/mraa/build# ldconfig -p | grep mraa
+    edison@ubilinux:~/mraa/build# exit
+    edison@ubilinux:~/mraa/build# export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
+    edison@ubilinux:~/mraa/build# nano ~/.bashrc
     export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
+    edison@ubilinux:~/mraa/build# exit
+    edison@ubilinux:~/mraa/build$ cd
+    edison@ubilinux:~$ 
 
 ### Cmake
 
-    root@ubilinux:~$ wget http://www.cmake.org/files/v3.2/cmake-3.2.2.tar.gz
-    root@ubilinux:~$ tar xvf cmake-3.2.2.tar.gz
-    root@ubilinux:~$ cd cmake-3.2.2
-    root@ubilinux:~$ ./bootstrap
-    root@ubilinux:~$ make
-    root@ubilinux:~# make install
+    ubilinux@ubilinux:~$ cd
+    ubilinux@ubilinux:~$ wget http://www.cmake.org/files/v3.2/cmake-3.2.2.tar.gz
+    ubilinux@ubilinux:~$ tar xvf cmake-3.2.2.tar.gz
+    ubilinux@ubilinux:~$ cd cmake-3.2.2
+    ubilinux@ubilinux:~/cmake-3.2.2$ ./bootstrap
+    ubilinux@ubilinux:~/cmake-3.2.2$ make
+    ubilinux@ubilinux:~/cmake-3.2.2$ su
+    root@ubilinux:~/cmake-3.2.2# make install
+    root@ubilinux:~/cmake-3.2.2# cp /usr/local/bin/cmake /usr/bin/cmake
+    root@ubilinux:~/cmake-3.2.2# exit 
+    ubilinux@ubilinux:~/cmake-3.2.2$ cd
 
-### UPM
-    
-    root@ubilinux:~$ git clone https://github.com/intel-iot-devkit/upm.git
-    root@ubilinux:~$ mkdir upm/build
-    root@ubilinux:~$ cd upm/build
-    root@ubilinux:~# cmake .. -DBUILDSWIGNODE=OFF
-    root@ubilinux:~# make
-    root@ubilinux:~# make install
-    root@ubilinux:~# nano ~/.bashrc
-    export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
-    root@ubilinux:~$ nano ~/.bashrc
-    export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
+### Upm
+
+    edison@ubilinux:~$ cd
+    edison@ubilinux:~$ git clone https://github.com/intel-iot-devkit/upm.git
+    edison@ubilinux:~$ cd upm
+    edison@ubilinux:~/upm$ mkdir build
+    edison@ubilinux:~/upm$ cd build
+    edison@ubilinux:~/upm$ export CMAKE_ROOT=/usr/local/share/cmake-3.2
+    edison@ubilinux:~/upm/build$ cmake .. -DBUILDSWIGNODE=OFF
+    edison@ubilinux:~/upm/build$ make
+    edison@ubilinux:~/upm/build$ su
+    Password: 
+    root@ubilinux:~/upm/build# make install
+    root@ubilinux:~/upm/build# export PYTHONPATH=$PYTHONPATH:/usr/lib/i386-linux-gnu/python2.7/site-packages/
+    root@ubilinux:~/upm/build# nano ~/.bashrc
+    export PYTHONPATH=$PYTHONPATH:/usr/lib/i386-linux-gnu/python2.7/site-packages/
+    root@ubilinux:~/upm/build# exit
+    edison@ubilinux:~/upm/build$ cd 
+    edison@ubilinux:~$ 
 
 ## RTIMULib
 
@@ -127,6 +157,7 @@ Software
     root@ubilinux:~$ python setup.py build
     root@ubilinux:~# python setup.py install
 
+
 ### Intel.IoT.Roadshow Git Repository
 
     root@ubilinux:/home/edison# su
@@ -141,7 +172,7 @@ Software
     edison@ubilinux:~/Intel.IoT.Roadshow$ git config --global user.email "you@example.com"
     edison@ubilinux:~/Intel.IoT.Roadshow$ git config --global user.name "Your Name"
     edison@ubilinux:~/Intel.IoT.Roadshow$ cd
-
+    
 ## Testing
 
 ### I2C
