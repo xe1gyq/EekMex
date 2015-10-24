@@ -125,6 +125,7 @@ Software
     root@ubilinux:/home/edison/cmake-3.2.2# cp /usr/local/bin/cmake /usr/bin/cmake
     root@ubilinux:/home/edison/cmake-3.2.2# exit 
     edison@ubilinux:~/cmake-3.2.2$ cd
+    edison@ubilinux:~/$
 
 ### Upm
 
