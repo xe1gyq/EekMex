@@ -151,6 +151,8 @@ Software
 
 ## RTIMULib
 
+> RTIMULib is the simplest way to connect a 9-dof, 10-dof or 11-dof IMU to an embedded Linux system and obtain quaternion or Euler angle pose data. Basically, two simple function calls (IMUInit() and IMURead()) are pretty much all that's needed to integrate RTIMULib.
+
     edison@ubilinux:~$ cd
     edison@ubilinux:~$ git clone https://github.com/richards-tech/RTIMULib.git
     edison@ubilinux:~$ mkdir -p RTIMULib/RTIMULib/build
