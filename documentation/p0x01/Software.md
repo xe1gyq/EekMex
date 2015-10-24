@@ -175,7 +175,7 @@ Software
     root@ubilinux:/home/edison/RTIMULib/Linux/python# python setup.py install
     root@ubilinux:/home/edison/RTIMULib/Linux/python# exit
     edison@ubilinux:~/RTIMULib/Linux/python$ cd
-    edison@ubilinux:~$ 
+    edison@ubilinux:~$
 
 ### NuupXe Git Repository
 
