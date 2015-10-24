@@ -10,7 +10,7 @@ Software
     Debian GNU/Linux 7 ubilinux ttyMFD2
 
     ubilinux login: edison
-    Password: 
+    Password: edison
     Last login: Sat Jan  1 00:01:37 UTC 2000 on ttyMFD2
     Linux ubilinux 3.10.17-yocto-standard-r2 #7 SMP PREEMPT Thu Feb 26 6
 
