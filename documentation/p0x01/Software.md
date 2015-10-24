@@ -24,6 +24,8 @@ Software
 
 ### WiFi
 
+    edison@ubilinux:~$ su
+    Password: edison
     root@ubilinux:/home/edison# cd 
     root@ubilinux:~# nano /etc/network/interfaces
     # interfaces(5) file used by ifup(8) and ifdown(8)
