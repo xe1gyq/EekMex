@@ -205,10 +205,6 @@ Software
 
 ## Testing
 
-### Inertial Measurement Unit
-
-    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d imu
-
 ### I2C
 
     root@ubilinux:~# i2cdetect -y -r 1
@@ -221,6 +217,16 @@ Software
     50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
     60: -- -- -- -- -- -- -- -- -- -- -- 6b -- -- -- -- 
     70: -- -- -- -- -- -- -- 77                         
+
+### Inertial Measurement Unit
+
+    root@ubilinux:~# i2cdetect -y -r 1
+    ...
+    10: -- -- -- -- -- -- -- -- -- -- -- -- -- 1d -- -- 
+    ...
+    60: -- -- -- -- -- -- -- -- -- -- -- 6b -- -- -- -- 
+    ...
+    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d imu
 
 ### GPS
 
