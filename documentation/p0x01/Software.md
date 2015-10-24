@@ -82,7 +82,6 @@ Software
     edison@ubilinux:~/Adafruit_Python_BMP$ cd
     edison@ubilinux:~$
 
-    
 [Why not using UPM Library?](https://github.com/xe1gyq/eekmex/issues/1)
 
 ### Mraa
