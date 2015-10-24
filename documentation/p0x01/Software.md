@@ -160,6 +160,8 @@ Software
     edison@ubilinux:~$ cd RTIMULib/RTIMULib/build
     edison@ubilinux:~/RTIMULib/RTIMULib/build$ cmake ..
     edison@ubilinux:~/RTIMULib/RTIMULib/build$ make -j3
+    edison@ubilinux:~/RTIMULib/RTIMULib/build$ su
+    Password: edison
     root@ubilinux:~# make install
     root@ubilinux:~# ldconfig
     root@ubilinux:~# nano /etc/ld.so.conf
