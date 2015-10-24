@@ -45,8 +45,8 @@ Software
         #wireless-mode Managed
         #wireless-key s:""
     
-    root@ubilinux:/home/edison# ifup wlan0
-    root@ubilinux:/home/edison# reboot
+    root@ubilinux:~# ifup wlan0
+    root@ubilinux:~# reboot
 
     <reboot your board, sign in and become root>
 
