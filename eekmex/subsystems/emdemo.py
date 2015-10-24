@@ -43,11 +43,13 @@ class emDemo(object):
                     latitude, longitude, altitude))
         logging.info(gpsdata)
 
-    def emDemoImu(self):
+    def emDemoImuSetup(self):
 
         from subsystems.emimu import emImu
 
         self.emimu = emImu()
+
+    def emDemoImuData(self):
 
         roll = self.emimu.emImuRollGet()
         pitch = self.emimu.emImuPitchGet()
@@ -56,13 +58,9 @@ class emDemo(object):
         logging.info(imudata)
 
     def emDemoExecute(self):
-        secondstotal = 5
-        second = 0
-        while (second < secondstotal): 
-            if self.subsystem == 'imu':
-                self.emDemoImu()
-            second += 1
-        print 'fini'
-        sys.exit(0)
+        if self.subsystem == 'imu':
+            self.emDemoImuSetup()
+        while True:
+            self.emDemoImuData()
 
 # End of File
