@@ -78,10 +78,10 @@ Software
 
 ### MRAA
 
-    root@ubilinux:~$ git clone https://github.com/intel-iot-devkit/mraa.git
-    root@ubilinux:~$ mkdir mraa/build && cd $_
-    root@ubilinux:~$ cmake .. -DBUILDSWIGNODE=OFF
-    root@ubilinux:~$ make
+    root@ubilinux:~# git clone https://github.com/intel-iot-devkit/mraa.git
+    root@ubilinux:~# mkdir mraa/build && cd $_
+    root@ubilinux:~# cmake .. -DBUILDSWIGNODE=OFF
+    root@ubilinux:~# make
     root@ubilinux:~# make install
     root@ubilinux:~# cd
     root@ubilinux:~# nano /etc/ld.so.conf
