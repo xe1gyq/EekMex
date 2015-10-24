@@ -147,7 +147,7 @@ Software
     root@ubilinux:/home/edison/upm/build# export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
     root@ubilinux:/home/edison/upm/build# exit
     edison@ubilinux:~/upm/build$ nano ~/.bashrc
-    /usr/local/lib/python2.7/site-packages/
+    export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
     edison@ubilinux:~/upm/build$ export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
     edison@ubilinux:~/upm/build$ cd
     edison@ubilinux:~$ 
