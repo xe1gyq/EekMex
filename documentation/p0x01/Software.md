@@ -221,7 +221,7 @@ Software
     
     f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
 
-##  
+## Devices 
 
 ### Inertial Measurement Unit
 
