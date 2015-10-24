@@ -26,7 +26,7 @@ Software
 ## Packages Apt-Get Installation
 
     edison@ubilinux:~$ su
-    Password: 
+    Password: edison
     root@ubilinux:/home/edison# cd 
     root@ubilinux:~# apt-get install python-pip
     root@ubilinux:~# apt-get install git build-essential python-dev python-smbus swig
