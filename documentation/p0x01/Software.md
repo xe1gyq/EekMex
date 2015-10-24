@@ -22,6 +22,33 @@ Software
     permitted by applicable law.
     edison@ubilinux:~$ 
 
+### WiFi
+
+    root@ubilinux:/home/edison# nano /etc/network/interfaces
+    
+    # interfaces(5) file used by ifup(8) and ifdown(8)
+    auto lo
+    iface lo inet loopback
+
+    #auto usb0
+    #iface usb0 inet static
+    #    address 192.168.2.15
+    #    netmask 255.255.255.0
+    
+    auto wlan0
+    iface wlan0 inet dhcp
+        # For WPA
+        #wpa-ssid "itesm"
+        #wpa-psk ""
+        # For WEP
+        wireless-essid itesm
+        wireless-mode Managed
+        wireless-key s:""
+    
+    root@ubilinux:/home/edison# ifup wlan0
+    root@ubilinux:/home/edison# reboot
+
+    <reboot your board, sign in and become root>
 
 ## Packages Apt-Get Installation
 
