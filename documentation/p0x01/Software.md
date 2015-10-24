@@ -104,9 +104,9 @@ Software
     root@ubilinux:/home/edison/mraa/build# nano /etc/ld.so.conf
     include /etc/ld.so.config.d/*.conf
     /usr/local/lib/i386-linux-gnu/
-    edison@ubilinux:~/mraa/build# ldconfig
-    edison@ubilinux:~/mraa/build# ldconfig -p | grep mraa
-    edison@ubilinux:~/mraa/build# exit
+    root@ubilinux:/home/edison/mraa/build# ldconfig
+    root@ubilinux:/home/edison/mraa/build# ldconfig -p | grep mraa
+    root@ubilinux:/home/edison/mraa/build# exit
     edison@ubilinux:~/mraa/build# export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
     edison@ubilinux:~/mraa/build# nano ~/.bashrc
     export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
