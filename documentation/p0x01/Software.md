@@ -70,8 +70,8 @@ Software
 
 ### Adafruit BMP180 Python Library
 
-    root@ubilinux:~$ git clone https://github.com/adafruit/Adafruit_Python_BMP.git
-    root@ubilinux:~$ cd Adafruit_Python_BMP
+    root@ubilinux:~# git clone https://github.com/adafruit/Adafruit_Python_BMP.git
+    root@ubilinux:~# cd Adafruit_Python_BMP
     root@ubilinux:~# python setup.py install
     
 [Why not using UPM Library?](https://github.com/xe1gyq/eekmex/issues/1)
