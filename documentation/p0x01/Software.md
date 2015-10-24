@@ -88,7 +88,8 @@ Software
     
     edison@ubilinux:~$ su
     Password: 
-    root@ubilinux:/home/edison# apt-get update
+    root@ubilinux:/home/edison# cd
+    root@ubilinux:~# apt-get update
     root@ubilinux:~# apt-cache search pcre
     root@ubilinux:~# apt-get install libpcre3-dev
     edison@ubilinux:~# apt-get install git
