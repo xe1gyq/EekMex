@@ -179,6 +179,9 @@ Software
 
 ### SD Card
 
+    edison@ubilinux:~$ su
+    Password: 
+    root@ubilinux:/home/edison# cd
     root@ubilinux:~# mkdir /media/sdcard/
     root@ubilinux:~# mount -o umask=0,uid=nobody /dev/mmcblk1p1 /media/sdcard/
 
