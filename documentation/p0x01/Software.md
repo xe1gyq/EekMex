@@ -139,11 +139,11 @@ Software
     edison@ubilinux:~/upm/build$ make -j3
     edison@ubilinux:~/upm/build$ su
     Password: 
-    root@ubilinux:~/upm/build# make install
-    root@ubilinux:~/upm/build# nano ~/.bashrc
+    root@ubilinux:/home/edison/upm/build# make install
+    root@ubilinux:/home/edison/upm/build# nano ~/.bashrc
     export PYTHONPATH=$PYTHONPATH:/usr/lib/i386-linux-gnu/python2.7/site-packages/
-    root@ubilinux:~/upm/build# export PYTHONPATH=$PYTHONPATH:/usr/lib/i386-linux-gnu/python2.7/site-packages/
-    root@ubilinux:~/upm/build# exit
+    root@ubilinux:/home/edison/upm/build# export PYTHONPATH=$PYTHONPATH:/usr/lib/i386-linux-gnu/python2.7/site-packages/
+    root@ubilinux:/home/edison/upm/build# exit
     edison@ubilinux:~/upm/build$ 
     edison@ubilinux:~/upm/build$ cd
     edison@ubilinux:~$ 
