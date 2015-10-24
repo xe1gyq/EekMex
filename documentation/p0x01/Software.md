@@ -177,6 +177,11 @@ Software
     edison@ubilinux:~/RTIMULib/Linux/python$ cd
     edison@ubilinux:~$
 
+### SD Card
+
+    root@ubilinux:~# mkdir /media/sdcard/
+    root@ubilinux:~# mount -o umask=0,uid=nobody /dev/mmcblk1p1 /media/sdcard/
+
 ### NuupXe Git Repository
 
     root@ubilinux:~$
@@ -248,8 +253,3 @@ Software
     mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqjmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
 
 
-### SD Card
-
-    root@ubilinux:~# mkdir /media/sdcard/
-    root@ubilinux:~# mount -o umask=0,uid=nobody /dev/mmcblk1p1 /media/sdcard/
-    
