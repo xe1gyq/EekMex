@@ -38,12 +38,12 @@ Software
     auto wlan0
     iface wlan0 inet dhcp
         # For WPA
-        #wpa-ssid "itesm"
-        #wpa-psk ""
+        wpa-ssid INFINITUMxxxx
+        wpa-psk yyyy
         # For WEP
-        wireless-essid itesm
-        wireless-mode Managed
-        wireless-key s:""
+        #wireless-essid itesm
+        #wireless-mode Managed
+        #wireless-key s:""
     
     root@ubilinux:/home/edison# ifup wlan0
     root@ubilinux:/home/edison# reboot
