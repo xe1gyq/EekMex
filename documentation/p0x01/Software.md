@@ -170,8 +170,6 @@ Software
     root@ubilinux:/home/edison/RTIMULib/RTIMULib/build# exit
     edison@ubilinux:~/RTIMULib/RTIMULib/build$ cd ../../Linux/python/
     edison@ubilinux:~/RTIMULib/Linux/python$ python setup.py build
-    root@ubilinux:~$ python setup.py build
-    root@ubilinux:~# python setup.py install
 
 
 ### Intel.IoT.Roadshow Git Repository
