@@ -198,9 +198,9 @@ Software
     edison@ubilinux:~$ git clone https://github.com/xe1gyq/eekmex.git
     edison@ubilinux:~$ cd eekmex/eekmex
     edison@ubilinux:~/eekmex/eekmex$ python eekmex.py -c files
-    edison@ubilinux:~/Intel.IoT.Roadshow$ git config --global user.email "you@example.com"
-    edison@ubilinux:~/Intel.IoT.Roadshow$ git config --global user.name "Your Name"
-    edison@ubilinux:~/Intel.IoT.Roadshow$ cd
+    edison@ubilinux:~/eekmex/eekmex$ git config --global user.email "you@example.com"
+    edison@ubilinux:~/eekmex/eekmex$ git config --global user.name "Your Name"
+    edison@ubilinux:~/eekmex/eekmex$ cd
     
 ## Testing
 
