@@ -173,6 +173,7 @@ Software
 
 ### Intel.IoT.Roadshow Git Repository
 
+    root@ubilinux:~$
     root@ubilinux:/home/edison# su
     Password: 
     root@ubilinux:/home/edison# apt-get update
