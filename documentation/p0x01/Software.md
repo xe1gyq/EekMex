@@ -154,7 +154,7 @@ Software
 
 ## RTIMULib
 
-    edison@ubilinux:~$ 
+    edison@ubilinux:~$ cd
     root@ubilinux:~$ git clone https://github.com/richards-tech/RTIMULib.git
     root@ubilinux:~$ mkdir -p RTIMULib/RTIMULib/build
     root@ubilinux:~$ cd RTIMULib/RTIMULib/build
