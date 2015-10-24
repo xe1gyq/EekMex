@@ -133,8 +133,8 @@ Software
     edison@ubilinux:~$ git clone https://github.com/intel-iot-devkit/upm.git
     edison@ubilinux:~$ cd upm
     edison@ubilinux:~/upm$ mkdir build
-    edison@ubilinux:~/upm$ cd build
-    edison@ubilinux:~/upm$ export CMAKE_ROOT=/usr/local/share/cmake-3.2
+    edison@ubilinux:~/upm/build$ cd build
+    edison@ubilinux:~/upm/build$ export CMAKE_ROOT=/usr/local/share/cmake-3.2
     edison@ubilinux:~/upm/build$ cmake .. -DBUILDSWIGNODE=OFF
     edison@ubilinux:~/upm/build$ make
     edison@ubilinux:~/upm/build$ su
