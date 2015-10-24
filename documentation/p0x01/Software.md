@@ -187,7 +187,7 @@ Software
     root@ubilinux:/home/edison# exit
     edison@ubilinux:~$ git clone https://github.com/xe1gyq/eekmex.git
     edison@ubilinux:~$ cd eekmex
-    edison@ubilinux:~/eekmex$ python eekmex.py
+    edison@ubilinux:~/eekmex$ python eekmex.py -m hello
     Hello Edison!
     edison@ubilinux:~/Intel.IoT.Roadshow$ git config --global user.email "you@example.com"
     edison@ubilinux:~/Intel.IoT.Roadshow$ git config --global user.name "Your Name"
