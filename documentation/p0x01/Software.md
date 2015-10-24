@@ -186,6 +186,7 @@ Software
     root@ubilinux:~# mount /dev/mmcblk1 /media/sdcard/
     root@ubilinux:~# vi /etc/fstab
     /dev/mmcblk1p1 /media/sdcard
+    root@ubilinux:~# 
 
 ### NuupXe Git Repository
 
