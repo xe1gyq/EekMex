@@ -72,7 +72,7 @@ Software
 
     root@ubilinux:~# git clone https://github.com/adafruit/Adafruit_Python_BMP.git
     root@ubilinux:~# cd Adafruit_Python_BMP
-    root@ubilinux:~/Adafruit_Python_BMP# python setup.py install
+    root@ubilinux:~# python setup.py install
     
 [Why not using UPM Library?](https://github.com/xe1gyq/eekmex/issues/1)
 
