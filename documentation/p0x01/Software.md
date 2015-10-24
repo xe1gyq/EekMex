@@ -10,9 +10,7 @@ Software
 
     ubilinux login: edison
     Password: edison
-    
     ...
-    
     edison@ubilinux:~$ su
     Password: edison
     root@ubilinux:/home/edison# date -s "10/22/2015 16:01:00"
