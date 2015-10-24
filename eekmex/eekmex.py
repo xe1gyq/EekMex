@@ -8,6 +8,7 @@ import threading
 import time
 
 from subsystems.emobdh import emObdh
+from subsystems.emdemo import emDemo
 
 def eekMexLogging():
 
@@ -62,24 +63,27 @@ if __name__=='__main__':
     logging.info(description)
 
     parser = argparse.ArgumentParser(description)
-    parser.add_argument('-c', '--clean', help='Clean Up')
-    parser.add_argument('-d', '--demo', help='Demo Mode')
+    parser.add_argument('-c', '--clean', help='Mode Clean Up')
+    parser.add_argument('-d', '--demo', help='Mode Demo')
+    parser.add_argument('-p', '--project', help='Mode Project')
     args = parser.parse_args()
 
     if args.clean == 'files':
 
-        logging.info('Clean Up, Remove Files')
+        logging.info('Mode Clean Up, Remove Files')
 
         os.remove('eekmex.log')
         os.remove('/media/sdcard/eekmex.log')
         os.remove('/media/sdcard/eekmexprekml.log')
 
-    if args.demo == 'platform':
+    if args.demo == 'imu':
 
-        logging.info('Demo Mode, Platform')
-        obdh = emObdh()
-        while True:
-            obdh.emObdhRefresh()
-            time.sleep(1)
+        logging.info('Mode Demo, IMU')
+        emdemo = emDemo('imu')
+        emdemo.emDemoExecute()
+
+    if args.project == 'alpha':
+
+        logging.info('Mode Project, Alpha')
 
 # End of File
