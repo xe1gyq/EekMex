@@ -13,7 +13,7 @@ Software
   - Enable WiFi
   - 
   
-## 
+### Boot Up
 
     Debian GNU/Linux 7 ubilinux ttyMFD2
 
