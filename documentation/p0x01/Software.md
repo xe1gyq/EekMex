@@ -114,17 +114,17 @@ Software
 
 ### Cmake
 
-    ubilinux@ubilinux:~$ cd
-    ubilinux@ubilinux:~$ wget http://www.cmake.org/files/v3.2/cmake-3.2.2.tar.gz
-    ubilinux@ubilinux:~$ tar xvf cmake-3.2.2.tar.gz
-    ubilinux@ubilinux:~$ cd cmake-3.2.2
-    ubilinux@ubilinux:~/cmake-3.2.2$ ./bootstrap
-    ubilinux@ubilinux:~/cmake-3.2.2$ make -j3
-    ubilinux@ubilinux:~/cmake-3.2.2$ su
+    edison@ubilinux:~$ cd
+    edison@ubilinux:~$ wget http://www.cmake.org/files/v3.2/cmake-3.2.2.tar.gz
+    edison@ubilinux:~$ tar xvf cmake-3.2.2.tar.gz
+    edison@ubilinux:~$ cd cmake-3.2.2
+    edison@ubilinux:~/cmake-3.2.2$ ./bootstrap
+    edison@ubilinux:~/cmake-3.2.2$ make -j3
+    edison@ubilinux:~/cmake-3.2.2$ su
     root@ubilinux:/home/edison/cmake-3.2.2# make install
     root@ubilinux:/home/edison/cmake-3.2.2# cp /usr/local/bin/cmake /usr/bin/cmake
     root@ubilinux:/home/edison/cmake-3.2.2# exit 
-    ubilinux@ubilinux:~/cmake-3.2.2$ cd
+    edison@ubilinux:~/cmake-3.2.2$ cd
 
 ### Upm
 
