@@ -75,7 +75,7 @@ Software
     edison@ubilinux:~$ cd
     edison@ubilinux:~$ git clone https://github.com/adafruit/Adafruit_Python_BMP.git
     edison@ubilinux:~/Adafruit_Python_BMP$ cd Adafruit_Python_BMP
-    edison@ubilinux:~$ su
+    edison@ubilinux:~/Adafruit_Python_BMP$ su
     Password: edison
     root@ubilinux:~/Adafruit_Python_BMP# cd 
     root@ubilinux:~/Adafruit_Python_BMP# python setup.py install
