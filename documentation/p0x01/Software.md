@@ -77,7 +77,7 @@ Software
     edison@ubilinux:~$ cd Adafruit_Python_BMP
     edison@ubilinux:~/Adafruit_Python_BMP$ su
     Password: edison
-    root@ubilinux:~/Adafruit_Python_BMP# cd 
+    root@ubilinux:/home/edison/Adafruit_Python_BMP# cd 
     root@ubilinux:~/Adafruit_Python_BMP# python setup.py install
     
 [Why not using UPM Library?](https://github.com/xe1gyq/eekmex/issues/1)
