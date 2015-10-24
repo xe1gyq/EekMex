@@ -168,7 +168,7 @@ Software
     ...
     /usr/local/lib/
     root@ubilinux:/home/edison/RTIMULib/RTIMULib/build# exit
-    edison@ubilinux:~/RTIMULib/RTIMULib/build$
+    edison@ubilinux:~/RTIMULib/RTIMULib/build$ 
     root@ubilinux:~$ python setup.py build
     root@ubilinux:~# python setup.py install
 
