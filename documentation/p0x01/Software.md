@@ -80,6 +80,7 @@ Software
     root@ubilinux:/home/edison/Adafruit_Python_BMP# python setup.py install
     root@ubilinux:/home/edison/Adafruit_Python_BMP# exit
     edison@ubilinux:~/Adafruit_Python_BMP$ cd
+    edison@ubilinux:~$
 
     
 [Why not using UPM Library?](https://github.com/xe1gyq/eekmex/issues/1)
