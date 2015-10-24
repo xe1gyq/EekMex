@@ -124,9 +124,9 @@ Software
     ubilinux@ubilinux:~/cmake-3.2.2$ ./bootstrap
     ubilinux@ubilinux:~/cmake-3.2.2$ make -j3
     ubilinux@ubilinux:~/cmake-3.2.2$ su
-    root@ubilinux:~/cmake-3.2.2# make install
-    root@ubilinux:~/cmake-3.2.2# cp /usr/local/bin/cmake /usr/bin/cmake
-    root@ubilinux:~/cmake-3.2.2# exit 
+    root@ubilinux:/home/edison/cmake-3.2.2# make install
+    root@ubilinux:/home/edison/cmake-3.2.2# cp /usr/local/bin/cmake /usr/bin/cmake
+    root@ubilinux:/home/edison/cmake-3.2.2# exit 
     ubilinux@ubilinux:~/cmake-3.2.2$ cd
 
 ### Upm
