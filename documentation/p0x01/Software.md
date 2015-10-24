@@ -187,7 +187,7 @@ Software
     root@ubilinux:~# vi /etc/fstab
     /dev/mmcblk1p1 /media/sdcard
 
-### NuupXe Git Repository
+### EekMex Git Repository
 
     root@ubilinux:~$
     root@ubilinux:/home/edison# su
