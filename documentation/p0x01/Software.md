@@ -100,8 +100,8 @@ Software
     edison@ubilinux:~/mraa/build$ make -j3
     edison@ubilinux:~/mraa/build$ su
     Password: edison
-    edison@ubilinux:~/mraa/build# make install
-    edison@ubilinux:~/mraa/build# nano /etc/ld.so.conf
+    root@ubilinux:/home/edison/mraa/build# make install
+    root@ubilinux:/home/edison/mraa/build# nano /etc/ld.so.conf
     include /etc/ld.so.config.d/*.conf
     /usr/local/lib/i386-linux-gnu/
     edison@ubilinux:~/mraa/build# ldconfig
