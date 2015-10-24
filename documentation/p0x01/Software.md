@@ -89,8 +89,8 @@ Software
     edison@ubilinux:~$ su
     Password: 
     root@ubilinux:/home/edison# apt-get update
-    edison@ubilinux:~# apt-cache search pcre
-    edison@ubilinux:~# apt-get install libpcre3-dev
+    root@ubilinux:~# apt-cache search pcre
+    root@ubilinux:~# apt-get install libpcre3-dev
     edison@ubilinux:~# apt-get install git
     edison@ubilinux:~# apt-get install cmake
     edison@ubilinux:~# apt-get install python-dev
