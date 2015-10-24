@@ -65,6 +65,7 @@ Software
 ## Packages Pip Installation
 
     root@ubilinux:~# pip install numpy psutil XBee pyserial pykml
+    root@ubilinux:~# exit
 
 ## Packages Manual Installation
 
