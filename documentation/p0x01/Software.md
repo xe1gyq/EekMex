@@ -122,7 +122,7 @@ Software
     ubilinux@ubilinux:~$ tar xvf cmake-3.2.2.tar.gz
     ubilinux@ubilinux:~$ cd cmake-3.2.2
     ubilinux@ubilinux:~/cmake-3.2.2$ ./bootstrap
-    ubilinux@ubilinux:~/cmake-3.2.2$ make
+    ubilinux@ubilinux:~/cmake-3.2.2$ make -j3
     ubilinux@ubilinux:~/cmake-3.2.2$ su
     root@ubilinux:~/cmake-3.2.2# make install
     root@ubilinux:~/cmake-3.2.2# cp /usr/local/bin/cmake /usr/bin/cmake
