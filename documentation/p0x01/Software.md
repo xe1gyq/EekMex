@@ -97,7 +97,7 @@ Software
     edison@ubilinux:~$ git clone https://github.com/intel-iot-devkit/mraa.git
     edison@ubilinux:~$ mkdir mraa/build && cd $_
     edison@ubilinux:~/mraa/build$ cmake .. -DBUILDSWIGNODE=OFF
-    edison@ubilinux:~/mraa/build$ make
+    edison@ubilinux:~/mraa/build$ make -j3
     edison@ubilinux:~/mraa/build$ su
     Password: 
     edison@ubilinux:~/mraa/build# make install
