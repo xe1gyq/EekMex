@@ -141,6 +141,7 @@ Software
     Password: 
     root@ubilinux:/home/edison/upm/build# make install
     root@ubilinux:/home/edison/upm/build# nano ~/.bashrc
+    ...
     export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
     root@ubilinux:/home/edison/upm/build# export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
     root@ubilinux:/home/edison/upm/build# exit
