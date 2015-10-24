@@ -159,7 +159,7 @@ Software
     edison@ubilinux:~$ mkdir -p RTIMULib/RTIMULib/build
     edison@ubilinux:~$ cd RTIMULib/RTIMULib/build
     edison@ubilinux:~/RTIMULib/RTIMULib/build$ cmake ..
-    edison@ubilinux:~/RTIMULib/RTIMULib/build$ make -j4
+    edison@ubilinux:~/RTIMULib/RTIMULib/build$ make -j3
     root@ubilinux:~# make install
     root@ubilinux:~# ldconfig
     root@ubilinux:~# nano /etc/ld.so.conf
