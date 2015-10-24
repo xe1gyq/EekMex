@@ -181,6 +181,7 @@ Software
 
     edison@ubilinux:~$ su
     Password: 
+    root@ubilinux:/home/edison# cd
     root@ubilinux:/home/edison# mkdir /media/sdcard/
     root@ubilinux:/home/edison# mount /dev/mmcblk1 /media/sdcard/
     root@ubilinux:/home/edison# vi /etc/fstab
