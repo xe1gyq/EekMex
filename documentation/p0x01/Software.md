@@ -182,9 +182,9 @@ Software
     edison@ubilinux:~$ su
     Password: 
     root@ubilinux:/home/edison# cd
-    root@ubilinux:/home/edison# mkdir /media/sdcard/
-    root@ubilinux:/home/edison# mount /dev/mmcblk1 /media/sdcard/
-    root@ubilinux:/home/edison# vi /etc/fstab
+    root@ubilinux:~# mkdir /media/sdcard/
+    root@ubilinux:~# mount /dev/mmcblk1 /media/sdcard/
+    root@ubilinux:~# vi /etc/fstab
     /dev/mmcblk1p1 /media/sdcard
 
 ### NuupXe Git Repository
