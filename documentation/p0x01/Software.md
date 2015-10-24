@@ -24,8 +24,8 @@ Software
 
 ### WiFi
 
-    root@ubilinux:/home/edison# nano /etc/network/interfaces
-    
+    root@ubilinux:/home/edison# cd 
+    root@ubilinux:~# nano /etc/network/interfaces
     # interfaces(5) file used by ifup(8) and ifdown(8)
     auto lo
     iface lo inet loopback
