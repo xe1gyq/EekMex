@@ -144,7 +144,8 @@ Software
     export PYTHONPATH=$PYTHONPATH:/usr/lib/i386-linux-gnu/python2.7/site-packages/
     root@ubilinux:~/upm/build# export PYTHONPATH=$PYTHONPATH:/usr/lib/i386-linux-gnu/python2.7/site-packages/
     root@ubilinux:~/upm/build# exit
-    edison@ubilinux:~/upm/build$ 
+    edison@ubilinux:~/upm/build$
+    edison@ubilinux:~/upm/build$ cd
     edison@ubilinux:~$ 
 
 ## RTIMULib
