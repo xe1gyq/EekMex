@@ -200,7 +200,7 @@ Software
     root@ubilinux:/home/edison/eekmex/eekmex# git config --global user.email "you@example.com"
     root@ubilinux:/home/edison/eekmex/eekmex# git config --global user.name "Your Name"
 
-## Testing
+## Protocols
 
 ### I2C
 
