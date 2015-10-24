@@ -25,6 +25,9 @@ Software
 
 ## Packages Apt-Get Installation
 
+    edison@ubilinux:~$ su
+    Password: 
+    root@ubilinux:/home/edison# 
     root@ubilinux:~# apt-get install python-pip
     root@ubilinux:~# apt-get install git build-essential python-dev python-smbus swig
     root@ubilinux:~# apt-get install gpsd gpsd-clients python-gps libxml2-dev libxslt1-dev
