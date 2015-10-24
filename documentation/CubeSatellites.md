@@ -27,4 +27,5 @@ Cube Satellites
 - https://github.com/satellogic/canopus/tree/master/src/lib
 - https://github.com/MLAB-project/satellite-observer/tree/master/gr-sat_observer
 - http://www.cubesat.org/index.php/documents/developers
+- http://www.surrey.ac.uk/ssc/research/onboarddata/strand/
 
