@@ -79,6 +79,10 @@ Software
 [Why not using UPM Library?](https://github.com/xe1gyq/eekmex/issues/1)
 
 ### Mraa
+
+> Low Level Skeleton Library for IO Communication on GNU/Linux platforms
+> C/C++ library with bindings to JavaScript and Python to interface with the I/O on the Intel® Galileo board, Intel® Edison board, and other platforms. With board detection done at runtime, you can create portable code that works across multiple platforms.
+
     
     edison@ubilinux:~$ su
     Password: 
@@ -126,6 +130,7 @@ Software
     edison@ubilinux:~$ 
 
 ### Upm
+
 
     edison@ubilinux:~$ cd
     edison@ubilinux:~$ git clone https://github.com/intel-iot-devkit/upm.git
