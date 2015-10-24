@@ -145,6 +145,7 @@ Software
     root@ubilinux:/home/edison/upm/build# export PYTHONPATH=$PYTHONPATH:/usr/lib/i386-linux-gnu/python2.7/site-packages/
     root@ubilinux:/home/edison/upm/build# exit
     edison@ubilinux:~/upm/build$ 
+    edison@ubilinux:~/upm/build$ 
     edison@ubilinux:~/upm/build$ cd
     edison@ubilinux:~$ 
 
