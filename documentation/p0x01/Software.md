@@ -11,6 +11,9 @@ Software
     - user: edison
     - password: edison
   - Enable WiFi
+  - 
+  
+
 
 ## Packages Apt-Get Installation
 
