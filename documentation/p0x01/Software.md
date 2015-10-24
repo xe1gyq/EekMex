@@ -6,13 +6,7 @@ Software
 ### Installation
 
 - [Loading Debian (Ubilinux) on the Edison ](https://learn.sparkfun.com/tutorials/loading-debian-ubilinux-on-the-edison)
-  - Install 
-  - Log into
-    - user: edison
-    - password: edison
-  - Enable WiFi
-  - 
-  
+
 ### Boot Up
 
     Debian GNU/Linux 7 ubilinux ttyMFD2
