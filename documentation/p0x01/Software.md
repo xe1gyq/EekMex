@@ -78,7 +78,7 @@ Software
 
 ### Mraa
     
-    edison@ubilinux:~# su
+    edison@ubilinux:~$ su
     Password: 
     edison@ubilinux:~# apt-get update
     edison@ubilinux:~# apt-cache search pcre
