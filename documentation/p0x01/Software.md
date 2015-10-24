@@ -167,6 +167,8 @@ Software
     root@ubilinux:/home/edison/RTIMULib/RTIMULib/build# nano /etc/ld.so.conf
     ...
     /usr/local/lib/
+    root@ubilinux:/home/edison/RTIMULib/RTIMULib/build# exit
+    edison@ubilinux:~/RTIMULib/RTIMULib/build$
     root@ubilinux:~$ python setup.py build
     root@ubilinux:~# python setup.py install
 
