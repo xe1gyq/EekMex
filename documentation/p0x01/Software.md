@@ -184,7 +184,7 @@ Software
     root@ubilinux:/home/edison# mkdir /media/sdcard/
     root@ubilinux:/home/edison# mount -o umask=0,uid=nobody /dev/mmcblk1p1 /media/sdcard/
     root@ubilinux:/home/edison# vi /etc/fstab
-    /dev/mmcblk1p1  /path/to/localdirectory
+    /dev/mmcblk1p1  /media/sdcard
 
 ### NuupXe Git Repository
 
