@@ -66,6 +66,7 @@ Software
 
     root@ubilinux:~# pip install numpy psutil XBee pyserial pykml
     root@ubilinux:~# exit
+    edison@ubilinux:~$ 
 
 ## Packages Manual Installation
 
