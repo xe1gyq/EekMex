@@ -14,7 +14,10 @@ Software
     
     ...
     
-    edison@ubilinux:~$ 
+    edison@ubilinux:~$ su
+    Password: edison
+    root@ubilinux:/home/edison# date -s "10/22/2015 16:01:00"
+    Thu Oct 22 16:01:00 UTC 2015
 
 ### WiFi
 
