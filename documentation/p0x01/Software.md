@@ -178,7 +178,7 @@ Software
     root@ubilinux:/home/edison# apt-get update
     root@ubilinux:/home/edison# apt-get install git
     root@ubilinux:/home/edison# exit
-    edison@ubilinux:~$ git clone https://github.com/xe1gyq/Intel.IoT.Roadshow.git
+    edison@ubilinux:~$ git clone https://github.com/xe1gyq/eekmex.git
     edison@ubilinux:~$ cd Intel.IoT.Roadshow/2015
     edison@ubilinux:~/Intel.IoT.Roadshow$ python main.py -m hello
     Hello Edison!
