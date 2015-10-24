@@ -99,7 +99,7 @@ Software
     edison@ubilinux:~/mraa/build$ cmake .. -DBUILDSWIGNODE=OFF
     edison@ubilinux:~/mraa/build$ make -j3
     edison@ubilinux:~/mraa/build$ su
-    Password: 
+    Password: edison
     edison@ubilinux:~/mraa/build# make install
     edison@ubilinux:~/mraa/build# nano /etc/ld.so.conf
     include /etc/ld.so.config.d/*.conf
