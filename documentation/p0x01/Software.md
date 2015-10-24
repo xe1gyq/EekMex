@@ -70,6 +70,9 @@ Software
 
 ### Adafruit BMP180 Python Library
 
+    edison@ubilinux:~$ su
+    Password: edison
+    root@ubilinux:/home/edison# cd 
     root@ubilinux:~$ git clone https://github.com/adafruit/Adafruit_Python_BMP.git
     root@ubilinux:~$ cd Adafruit_Python_BMP
     root@ubilinux:~/Adafruit_Python_BMP# python setup.py install
