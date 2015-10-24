@@ -72,8 +72,7 @@ Software
 
 ### Adafruit BMP180 Python Library
 
-
-    edison@ubilinux:~$ 
+    edison@ubilinux:~$ cd
     edison@ubilinux:~$ git clone https://github.com/adafruit/Adafruit_Python_BMP.git
     edison@ubilinux:~$ cd Adafruit_Python_BMP
     edison@ubilinux:~$ su
