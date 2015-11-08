@@ -14,7 +14,7 @@ Introduction
 - [ ] Ground Station
 - [ ] Spacecraft
 - [ ] Unmanned Autonomous Vehicle
-- [ ] Helicopter
+- [ ] Space Helicopter
 
 # Subsystem Operations
 
