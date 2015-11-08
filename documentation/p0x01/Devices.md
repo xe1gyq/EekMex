@@ -3,14 +3,9 @@ Devices
 
 ### Setup
 
-    edison@ubilinux:~$ su
-    Password: 
-    root@ubilinux:/home/edison# cd eekmex/eekmex
-
-
 ### Inertial Measurement Unit
 
-    root@ubilinux:~# cd
+    <Become Root>
     root@ubilinux:~# i2cdetect -y -r 1
     ...
     10: -- -- -- -- -- -- -- -- -- -- -- -- -- 1d -- -- 
