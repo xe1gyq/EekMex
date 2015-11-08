@@ -80,10 +80,18 @@ if __name__=='__main__':
 
         logging.info('Mode Demo, IMU')
         emdemo = emDemo('imu')
-        emdemo.emDemoExecute()
+        while True:
+            emdemo.emDemoExecute()
 
-    if args.project == 'alpha':
+    if args.demo == 'sensors':
 
-        logging.info('Mode Project, Alpha')
+        logging.info('Mode Demo, Sensors')
+        emdemo = emDemo('sensors')
+        while True:
+            emdemo.emDemoExecute()
+
+    if args.project == '0x01':
+
+        logging.info('Mode Project, 0x01')
 
 # End of File

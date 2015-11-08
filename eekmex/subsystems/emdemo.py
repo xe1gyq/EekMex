@@ -12,8 +12,14 @@ class emDemo(object):
         logging.info('Demo')
         self.subsystem = subsystem
 
+        self.emDemoSetup()
+
         #thread = Thread(target=self.emDemoExecute)
         #thread.start()
+
+    def emDemoSensorsSetup(self):
+
+        pass
 
     def emDemoSensors(self):
 
@@ -49,7 +55,7 @@ class emDemo(object):
 
         self.emimu = emImu()
 
-    def emDemoImuData(self):
+    def emDemoImu(self):
 
         roll = self.emimu.emImuRollGet()
         pitch = self.emimu.emImuPitchGet()
@@ -57,10 +63,16 @@ class emDemo(object):
         imudata = ("Imu: {0}," "{1}," "{2},".format(roll, pitch, yaw))
         logging.info(imudata)
 
-    def emDemoExecute(self):
+    def emDemoSetup(self):
         if self.subsystem == 'imu':
             self.emDemoImuSetup()
-        while True:
-            self.emDemoImuData()
+        elif self.subsystem == 'sensors':
+            self.emDemoSensorsSetup()
+
+    def emDemoExecute(self):
+        if self.subsystem == 'imu':
+            self.emDemoImu()
+        if self.subsystem == 'sensors':
+            self.emDemoSensors()
 
 # End of File

@@ -8,7 +8,7 @@ def emTemperatureGet():
 
     #temperature = upmBmpx8x.BMPX8X(1, upmBmpx8x.ADDR);
     #temperaturedata = temperature.getTemperature()
-    sensor = BMP085.BMP085()
+    sensor = BMP085.BMP085(busnum=1)
     temperaturedata = sensor.read_temperature()
     logging.info('Temperature %s' % temperaturedata)
     return temperaturedata
