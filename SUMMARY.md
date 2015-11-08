@@ -3,7 +3,7 @@
 * [Cover](README.md)
 * [Space Exploration](documentation/SpaceExploration.md)
    * [Hardware](documentation/spaceexploration/hardware.md)
-   * Software
+   * [Software](documentation/spaceexploration/software.md)
 * [Cube Satellites](documentation/CubeSatellites.md)
 * [VxWorks](documentation/VxWorks.md)
 * [Linux](documentation/Linux.md)
