@@ -28,4 +28,3 @@ Protocols
     root@ubilinux:~# sensors
     
 
-
