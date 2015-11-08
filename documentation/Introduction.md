@@ -2,12 +2,14 @@ Introduction
 ==
 
 # Mission Types
+
 - [ ] Classroom
 - [ ] High Altitude Balloon
 - [ ] CanSat
 - [ ] CubeSat
 
 # Infrastructure
+
 - [ ] Control Center
 - [ ] Ground Station
 - [ ] Spacecraft
@@ -15,6 +17,7 @@ Introduction
 - [ ] Helicopter
 
 # Subsystem Operations
+
 - [ ] Sensors
 - [ ] Orbit Control
 - [ ] On-Board Data Handling
