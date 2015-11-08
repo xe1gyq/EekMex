@@ -32,3 +32,5 @@ https://github.com/librecube-repos/LC-2102/tree/master/production/mechanical/stl
   - Band, Frequency
   - Transmission timing
   - 
+
+- http://edsn.engr.scu.edu/
