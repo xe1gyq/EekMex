@@ -76,19 +76,16 @@ if __name__=='__main__':
         os.remove('/media/sdcard/eekmex.log')
         os.remove('/media/sdcard/eekmexprekml.log')
 
-    if args.demo == 'imu':
+    if args.demo:
 
-        logging.info('Mode Demo, IMU')
-        emdemo = emDemo('imu')
+        logging.info('Mode Demo')
+        emdemo = emDemo(args.demo)
         while True:
-            emdemo.emDemoExecute()
-
-    if args.demo == 'sensors':
-
-        logging.info('Mode Demo, Sensors')
-        emdemo = emDemo('sensors')
-        while True:
-            emdemo.emDemoExecute()
+            try:
+                emdemo.emDemoExecute()
+            except KeyboardInterrupt:
+                logging.info('Mode Demo ... Exiting')
+                sys.exit(0)
 
     if args.project == '0x01':
 
