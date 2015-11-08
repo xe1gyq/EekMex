@@ -12,7 +12,8 @@ Devices
     ...
     60: -- -- -- -- -- -- -- -- -- -- -- 6b -- -- -- -- 
     ...
-    root@ubilinux:~# python imu.py
+    root@ubilinux:~# python ximu.py
+    
 
 ### GPS
 
