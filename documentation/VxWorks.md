@@ -12,4 +12,3 @@ VxWorks
 ## VxWorks
 
 > The world’s most widely-used real-time operating system
-
