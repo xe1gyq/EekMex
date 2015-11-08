@@ -6,8 +6,7 @@ Devices
     edison@ubilinux:~$ su
     Password: 
     root@ubilinux:/home/edison# cd
-    root@ubilinux:~# dmesg
-    root@ubilinux:/home/edison# i2cdetect -y -r 1
+    root@ubilinux:~# i2cdetect -y -r 1
     ...
     10: -- -- -- -- -- -- -- -- -- -- -- -- -- 1d -- -- 
     ...
