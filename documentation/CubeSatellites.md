@@ -21,7 +21,7 @@ Cube Satellites
 - Magnetometer
 - MEMS Gyroscopes
 - Miniature Reaction Wheels
-- Magnetic Torquers.
+- Magnetic Torquers
 
 ## General Requirements
 
