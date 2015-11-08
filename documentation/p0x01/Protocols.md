@@ -27,5 +27,6 @@ Protocols
     root@ubilinux:~# sensors-detect
     root@ubilinux:~# sensors
     
+    
 
 
