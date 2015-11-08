@@ -1,7 +1,7 @@
 # Summary
 
 * [Cover](README.md)
-* Space Exploration
+* [Space Exploration](documentation/SpaceExploration.md)
 * [Cube Satellites](documentation/CubeSatellites.md)
 * [VxWorks](documentation/VxWorks.md)
 * [EekMex](documentation/EekMex.md)
