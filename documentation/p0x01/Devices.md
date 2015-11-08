@@ -1,27 +1,11 @@
 Devices
 ==
 
-### Inertial Measurement Unit
-
-    edison@ubilinux:~$ su
-    Password: 
-    root@ubilinux:/home/edison# i2cdetect -y -r 1
-    ...
-    10: -- -- -- -- -- -- -- -- -- -- -- -- -- 1d -- -- 
-    ...
-    60: -- -- -- -- -- -- -- -- -- -- -- 6b -- -- -- -- 
-    ...
-    root@ubilinux:/home/edison# cd eekmex/eekmex
-    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d imu
-
-### 
-
 ### GPS
 
     edison@ubilinux:~$ su
     Password: 
-    root@ubilinux:/home/edison# cd
-    root@ubilinux:~# dmesg
+    root@ubilinux:/home/edison# dmesg
     [  514.492900] usb 1-1: reset full-speed USB device number 2 using dwc3-host
     [  514.513505] dwc3-host dwc3-host.2: xHCI xhci_drop_endpoint called with disabled ep f5626500
     [  514.513566] usb 1-1: ep 0x81 - rounding interval to 1024 microframes, ep desc says 2040 microframes
@@ -38,8 +22,8 @@ Devices
     [  514.959360] usb 1-1.2: Endpoint 2 MaxPacketSize 64
     [  514.959378] usb 1-1.2: Setting MaxPacketSize 64
     [  514.960259] usb 1-1.2: FTDI USB Serial Device converter now attached to ttyUSB0
-    root@ubilinux:~# gpsd /dev/ttyUSB0 -F /var/run/gpsd.sock
-    root@ubilinux:~# cgps -s
+    root@ubilinux:/home/edison# gpsd /dev/ttyUSB0 -F /var/run/gpsd.sock
+    root@ubilinux:/home/edison# cgps -s
     lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqklqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk
     x    Time:       2011-11-13T00:00:39.090Z   xxPRN:   Elev:  Azim:  SNR:  Used: x
     x    Latitude:   n/a                        xx                                 x
@@ -57,8 +41,30 @@ Devices
     x    Time offset:     124046999.723         xx                                 x
     x    Grid Square:     n/a                   xx                                 x
     mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqjmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+    root@ubilinux:/home/edison# cd eekmex/eekmex
+    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d gps
 
+- http://www.seeedstudio.com/wiki/Grove_-_GPS
 
+### Inertial Measurement Unit
 
+    edison@ubilinux:~$ su
+    Password: 
+    root@ubilinux:/home/edison# i2cdetect -y -r 1
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+    00:          -- -- -- -- -- -- -- -- -- -- -- -- -- 
+    ...
+    10: -- -- -- -- -- -- -- -- -- -- -- -- -- 1d -- -- 
+    ...
+    60: -- -- -- -- -- -- -- -- -- -- -- 6b -- -- -- -- 
+    70: -- -- -- -- -- -- -- 77
+    ...
+    root@ubilinux:/home/edison# cd eekmex/eekmex
+    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d imu
 
+### Sensors
 
+    edison@ubilinux:~$ su
+    Password: 
+    root@ubilinux:/home/edison# cd eekmex/eekmex
+    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d sensors

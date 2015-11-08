@@ -5,7 +5,7 @@ Mission
 
 3 Hours
 
-## System Architecture
+## Architecture
 
 - Payload
 - On Board Data Handling
@@ -21,4 +21,5 @@ Mission
 - On Board Data Handling to process
 - Data Packets creation
 - Data Packets Transmission
+- Ground Station Visualization
 - Automatic Packet Reporting System

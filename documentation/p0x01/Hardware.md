@@ -8,6 +8,9 @@
 
 - [1] [SparkFun Sensor Pack for Intel® Edison](https://www.sparkfun.com/products/13094)
 - [1] [SparkFun Barometric Pressure Sensor Breakout - BMP180](https://www.sparkfun.com/products/11824)
+
+## Inertial Measurement Unit
+
 - [1] [SparkFun Block for Intel® Edison - 9 Degrees of Freedom](https://www.sparkfun.com/products/13033)
 
 ## Communications
@@ -16,7 +19,7 @@
 - [1] [SparkFun XBee Explorer Dongle](https://www.sparkfun.com/products/11697)
 - [1] [SparkFun XBee Explorer USB ](https://www.sparkfun.com/products/11812)
 
-## GPS
+## Global Positioning System
 
 - [1] [GPS Receiver - GP-2106 SiRF IV (48 Chaxnel)](https://www.sparkfun.com/products/10890)
 - [2] [Interface Cable - GP-2106](https://www.sparkfun.com/products/10896)
