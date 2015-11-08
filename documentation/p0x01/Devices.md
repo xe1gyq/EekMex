@@ -18,14 +18,8 @@ Devices
 
     edison@ubilinux:~$ su
     Password: 
-    root@ubilinux:/home/edison# i2cdetect -y -r 1
-    ...
-    10: -- -- -- -- -- -- -- -- -- -- -- -- -- 1d -- -- 
-    ...
-    60: -- -- -- -- -- -- -- -- -- -- -- 6b -- -- -- -- 
-    ...
     root@ubilinux:/home/edison# cd eekmex/eekmex
-    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d imu
+    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d sensors
 
 
 ### GPS
