@@ -41,10 +41,11 @@ Devices
     x    Time offset:     124046999.723         xx                                 x
     x    Grid Square:     n/a                   xx                                 x
     mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqjmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
-
     root@ubilinux:/home/edison# cd eekmex/eekmex
     root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d gps
-    
+
+- http://www.seeedstudio.com/wiki/Grove_-_GPS
+
 ### Inertial Measurement Unit
 
     edison@ubilinux:~$ su
