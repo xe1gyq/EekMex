@@ -1,7 +1,7 @@
 Devices
 ==
 
-### GPS
+### Global Positioning System
 
     edison@ubilinux:~$ su
     Password: 
