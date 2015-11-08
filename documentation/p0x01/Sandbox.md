@@ -47,3 +47,4 @@ https://github.com/librecube-repos/LC-2102/tree/master/production/mechanical/stl
 - http://edsn.engr.scu.edu/doc/EDSN_Beacon_Decoding.pdf
 - http://icubesat.org/archive/2015-2/icubesat-program-2015/
 - https://www.sparkfun.com/tutorials/185
+- https://github.com/xoseperez/xbee2mqtt/tree/master/libs
