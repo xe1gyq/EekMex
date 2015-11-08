@@ -25,6 +25,7 @@ Protocols
     root@ubilinux:~# i2cset
     root@ubilinux:~# i2cget
     root@ubilinux:~# sensors-detect
-    root@ubilinux:~# sensors    
+    root@ubilinux:~# sensors
+    
 
 
