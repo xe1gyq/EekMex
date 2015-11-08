@@ -18,7 +18,7 @@ Mission
 ## Operations
 
 - Payload to gather data
-- On Board Data Handling to process
+- On Board Data Handling to process available data
 - Data Packets creation
 - Data Packets Transmission
 - Ground Station Visualization
