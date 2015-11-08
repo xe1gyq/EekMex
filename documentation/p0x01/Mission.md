@@ -1,6 +1,10 @@
 Mission
 ==
 
+## Time
+
+3 Hours
+
 ## System Architecture
 
 - Payload
