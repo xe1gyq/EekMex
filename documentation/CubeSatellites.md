@@ -15,6 +15,14 @@ Cube Satellites
 - Cameras & Payloads
 - Ground Stations 
 
+# Sensors
+
+- Sun Sensors
+- Magnetometer
+- MEMS Gyroscopes
+- Miniature Reaction Wheels
+- Magnetic Torquers.
+
 ## General Requirements
 
 - [NASA CubeSat Requirements](http://www.nasa.gov/pdf/627972main_LSP-REQ-317_01A.pdf)
