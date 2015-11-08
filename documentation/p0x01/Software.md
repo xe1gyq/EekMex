@@ -116,8 +116,7 @@ Software
 
 ### Cmake
 
-> 
-Welcome to CMake, the cross-platform, open-source build system. CMake is a family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files. CMake generates native makefiles and workspaces that can be used in the compiler environment of your choice.
+> Welcome to CMake, the cross-platform, open-source build system. CMake is a family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files. CMake generates native makefiles and workspaces that can be used in the compiler environment of your choice.
 
     edison@ubilinux:~$ cd
     edison@ubilinux:~$ wget http://www.cmake.org/files/v3.2/cmake-3.2.2.tar.gz
@@ -134,8 +133,7 @@ Welcome to CMake, the cross-platform, open-source build system. CMake is a famil
 
 ### Upm
 
-> UPM - Sensor/Actuator repository for libmraa
-> High-level repository for sensors and actuators that use libmraa. In other words, UPM gives you easy function calls to use your sensors, such as reading temperature values or writing data to an LCD screen. With over a hundred sensors and more being added, this library speeds up your development time.
+> UPM - Sensor/Actuator repository for libmraa. High-level repository for sensors and actuators that use libmraa. In other words, UPM gives you easy function calls to use your sensors, such as reading temperature values or writing data to an LCD screen. With over a hundred sensors and more being added, this library speeds up your development time.
 
     edison@ubilinux:~$ cd
     edison@ubilinux:~$ git clone https://github.com/intel-iot-devkit/upm.git
