@@ -3,9 +3,7 @@ Software
 
 ## VxWorks
 
-> The world’s most widely-used real-time operating system
-
-> Powering billions of intelligent devices, VxWorks® delivers an industry-leading combination of scalability, safety, security, and virtualization capabilities to meet next-generation requirements.
+> The world’s most widely-used real-time operating system. Powering billions of intelligent devices, VxWorks® delivers an industry-leading combination of scalability, safety, security, and virtualization capabilities to meet next-generation requirements.
 
 ### Winf River
 
