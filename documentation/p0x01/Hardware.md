@@ -8,6 +8,9 @@
 
 - [1] [SparkFun Sensor Pack for Intel® Edison](https://www.sparkfun.com/products/13094)
 - [1] [SparkFun Barometric Pressure Sensor Breakout - BMP180](https://www.sparkfun.com/products/11824)
+
+## Inertial Measurment Ubnit
+
 - [1] [SparkFun Block for Intel® Edison - 9 Degrees of Freedom](https://www.sparkfun.com/products/13033)
 
 ## Communications
