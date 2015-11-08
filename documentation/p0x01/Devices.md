@@ -3,10 +3,9 @@ Devices
 
 ### Setup
 
-    edison@ubilinux:~$
-    edison@ubilinux:/home/edison# su
+    edison@ubilinux:~$ su
     Password: 
-    edison@ubilinux:~$ cd eekmex/eekmex
+    root@ubilinux:/home/edison# cd eekmex/eekmex
 
 
 ### Inertial Measurement Unit
