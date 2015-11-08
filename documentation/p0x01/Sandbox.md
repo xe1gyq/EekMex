@@ -33,18 +33,7 @@ https://github.com/librecube-repos/LC-2102/tree/master/production/mechanical/stl
   - Transmission timing
   - 
 
-### Inertial Measurement Unit
 
-    edison@ubilinux:~$ su
-    Password: 
-    root@ubilinux:/home/edison# i2cdetect -y -r 1
-    ...
-    10: -- -- -- -- -- -- -- -- -- -- -- -- -- 1d -- -- 
-    ...
-    60: -- -- -- -- -- -- -- -- -- -- -- 6b -- -- -- -- 
-    ...
-    root@ubilinux:/home/edison# cd eekmex/eekmex
-    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d imu
 
 ## 
 
