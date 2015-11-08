@@ -25,6 +25,7 @@ Introduction
 - [ ] Power
 
 # Hardware
+
 - [SparkFun Block for Intel® Edison - 9 Degrees of Freedom](https://www.sparkfun.com/products/13033)
 - [ ] [SparkFun Humidity and Temperature Sensor Breakout - HIH6130](https://www.sparkfun.com/products/11295)
 - [ ] [SparkFun Altitude/Pressure Sensor Breakout - MPL3115A2](https://www.sparkfun.com/products/11084)
