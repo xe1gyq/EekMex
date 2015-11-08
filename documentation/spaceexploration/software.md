@@ -1,5 +1,9 @@
 # Software
 
+## Real Time Operating System
+
+- https://www.linux.com/news/featured-blogs/200-libby-clark/710319-intro-to-real-time-linux-for-embedded-developers
+
 ## VxWorks
 
 > The world’s most widely-used real-time operating system. Powering billions of intelligent devices, VxWorks® delivers an industry-leading combination of scalability, safety, security, and virtualization capabilities to meet next-generation requirements.
@@ -11,7 +15,3 @@
 ### Wind River® University Program
 
 > The Wind River® University Program allows students and faculty at colleges and universities to use state-of-the-art Wind River device software development tools for curricula and research projects.
-
-## Real Time Operating System
-
-- https://www.linux.com/news/featured-blogs/200-libby-clark/710319-intro-to-real-time-linux-for-embedded-developers
