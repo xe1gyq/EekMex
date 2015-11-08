@@ -5,7 +5,7 @@ Mission
 
 3 Hours
 
-## System Architecture
+## Architecture
 
 - Payload
 - On Board Data Handling
