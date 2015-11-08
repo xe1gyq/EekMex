@@ -16,7 +16,6 @@ Operating System Abstraction Layer
     xe1gyq@jessie:~/Projects/osal$ cd build/
     xe1gyq@jessie:~/Projects/osal$ make
     
-
 ## Links
 
 - [Operating System Abstraction Layer Github](https://github.com/nasa/osal)
