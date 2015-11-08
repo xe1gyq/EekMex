@@ -3,7 +3,6 @@
 ## Core
 
 - [1] [SparkFun Starter Pack for Intel® Edison](https://www.sparkfun.com/products/13276)
-- 
 
 ## Sensors
 
