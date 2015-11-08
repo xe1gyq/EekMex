@@ -17,3 +17,4 @@ Hardware
 - http://www.spacedaily.com/reports/Space_Micro_Proton200k_Part_Of_Winning_Solution_ANGELS_Nanosatellite_Program_999.html
 - http://www.spacemicro.com/products.html
 - http://www.kirtland.af.mil/shared/media/document/AFD-070404-100.pdf
+- https://montcs.bloomu.edu/~bobmon/PDFs/RAD6000_Space_Computers.pdf
