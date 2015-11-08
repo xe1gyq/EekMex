@@ -28,4 +28,5 @@ Cube Satellites
 - https://github.com/MLAB-project/satellite-observer/tree/master/gr-sat_observer
 - http://www.cubesat.org/index.php/documents/developers
 - http://www.surrey.ac.uk/ssc/research/onboarddata/strand/
+- http://www.nasa.gov/directorates/heo/home/CubeSats_initiative
 
