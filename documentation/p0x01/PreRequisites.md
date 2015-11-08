@@ -2,6 +2,6 @@ PreRequisites
 ==
 
 - Laptop
-- Linux Debian Based (Virtualize or Installed)
+- Linux Debian Based (Virtualized or Installed)
 
 
