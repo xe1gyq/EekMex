@@ -1,17 +1,19 @@
 Devices
 ==
 
-### Setup
-
 ### Inertial Measurement Unit
 
-    <Become Root>
+    edison@ubilinux:~$ su
+    Password: 
+    root@ubilinux:~# 
     root@ubilinux:~# i2cdetect -y -r 1
     ...
     10: -- -- -- -- -- -- -- -- -- -- -- -- -- 1d -- -- 
     ...
     60: -- -- -- -- -- -- -- -- -- -- -- 6b -- -- -- -- 
     ...
+    root@ubilinux:/home/edison# cd eekmex/eekmex
+    
     root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d imu 
 
 ### GPS
