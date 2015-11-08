@@ -3,16 +3,24 @@ Devices
 
 ### Inertial Measurement Unit
 
-    root@ubilinux:/home/edison/eekmex/eekmex# i2cdetect -y -r 1
+    edison@ubilinux:~$ su
+    Password: 
+    root@ubilinux:/home/edison# i2cdetect -y -r 1
     ...
     10: -- -- -- -- -- -- -- -- -- -- -- -- -- 1d -- -- 
     ...
     60: -- -- -- -- -- -- -- -- -- -- -- 6b -- -- -- -- 
     ...
+    root@ubilinux:/home/edison# cd eekmex/eekmex
     root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d imu
+
+### 
 
 ### GPS
 
+    edison@ubilinux:~$ su
+    Password: 
+    root@ubilinux:/home/edison# cd
     root@ubilinux:~# dmesg
     [  514.492900] usb 1-1: reset full-speed USB device number 2 using dwc3-host
     [  514.513505] dwc3-host dwc3-host.2: xHCI xhci_drop_endpoint called with disabled ep f5626500
