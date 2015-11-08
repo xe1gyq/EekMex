@@ -38,3 +38,4 @@ Cube Satellites
 - http://www.surrey.ac.uk/ssc/research/onboarddata/strand/
 - http://www.nasa.gov/directorates/heo/home/CubeSats_initiative
 - https://icubesat.files.wordpress.com/2015/05/icubesat-2015_org_a-1-4_helionano_trichas.pdf
+- https://icubesat.files.wordpress.com/2015/05/icubesat-2015_org_a-4-3_collaboration_dingwall.pdf
