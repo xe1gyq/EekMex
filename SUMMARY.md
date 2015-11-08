@@ -4,6 +4,7 @@
 * [Space Exploration](documentation/SpaceExploration.md)
 * [Cube Satellites](documentation/CubeSatellites.md)
 * [VxWorks](documentation/VxWorks.md)
+* [Linux](documentation/Linux.md)
 * [EekMex](documentation/EekMex.md)
 * [Phase 0x01](documentation/Phase0x01.md)
    * [Mission](documentation/p0x01/Mission.md)
@@ -11,5 +12,4 @@
    * [Hardware](documentation/p0x01/Hardware.md)
    * [Software](documentation/p0x01/Software.md)
    * [Operating System Abstraction Layer](documentation/OperatingSystemAbstractionLayer.md)
-* [Linux](documentation/Linux.md)
 
