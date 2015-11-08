@@ -129,7 +129,7 @@ class EmPanelGauges(wx.Panel):
 
         # Create a box for each sensor
         a = {'test 1': 1, 'test 2': 2}
-        for index, sensor in a.iteritems()c:
+        for index, sensor in a.iteritems():
             
             #(name, value, unit) = self.port.sensor(index)
             name = "Temp"
