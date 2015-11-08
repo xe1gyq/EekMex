@@ -41,3 +41,5 @@ Cube Satellites
 - https://icubesat.files.wordpress.com/2015/05/icubesat-2015_org_a-4-3_collaboration_dingwall.pdf
 - http://www.nasa.gov/pdf/716078main_Staehle_2011_PhI_CubeSat.pdf
 - https://icubesat.files.wordpress.com/2015/06/20150606_icubesat2016poster.pdf
+- http://www.cubesatpro.com/
+- 
