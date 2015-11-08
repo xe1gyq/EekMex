@@ -1,7 +1,7 @@
 Protocols
 ==
 
-### I2C
+## I2C
 
     edison@ubilinux:~$ su
     Password: 
