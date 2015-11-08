@@ -8,7 +8,7 @@
 * [VxWorks](documentation/VxWorks.md)
 * [Linux](documentation/Linux.md)
 * [EekMex](documentation/EekMex.md)
-* [Phase 0x01](documentation/Phase0x01.md)
+* [Phase 0x01](documentation/p0x01/Phase0x01.md)
    * [PreRequisites](documentation/p0x01/PreRequisites.md)
    * [Mission](documentation/p0x01/Mission.md)
    * [Creation](documentation/p0x01/Creation.md)
