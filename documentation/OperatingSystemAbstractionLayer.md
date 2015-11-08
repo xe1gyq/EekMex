@@ -8,7 +8,7 @@ Operating System Abstraction Layer
     Receiving objects: 100% (444/444), 3.18 MiB | 466.00 KiB/s, done.
     Resolving deltas: 100% (197/197), done.
     Checking connectivity... done.
-    xe1gyq@jessie:~/Projects$ 
+    xe1gyq@jessie:~/Projects$ cd osal
     
 
 ## Links
