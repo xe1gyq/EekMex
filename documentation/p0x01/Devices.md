@@ -43,7 +43,9 @@ Devices
     x    Grid Square:     n/a                   xx                                 x
     mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqjmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
 
-
+    root@ubilinux:/home/edison# cd eekmex/eekmex
+    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d imu
+    
 ### Inertial Measurement Unit
 
     edison@ubilinux:~$ su
