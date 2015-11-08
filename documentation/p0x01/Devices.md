@@ -49,10 +49,13 @@ Devices
     edison@ubilinux:~$ su
     Password: 
     root@ubilinux:/home/edison# i2cdetect -y -r 1
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+    00:          -- -- -- -- -- -- -- -- -- -- -- -- -- 
     ...
     10: -- -- -- -- -- -- -- -- -- -- -- -- -- 1d -- -- 
     ...
     60: -- -- -- -- -- -- -- -- -- -- -- 6b -- -- -- -- 
+    70: -- -- -- -- -- -- -- 77
     ...
     root@ubilinux:/home/edison# cd eekmex/eekmex
     root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d imu
