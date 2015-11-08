@@ -282,7 +282,4 @@ Software
     mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqjmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
 
 
-## Operating System Abstraction Layer
-
-https://github.com/nasa/osal/blob/master/doc/OSAL-Configuration-guide.pdf
 
