@@ -12,8 +12,7 @@ Devices
     ...
     60: -- -- -- -- -- -- -- -- -- -- -- 6b -- -- -- -- 
     ...
-    root@ubilinux:/home/edison# cd eekmex/eekmex
-    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d imu
+    root@ubilinux:~# python
 
 ### GPS
 
