@@ -3,13 +3,14 @@ Devices
 
 ### Inertial Measurement Unit
 
-    root@ubilinux:/home/edison/eekmex/eekmex# i2cdetect -y -r 1
+    root@ubilinux:~# cd
+    root@ubilinux:~# i2cdetect -y -r 1
     ...
     10: -- -- -- -- -- -- -- -- -- -- -- -- -- 1d -- -- 
     ...
     60: -- -- -- -- -- -- -- -- -- -- -- 6b -- -- -- -- 
     ...
-    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d imu
+    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d imu 
 
 ### GPS
 
