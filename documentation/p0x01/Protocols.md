@@ -22,5 +22,7 @@ Protocols
     00: b7 5b 08 fc 02 50 53 81 c1 c2 bb 8f 48 c5 00 d4    ?[???PS?????H?.?
     
     f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    root@ubilinux:~# i2cset
+    root@ubilinux:~# i2cget
 
 
