@@ -2,19 +2,22 @@ Introduction
 ==
 
 # Mission Types
+
 - [ ] Classroom
 - [ ] High Altitude Balloon
 - [ ] CanSat
 - [ ] CubeSat
 
 # Infrastructure
+
 - [ ] Control Center
 - [ ] Ground Station
 - [ ] Spacecraft
 - [ ] Unmanned Autonomous Vehicle
-- [ ] Helicopter
+- [ ] Space Helicopter
 
 # Subsystem Operations
+
 - [ ] Sensors
 - [ ] Orbit Control
 - [ ] On-Board Data Handling
@@ -22,7 +25,7 @@ Introduction
 - [ ] Power
 
 # Hardware
-- [SparkFun Block for Intel® Edison - 9 Degrees of Freedom](https://www.sparkfun.com/products/13033)
+
 - [ ] [SparkFun Humidity and Temperature Sensor Breakout - HIH6130](https://www.sparkfun.com/products/11295)
 - [ ] [SparkFun Altitude/Pressure Sensor Breakout - MPL3115A2](https://www.sparkfun.com/products/11084)
 - [ ] [SparkFun UV Sensor Breakout - ML8511](https://www.sparkfun.com/products/12705)
@@ -31,6 +34,7 @@ Introduction
 - [ ] [SparkFun RGB Light Sensor - ISL29125](https://www.sparkfun.com/products/12829)
 
 # To Research
+
 - [ ] Architecture
 - [ ] Xbee
 - [ ] Auto StartUp Initialization
@@ -45,5 +49,7 @@ Introduction
 # Links
 
 - [ROS Homepage](http://wiki.ros.org/wiki/edison)
+- [NASA Github](https://github.com/nasa)
+- [NASA Deep Space Network](https://en.wikipedia.org/wiki/NASA_Deep_Space_Network)
 
 

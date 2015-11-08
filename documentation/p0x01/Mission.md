@@ -1,6 +1,10 @@
 Mission
 ==
 
+## Time
+
+3 Hours
+
 ## System Architecture
 
 - Payload
@@ -18,14 +22,3 @@ Mission
 - Data Packets creation
 - Data Packets Transmission
 - Automatic Packet Reporting System
-
-## Subsystems, Questions
-
-- Storage Subsystem
-  - Means
-  - Data amount
-  - Free up time
-- Communication Subsystems
-  - Band, Frequency
-  - Transmission timing
-  - 
