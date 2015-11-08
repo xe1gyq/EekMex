@@ -1,6 +1,7 @@
 # Summary
 
 * [Cover](README.md)
+* Space Exploration
 * [Cube Satellites](documentation/CubeSatellites.md)
 * [VxWorks](documentation/VxWorks.md)
 * [EekMex](documentation/EekMex.md)
@@ -10,5 +11,4 @@
    * [Hardware](documentation/p0x01/Hardware.md)
    * [Software](documentation/p0x01/Software.md)
    * [Operating System Abstraction Layer](documentation/OperatingSystemAbstractionLayer.md)
-* Space Exploration
 
