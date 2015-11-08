@@ -9,7 +9,7 @@
 * [Linux](documentation/Linux.md)
 * [EekMex](documentation/EekMex.md)
 * [Phase 0x01](documentation/Phase0x01.md)
-   * PreRequisites
+   * [PreRequisites](documentation/p0x01/PreRequisites.md)
    * [Mission](documentation/p0x01/Mission.md)
    * [Creation](documentation/p0x01/Creation.md)
    * [Hardware](documentation/p0x01/Hardware.md)
