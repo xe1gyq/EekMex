@@ -196,8 +196,8 @@ Software
 
 ### EekMex Git Repository
 
-    root@ubilinux:~$
-    root@ubilinux:/home/edison# su
+    edison@ubilinux:~$
+    edison@ubilinux:/home/edison# su
     Password: 
     root@ubilinux:/home/edison# apt-get update
     root@ubilinux:/home/edison# apt-get install git
