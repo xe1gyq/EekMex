@@ -21,3 +21,14 @@ https://github.com/librecube-repos/LC-2102/tree/master/production/mechanical/stl
 - https://pypi.python.org/pypi/python_boilerplate_template
 - https://github.com/GomSpace/libcsp
 - Link budget calculation Cubesat
+
+## Subsystems, Questions
+
+- Storage Subsystem
+  - Means
+  - Data amount
+  - Free up time
+- Communication Subsystems
+  - Band, Frequency
+  - Transmission timing
+  - 
