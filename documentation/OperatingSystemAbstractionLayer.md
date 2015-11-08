@@ -14,6 +14,7 @@ Operating System Abstraction Layer
     BSP = pc-linux
     xe1gyq@jessie:~/Projects/osal$ export OSAL_SRC=/home/xe1gyq/Projects/osal/src
     
+    
 
 ## Links
 
