@@ -24,5 +24,6 @@ Protocols
     f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
     root@ubilinux:~# i2cset
     root@ubilinux:~# i2cget
+    root@ubilinux:~# sensors-detect
 
 
