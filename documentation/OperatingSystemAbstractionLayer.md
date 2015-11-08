@@ -11,6 +11,7 @@ Operating System Abstraction Layer
     xe1gyq@jessie:~/Projects$ cd osal
     xe1gyq@jessie:~/Projects/osal$ source setvars.sh
     xe1gyq@jessie:~/Projects/osal$ nano build/osal-config.mak
+    BSP = pc-linux
     
 
 ## Links
