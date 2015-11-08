@@ -10,7 +10,6 @@
 - [1] [SparkFun Barometric Pressure Sensor Breakout - BMP180](https://www.sparkfun.com/products/11824)
 - [1] [SparkFun Block for Intel® Edison - 9 Degrees of Freedom](https://www.sparkfun.com/products/13033)
 
-
 ## Communications
 
 - [2] [XBee Pro 60mW Wire Antenna - Series 1 (802.15.4)](https://www.sparkfun.com/products/8742)
