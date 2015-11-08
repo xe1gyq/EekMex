@@ -9,6 +9,7 @@ Operating System Abstraction Layer
     Resolving deltas: 100% (197/197), done.
     Checking connectivity... done.
     xe1gyq@jessie:~/Projects$ cd osal
+    xe1gyq@jessie:~/Projects/osal$ source setvars.sh 
     
 
 ## Links
