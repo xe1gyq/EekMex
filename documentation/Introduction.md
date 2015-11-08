@@ -35,6 +35,7 @@ Introduction
 - [ ] [SparkFun RGB Light Sensor - ISL29125](https://www.sparkfun.com/products/12829)
 
 # To Research
+
 - [ ] Architecture
 - [ ] Xbee
 - [ ] Auto StartUp Initialization
