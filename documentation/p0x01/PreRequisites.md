@@ -1,6 +1,7 @@
 PreRequisites
 ==
 
-
+- Laptop
+- Linux Based
 
 
