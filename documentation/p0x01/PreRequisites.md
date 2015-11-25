@@ -9,7 +9,6 @@ PreRequisites
 - Internet Connection
 - Github Account
   - https://github.com/
-- Python Experience
 
 
 
