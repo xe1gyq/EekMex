@@ -3,6 +3,8 @@ Devices
 
 ### Global Positioning System
 
+#### Gpsd Daemon
+
 > gpsd is a service daemon that monitors one or more GPSes or AIS receivers attached to a host computer through serial or USB ports, making all data on the location/course/velocity of the sensors available
 
 - [GPSD Homepage](http://www.catb.org/gpsd/)
@@ -49,6 +51,8 @@ Devices
     root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d gps
 
 ### Inertial Measurement Unit
+
+> i2c-tools is a set of I²C programs that make it easy to debug I²C devices without having to write any code.
 
     edison@ubilinux:~$ su
     Password: 
