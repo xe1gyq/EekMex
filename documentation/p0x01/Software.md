@@ -221,3 +221,7 @@ Software
     root@ubilinux:/home/edison/eekmex/eekmex# git config --global user.email "you@example.com"
     root@ubilinux:/home/edison/eekmex/eekmex# git config --global user.name "Your Name"
 
+
+## Ground Station
+
+Who want to develop it?
