@@ -7,7 +7,7 @@ PreRequisites
     - https://www.virtualbox.org/wiki/Downloads
 - Internet Connection
 - Github Account
-  - 
+  - https://github.com/
 - Python Experience
 
 
