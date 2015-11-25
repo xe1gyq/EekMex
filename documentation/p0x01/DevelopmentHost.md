@@ -40,7 +40,7 @@ Host Development
     ...
     ...
     ^C
-    eekmex@eekmex:~/eekmex/simulator$ 
+    eekmex@eekmex:~/eekmex/simulator$ python eekmex.py -d sensors
 
 ## Simulator Demo IMU
 
