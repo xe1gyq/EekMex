@@ -234,4 +234,4 @@ Who want to develop it?
     ...
     eekmex@eekmex:~$ su
     Password: edison
-    eekmex@eekmex:/home/edison# date -s "10/22/2015 16:01:00"
+    eekmex@eekmex:/home/eekmex# date -s "10/22/2015 16:01:00"
