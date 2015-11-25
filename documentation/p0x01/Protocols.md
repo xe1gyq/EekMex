@@ -3,6 +3,8 @@ Protocols
 
 ## I2C
 
+> I²C (Inter-Integrated Circuit), pronounced I-squared-C, is a multi-master, multi-slave, single-ended, serial computer bus invented by Philips Semiconductor (now NXP Semiconductors). It is typically used for attaching lower-speed peripheral ICs to processors and microcontrollers. Alternatively I²C is spelled I2C (pronounced I-two-C) or IIC (pronounced I-I-C).wikipedia
+
     edison@ubilinux:~$ su
     Password: 
     root@ubilinux:/home/edison# cd
