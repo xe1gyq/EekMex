@@ -9,6 +9,7 @@ Devices
 
 - [GPSD Homepage](http://www.catb.org/gpsd/)
 
+
     edison@ubilinux:~$ su
     Password: 
     root@ubilinux:/home/edison# dmesg
@@ -57,6 +58,7 @@ Devices
 > A set of I²C programs that make it easy to debug I²C devices without having to write any code.
 
 - [Elinux - Interfacing with I2C Devices](http://elinux.org/Interfacing_with_I2C_Devices)
+
 
     edison@ubilinux:~$ su
     Password: 
