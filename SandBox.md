@@ -95,3 +95,10 @@ https://github.com/librecube-repos/LC-2102/tree/master/production/mechanical/stl
 - http://www.spacemicro.com/products.html
 - http://www.kirtland.af.mil/shared/media/document/AFD-070404-100.pdf
 - https://montcs.bloomu.edu/~bobmon/PDFs/RAD6000_Space_Computers.pdf
+- 
+### Links Software
+
+- https://www.linux.com/news/featured-blogs/200-libby-clark/710319-intro-to-real-time-linux-for-embedded-developers
+- http://www.freescale.com/files/soft_dev_tools/doc/white_paper/CWLNXRTOSWP.pdf
+- http://archive.is/20130128073427/http://www.linuxdevices.com/articles/AT3694406595.html
+- https://users.soe.ucsc.edu/~sbrandt/courses/Winter00/290S/rtlinux.pdf
