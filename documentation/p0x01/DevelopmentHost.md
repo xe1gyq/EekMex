@@ -13,6 +13,7 @@ remote: Total 3542 (delta 52), reused 0 (delta 0), pack-reused 3451
 Receiving objects: 100% (3542/3542), 325.81 KiB | 377.00 KiB/s, done.
 Resolving deltas: 100% (2404/2404), done.
 Checking connectivity... done.
+eekmex@eekmex:~$ cd eekmex
 eekmex@eekmex:~/eekmex$ 
 
 
