@@ -230,7 +230,7 @@ Who want to develop it? Please use wx python library
 
     Debian GNU/Linux 8 eekmex tty1
 
-    ubilinux login: eekmex
+    eekmex login: eekmex
     Password: eekmex
     ...
     eekmex@eekmex:~$ su
