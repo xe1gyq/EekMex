@@ -217,7 +217,7 @@ Software
     edison@ubilinux:~$ cd eekmex
     edison@ubilinux:~/eekmex$ ls
     documentation  eekmex  LICENSE  README.md  sandbox  simulator  SUMMARY.md  training
-    root@ubilinux:/home/edison# su
+    root@ubilinux:/home/edison/eekmex# su
     Password: edison
     root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -c files
     root@ubilinux:/home/edison/eekmex/eekmex# git config --global user.email "you@example.com"
