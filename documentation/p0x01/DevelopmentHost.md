@@ -20,13 +20,13 @@ Host Development
     documentation  eekmex  LICENSE  README.md  sandbox  simulator  SUMMARY.md  training
     eekmex@eekmex:~/eekmex$ cd simulator
 
-## Simulator Clean
+### Simulator Clean
 
     eekmex@eekmex:~/eekmex/simulator$ python eekmex.py -c files
     root: eekmex     INFO EekMex, Aerospace Learning Platform
     root: eekmex     INFO Mode Clean Up, Remove Files
 
-## Simulator Demo Sensors
+### Simulator Demo Sensors
 
     eekmex@eekmex:~/eekmex/simulator$ python eekmex.py -d sensors
     root: eekmex     INFO EekMex, Aerospace Learning Platform
@@ -42,7 +42,7 @@ Host Development
     ^Z
     eekmex@eekmex:~/eekmex/simulator$ 
 
-## Simulator Demo IMU
+### Simulator Demo IMU
 
     eekmex@eekmex:~/eekmex/simulator$ python eekmex.py -d imu
     root: eekmex     INFO EekMex, Aerospace Learning Platform
