@@ -45,6 +45,20 @@ Host Development
 ## Simulator Demo IMU
 
     eekmex@eekmex:~/eekmex/simulator$ 
+    xe1gyq@jessie:~/eekmex/simulator$ python eekmex.py -d imu
+    root: eekmex     INFO EekMex, Aerospace Learning Platform
+    root: eekmex     INFO Mode Demo
+    root: emdemo     INFO Demo
+    root: emimu      INFO Inertial Measurement Unit
+    root: emimu      INFO IMU Simulator
+    root: emimu      INFO IMU Initialization Succeeded!
+    root: emdemo     INFO Imu: 12,54,26,
+    root: emdemo     INFO Imu: 4,110,176,
+    root: emdemo     INFO Imu: 35,16,18,
+    root: emdemo     INFO Imu: 111,62,126,
+    root: emdemo     INFO Imu: 65,127,68,
+    root: emdemo     INFO Imu: 64,110,144,
+    root: emdemo     INFO Imu: 130,99,91,
 
 ## Simulator Demo GPS
 
