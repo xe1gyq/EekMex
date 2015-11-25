@@ -65,4 +65,15 @@ Host Development
 
 ## Simulator Demo GPS
 
+    eekmex@eekmex:~/eekmex/simulator$ python eekmex.py -d gps
+    root: eekmex     INFO EekMex, Aerospace Learning Platform
+    root: eekmex     INFO Mode Demo
+    root: emdemo     INFO Demo
+    root: emgps      INFO Global Positioning System
+    root: emdemo     INFO Gps: 0.0,0.0,nan
+    root: emdemo     INFO Gps: 0.0,0.0,nan
+    ...
+    ...
+    ^Z
     eekmex@eekmex:~/eekmex/simulator$ 
+
