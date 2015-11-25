@@ -13,7 +13,6 @@
    * [Software](documentation/p0x01/Software.md)
    * [Protocols](documentation/p0x01/Protocols.md)
    * [Devices](documentation/p0x01/Devices.md)
-   * [Ground Station](documentation/p0x01/GroundStation.md)
    * [Operating System Abstraction Layer](documentation/p0x01/OperatingSystemAbstractionLayer.md)
    * [Development Host](documentation/p0x01/DevelopmentHost.md)
 * [SandBox](documentation/SandBox.md)
