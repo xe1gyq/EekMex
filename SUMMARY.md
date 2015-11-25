@@ -12,8 +12,8 @@
    * [Hardware](documentation/p0x01/Hardware.md)
    * [Software](documentation/p0x01/Software.md)
    * [Protocols](documentation/p0x01/Protocols.md)
-   * [Development Host](documentation/p0x01/DevelopmentHost.md)
    * [Devices](documentation/p0x01/Devices.md)
+   * [Development Host](documentation/p0x01/DevelopmentHost.md)
    * [Operating System Abstraction Layer](documentation/p0x01/OperatingSystemAbstractionLayer.md)
 * [SandBox](documentation/SandBox.md)
 
