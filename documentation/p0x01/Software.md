@@ -226,7 +226,7 @@ Software
 
 ## Ground Station
 
-Who want to develop it? Please use 
+Who want to develop it? Please use wx python library
 
     Debian GNU/Linux 8 eekmex tty1
 
