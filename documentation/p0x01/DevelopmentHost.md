@@ -39,7 +39,7 @@ Host Development
     root: emdemo     INFO Sensors: 2020,1484,1900,40
     ...
     ...
-    ^C
+    ^Z
     eekmex@eekmex:~/eekmex/simulator$ python eekmex.py -d imu
 
 ## Simulator Demo IMU
