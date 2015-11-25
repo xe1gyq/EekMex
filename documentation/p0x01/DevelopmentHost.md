@@ -11,10 +11,6 @@ Host Development
 
 ## Simulator Base Code
 
-    eekmex@eekmex:~$ 
-    eekmex@eekmex:/home/eekmex# apt-get update
-    eekmex@eekmex:/home/eekmex# apt-get install git
-    eekmex@eekmex:/home/eekmex# exit
     eekmex@eekmex:~$ git clone https://github.com/xe1gyq/eekmex.git
     Cloning into 'eekmex'...
     remote: Counting objects: 3542, done.
