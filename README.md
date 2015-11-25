@@ -2,5 +2,5 @@
 
 <center><img src=""></center>
 
-<h3><center>by Xe1GyP && Xe1GyQ</center></h3>
+<h3><center>by Xe1GyQ</center></h3>
 
