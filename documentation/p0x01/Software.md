@@ -87,7 +87,8 @@ Software
 > C/C++ library with bindings to JavaScript and Python to interface with the I/O on the Intel® Galileo board, Intel® Edison board, and other platforms. With board detection done at runtime, you can create portable code that works across multiple platforms.
 
 - [MRAA Github](https://github.com/intel-iot-devkit/mraa)
-    
+
+
     edison@ubilinux:~$ su
     Password: 
     root@ubilinux:/home/edison# cd
