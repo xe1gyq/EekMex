@@ -37,6 +37,8 @@ Host Development
     root: emsealevelpressure INFO Sea Level Pressure 1900
     root: emtemperature INFO Temperature 40
     root: emdemo     INFO Sensors: 2020,1484,1900,40
+    ...
+    ^C
     eekmex@eekmex:~/eekmex/simulator$ 
 
 ## Simulator Demo IMU
