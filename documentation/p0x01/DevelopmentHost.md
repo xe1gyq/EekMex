@@ -34,6 +34,6 @@ Host Development
 
     eekmex@eekmex:~/eekmex/simulator$ 
 
-## Simulator Demo gps
+## Simulator Demo GPS
 
     eekmex@eekmex:~/eekmex/simulator$ 
