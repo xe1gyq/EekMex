@@ -1,0 +1,329 @@
+#!/usr/bin/python
+# -*- coding: iso-8859-1 -*-
+
+try:
+    import wx
+except ImportError:
+    raise ImportError,"The wxPython module is required to run this program"
+
+def maf(code):
+    code = hex_to_int(code)
+    return code * 0.00132276
+
+def throttle_pos(code):
+    code = hex_to_int(code)
+    return code * 100.0 / 255.0
+
+
+class EmText(wx.TextCtrl):
+
+    def __init__(self, parent):
+        style = wx.TE_READONLY | wx.TE_MULTILINE
+        wx.TextCtrl.__init__(self, parent, style=style)
+        self.SetBackgroundColour('#21211f')
+        self.SetForegroundColour(wx.WHITE)
+        font = wx.Font(12, wx.ROMAN, wx.NORMAL, wx.NORMAL, faceName="Monaco")
+        self.SetFont(font)
+
+    def AddText(self, text):
+        self.AppendText(text)
+
+class EmStaticBox(wx.StaticBox):
+
+    def __init__(self, *args, **kwargs):
+
+        wx.StaticBox.__init__(self, *args, **kwargs)
+
+    def OnPaint(self, event): 
+        self.Paint(wx.PaintDC(self)) 
+
+    def Paint(self, dc): 
+        dc.DrawBitmap(self.bitmap, 0, 0)
+
+class EmPanelGauges(wx.Panel):
+    
+    def __init__(self, *args, **kwargs):
+
+        super(EmPanelGauges, self).__init__(*args, **kwargs)
+
+        # Background image
+        image = wx.Image("black.jpg")
+        width, height = wx.GetDisplaySize() 
+        image = image.Scale(width, height, wx.IMAGE_QUALITY_HIGH)
+        self.bitmap = wx.BitmapFromImage(image) 
+        self.Bind(wx.EVT_PAINT, self.OnPaint)
+
+        # Create an accelerator table
+        lid = wx.NewId()
+        cid = wx.NewId()
+        rid = wx.NewId()
+        self.Bind(wx.EVT_MENU, self.onCtrlC, id=cid)
+        self.Bind(wx.EVT_MENU, self.onLeft, id=lid)
+        self.Bind(wx.EVT_MENU, self.onRight, id=rid)
+        self.accel_tbl = wx.AcceleratorTable([ 
+                (wx.ACCEL_CTRL, ord('C'), cid), 
+                (wx.ACCEL_NORMAL, wx.WXK_LEFT, lid), 
+                (wx.ACCEL_NORMAL, wx.WXK_RIGHT, rid), 
+                ])
+        self.SetAcceleratorTable(self.accel_tbl)
+
+        # Handle events for mouse clicks
+        self.Bind(wx.EVT_LEFT_DOWN, self.onLeft)
+        self.Bind(wx.EVT_RIGHT_DOWN, self.onRight)
+        
+        # Connection
+        self.connection = None
+
+        # Sensors 
+        self.istart = 0
+        self.sensors = []
+        
+        # Port 
+        self.port = None
+
+        # List to hold children widgets
+        self.boxes = []
+        self.texts = []
+
+
+    def setConnection(self, connection):
+        self.connection = connection
+    
+    def setSensors(self, sensors):
+        self.sensors = sensors
+        
+    def setPort(self, port):
+        self.port = port
+
+    def getSensorsToDisplay(self, istart):
+        """
+        Get at most 6 sensors to be display on screen.
+        """
+        return
+        sensors_display = []
+        if istart<len(self.sensors):
+            iend = istart + 6
+            sensors_display = self.sensors[istart:iend]
+        return sensors_display
+
+    def ShowSensors(self):
+        """
+        Display the sensors.
+        """
+        
+        sensors = self.getSensorsToDisplay(self.istart)
+
+        # Destroy previous widgets
+        for b in self.boxes: b.Destroy()
+        for t in self.texts: t.Destroy()
+        self.boxes = []
+        self.texts = []
+
+        # Main sizer
+        boxSizerMain = wx.BoxSizer(wx.VERTICAL)
+
+        # Grid sizer
+        nrows, ncols = 2, 3
+        vgap, hgap = 50, 50
+        gridSizer = wx.GridSizer(nrows, ncols, vgap, hgap)
+
+        # Create a box for each sensor
+        a = {'test 1': 1, 'test 2': 2}
+        for index, sensor in a.iteritems():
+            
+            #(name, value, unit) = self.port.sensor(index)
+            name = "Temp"
+            value = "0.9876"
+            unit = "Fm" 
+
+            box = EmStaticBox(self, wx.ID_ANY)
+            self.boxes.append(box)
+            boxSizer = wx.StaticBoxSizer(box, wx.VERTICAL)
+
+            # Text for sensor value 
+            if type(value)==float:  
+                value = str("%.2f"%round(value, 3))                    
+            t1 = wx.StaticText(parent=self, label=str(value), style=wx.ALIGN_CENTER)
+            t1.SetForegroundColour('WHITE')
+            font1 = wx.Font(12, wx.ROMAN, wx.NORMAL, wx.NORMAL, faceName="Monaco")
+            t1.SetFont(font1)
+            boxSizer.Add(t1, 0, wx.ALIGN_CENTER | wx.ALL, 20)
+            boxSizer.AddStretchSpacer()
+            self.texts.append(t1)
+
+            # Text for sensor name
+            t2 = wx.StaticText(parent=self, label=unit+"\n"+name, style=wx.ALIGN_CENTER)
+            t2.SetForegroundColour('WHITE')
+            font2 = wx.Font(10, wx.ROMAN, wx.NORMAL, wx.BOLD, faceName="Monaco")
+            t2.SetFont(font2)
+            boxSizer.Add(t2, 0, wx.ALIGN_CENTER | wx.ALL, 5)
+            self.texts.append(t2)
+            gridSizer.Add(boxSizer, 1, wx.EXPAND | wx.ALL)
+
+        # Add invisible boxes if necessary
+        sensors = ("A", "B")
+        nsensors = len(sensors)
+        for i in range(6-nsensors):
+            box = EmStaticBox(self)
+            boxSizer = wx.StaticBoxSizer(box, wx.VERTICAL)
+            self.boxes.append(box)
+            box.Show(False)
+            gridSizer.Add(boxSizer, 1, wx.EXPAND | wx.ALL)
+           
+        # Layout
+        boxSizerMain.Add(gridSizer, 1, wx.EXPAND | wx.ALL, 10)
+        self.SetSizer(boxSizerMain)
+        self.Refresh()
+        self.Layout() 
+
+        # Timer for update
+        self.timer = wx.Timer(self)
+        self.Bind(wx.EVT_TIMER, self.refresh, self.timer)
+        self.timer.Start(2000)
+
+
+    def refresh(self, event):
+        sensors = self.getSensorsToDisplay(self.istart)   
+
+        itext = 0
+        for index, sensor in sensors:
+
+            (name, value, unit) = self.port.sensor(index)
+            if type(value)==float:  
+                value = str("%.2f"%round(value, 3))                    
+
+            if itext<len(self.texts):
+                self.texts[itext*2].SetLabel(str(value))
+            
+            itext += 1
+
+
+    def onCtrlC(self, event):
+        self.GetParent().Close()
+
+    def onLeft(self, event):
+        """
+        Get data from 6 previous sensors in the list.
+        """
+        istart = self.istart-6 
+        if istart<0: istart = 0
+        self.istart = istart
+        self.ShowSensors()
+
+    def onRight(self, event):
+        """
+        Get data from 6 next sensors in the list.
+        """
+        istart = self.istart+6
+        if istart<len(self.sensors):
+            self.istart = istart
+            self.ShowSensors()
+
+    def OnPaint(self, event): 
+        self.Paint(wx.PaintDC(self)) 
+
+    def Paint(self, dc): 
+        dc.DrawBitmap(self.bitmap, 0, 0)
+
+class EmLoadingPanel(wx.Panel):
+
+    def __init__(self, *args, **kwargs):
+
+        super(EmLoadingPanel, self).__init__(*args, **kwargs)
+
+        image = wx.Image("black.jpg")
+        width, height = wx.GetDisplaySize()
+        image = image.Scale(width, height, wx.IMAGE_QUALITY_HIGH)
+        self.bitmap = wx.BitmapFromImage(image)
+        self.Bind(wx.EVT_PAINT, self.OnPaint)
+
+        cid = wx.NewId()
+        self.Bind(wx.EVT_MENU, self.onCtrlC, id=cid)
+        self.accel_tbl = wx.AcceleratorTable([
+            (wx.ACCEL_CTRL, ord('C'), cid),])
+        self.SetAcceleratorTable(self.accel_tbl)
+        self.c = None
+        self.sensors = []
+        self.port = None
+
+    def showLoadingScreen(self):
+        boxSizer = wx.BoxSizer(wx.VERTICAL)
+        self.textCtrl = EmText(self)
+        boxSizer.Add(self.textCtrl, 1, wx.EXPAND | wx.ALL, 92)
+        self.SetSizer(boxSizer)
+        font3 = wx.Font(16, wx.ROMAN, wx.NORMAL, wx.NORMAL, faceName="Monaco")
+        self.textCtrl.SetFont(font3)
+        self.textCtrl.AddText(" Opening interface (serial port)\n")
+        self.textCtrl.AddText(" Trying to connect...\n")
+
+        self.timer0 = wx.Timer(self)
+        self.Bind(wx.EVT_TIMER, self.connect, self.timer0)
+        self.timer0.Start(1000)
+
+    def connect(self, event):
+        if self.timer0:
+            self.timer0.Stop()
+
+        self.textCtrl.Clear()
+        self.GetParent().update(None)
+
+    def onCtrlC(self, event):
+        self.GetParent().Close()
+
+    def OnPaint(self, event):
+        self.Paint(wx.PaintDC(self))
+
+    def Paint(self, dc):
+        dc.DrawBitmap(self.bitmap, 0, 0) 
+
+class EmGroundStation(wx.Frame):
+
+    def __init__(self, parent, id, title):
+
+        wx.Frame.__init__(self, parent, id, title)
+
+        image = wx.Image("black.jpg")
+        width, height = wx.GetDisplaySize()
+        image = image.Scale(width, height, wx.IMAGE_QUALITY_HIGH)
+        self.bitmap = wx.BitmapFromImage(image)
+        self.Bind(wx.EVT_PAINT, self.OnPaint)
+
+        self.panelLoading = EmLoadingPanel(self)
+        self.sizer = wx.BoxSizer(wx.VERTICAL)
+        self.sizer.Add(self.panelLoading, 1, wx.EXPAND)
+        self.SetSizer(self.sizer)
+
+        self.panelLoading.showLoadingScreen()
+        self.panelLoading.SetFocus()
+
+    def update(self, event):
+        if self.panelLoading:
+            #sensors = self.panelLoading.getSensors()
+            self.panelLoading.Destroy()
+        self.panelGauges = EmPanelGauges(self)
+
+        sensors = 1
+
+        if sensors:
+            self.panelGauges.setSensors(sensors)
+
+        self.sizer = wx.BoxSizer(wx.VERTICAL)
+        self.sizer.Add(self.panelGauges, 1, wx.EXPAND)
+        self.SetSizer(self.sizer)
+        self.panelGauges.ShowSensors()
+        self.panelGauges.SetFocus()
+        self.Layout()
+
+    def OnPaint(self, event):
+        self.Paint(wx.PaintDC(self)) 
+
+    def Paint(self, dc):
+        dc.DrawBitmap(self.bitmap, 0, 0) 
+
+if __name__ == "__main__":
+
+    app = wx.App()
+    frame = EmGroundStation(None,-1,'EekMex Ground Station')
+    #frame.ShowFullScreen(True)
+    frame.Show(True)
+    app.MainLoop()
