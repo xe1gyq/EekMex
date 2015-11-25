@@ -20,6 +20,6 @@ Mission
 - Payload to gather data
 - On Board Data Handling to process data
 - Data Packets creation
-- Data Packets Transmission
-- Ground Station Visualization
+- Data Packets transmission
+- Ground Station visualization
 - Automatic Packet Reporting System
