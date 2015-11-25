@@ -28,3 +28,12 @@ Host Development
 
 ## Simulator Demo Sensors
 
+    eekmex@eekmex:~/eekmex/simulator$ 
+
+## Simulator Demo IMU
+
+    eekmex@eekmex:~/eekmex/simulator$ 
+
+## Simulator Demo gps
+
+    eekmex@eekmex:~/eekmex/simulator$ 
