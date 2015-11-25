@@ -226,3 +226,12 @@ Software
 
 Who want to develop it?
 
+
+    Debian GNU/Linux 8 eekmex tty1
+
+    ubilinux login: eekmex
+    Password: eekmex
+    ...
+    eekmex@eekmex:~$ su
+    Password: edison
+    eekmex@eekmex:/home/edison# date -s "10/22/2015 16:01:00"
