@@ -52,7 +52,11 @@ Devices
 
 ### Inertial Measurement Unit
 
-> i2c-tools is a set of I²C programs that make it easy to debug I²C devices without having to write any code.
+#### i2c-tools
+
+> A set of I²C programs that make it easy to debug I²C devices without having to write any code.
+
+- [Elinux - Interfacing with I2C Devices](http://elinux.org/Interfacing_with_I2C_Devices)
 
     edison@ubilinux:~$ su
     Password: 
