@@ -226,7 +226,6 @@ Software
 
 Who want to develop it?
 
-
     Debian GNU/Linux 8 eekmex tty1
 
     ubilinux login: eekmex
