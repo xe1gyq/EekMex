@@ -1,7 +1,7 @@
 Host Development
 ==
 
-## Simualtor Base Code
+## Simulator Base Code
 
     eekmex@eekmex:~$ 
     eekmex@eekmex:/home/eekmex# apt-get update
