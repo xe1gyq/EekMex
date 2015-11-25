@@ -17,6 +17,9 @@ eekmex@eekmex:~$ cd eekmex
 eekmex@eekmex:~/eekmex$ ls
 documentation  eekmex  LICENSE  README.md  sandbox  simulator  SUMMARY.md  training
 eekmex@eekmex:~/eekmex$ cd simulator
+eekmex@eekmex:~/eekmex/simulator$ python eekmex.py -c files
+root: eekmex     INFO EekMex, Aerospace Learning Platform
+root: eekmex     INFO Mode Clean Up, Remove Files
 
 
 
