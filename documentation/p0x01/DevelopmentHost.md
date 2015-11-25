@@ -40,12 +40,11 @@ Host Development
     ...
     ...
     ^Z
-    eekmex@eekmex:~/eekmex/simulator$ python eekmex.py -d imu
+    eekmex@eekmex:~/eekmex/simulator$ 
 
 ## Simulator Demo IMU
 
-    eekmex@eekmex:~/eekmex/simulator$ 
-    xe1gyq@jessie:~/eekmex/simulator$ python eekmex.py -d imu
+    eekmex@eekmex:~/eekmex/simulator$ python eekmex.py -d imu
     root: eekmex     INFO EekMex, Aerospace Learning Platform
     root: eekmex     INFO Mode Demo
     root: emdemo     INFO Demo
@@ -59,6 +58,10 @@ Host Development
     root: emdemo     INFO Imu: 65,127,68,
     root: emdemo     INFO Imu: 64,110,144,
     root: emdemo     INFO Imu: 130,99,91,
+    ...
+    ...
+    ^Z
+    eekmex@eekmex:~/eekmex/simulator$ 
 
 ## Simulator Demo GPS
 
