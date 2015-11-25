@@ -226,7 +226,7 @@ Software
 
 ## Ground Station
 
-Who want to develop it?
+Who want to develop it? Please use 
 
     Debian GNU/Linux 8 eekmex tty1
 
