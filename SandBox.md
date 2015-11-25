@@ -117,4 +117,9 @@ https://github.com/librecube-repos/LC-2102/tree/master/production/mechanical/stl
 - http://www.nasa.gov/pdf/716078main_Staehle_2011_PhI_CubeSat.pdf
 - https://icubesat.files.wordpress.com/2015/06/20150606_icubesat2016poster.pdf
 - http://www.cubesatpro.com/
-- 
+
+Ground Station
+==
+
+- http://www.blog.pythonlibrary.org/2010/04/20/wxpython-creating-a-simple-mp3-player/
+- http://wiki.wxpython.org/self.Bind%20vs.%20self.button.Bind?action=AttachFile&do=view&target=bindings_demo.py
