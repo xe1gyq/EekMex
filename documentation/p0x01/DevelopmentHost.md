@@ -1,6 +1,14 @@
 Host Development
 ==
 
+## PreRequisites
+
+    eekmex@eekmex:~$ 
+    eekmex@eekmex:/home/eekmex# apt-get update
+    eekmex@eekmex:/home/eekmex# apt-get install git
+    eekmex@eekmex:/home/eekmex# exit
+    eekmex@eekmex:~$ 
+
 ## Simulator Base Code
 
     eekmex@eekmex:~$ 
