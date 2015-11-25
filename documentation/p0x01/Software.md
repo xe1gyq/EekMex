@@ -1,7 +1,6 @@
 Software
 ==
 
-
 # Ground Station
 
 ## Ubilinux Installation
