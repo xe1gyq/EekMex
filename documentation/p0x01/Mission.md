@@ -10,7 +10,7 @@ Mission
 - Payload
 - On Board Data Handling
 - Communication Subsystems
-  - Antenna 
+  - Antenna
 - Power Subsystem
   - Battery
   - Solar Panels
