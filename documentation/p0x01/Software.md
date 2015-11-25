@@ -214,8 +214,8 @@ Software
     root@ubilinux:/home/edison# apt-get install git
     root@ubilinux:/home/edison# exit
     edison@ubilinux:~$ git clone https://github.com/xe1gyq/eekmex.git
-    eekmex@eekmex:~$ cd eekmex
-    eekmex@eekmex:~/eekmex$ ls
+    edison@ubilinux:~$ cd eekmex
+    edison@ubilinux:~/eekmex$ ls
     documentation  eekmex  LICENSE  README.md  sandbox  simulator  SUMMARY.md  training
     root@ubilinux:/home/edison# su
     Password: edison
