@@ -14,6 +14,9 @@ Receiving objects: 100% (3542/3542), 325.81 KiB | 377.00 KiB/s, done.
 Resolving deltas: 100% (2404/2404), done.
 Checking connectivity... done.
 eekmex@eekmex:~$ cd eekmex
-eekmex@eekmex:~/eekmex$ 
+eekmex@eekmex:~/eekmex$ ls
+documentation  eekmex  LICENSE  README.md  sandbox  simulator  SUMMARY.md  training
+eekmex@eekmex:~/eekmex$ cd simulator
+
 
 
