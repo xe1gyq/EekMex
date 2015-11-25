@@ -15,5 +15,6 @@
    * [Devices](documentation/p0x01/Devices.md)
    * [Ground Station](documentation/p0x01/GroundStation.md)
    * [Operating System Abstraction Layer](documentation/p0x01/OperatingSystemAbstractionLayer.md)
+   * Host Development
 * [SandBox](SandBox.md)
 
