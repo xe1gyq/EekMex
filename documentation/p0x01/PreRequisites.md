@@ -1,7 +1,7 @@
 PreRequisites
 ==
 
-# Personal Computer
+## Personal Computer
 
 - Internet Connection
 - Linux Debian Based (Virtualized or Installed)
