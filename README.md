@@ -2,7 +2,8 @@
 
 <center><img src="https://pbs.twimg.com/media/CHl1C6kUMAAQYZi.jpg:large"></center>
 
-<h3><center>by Xe1GyQ</center></h3>
+<h2><center>by Xe1GyQ</center></h2>
+<h3><center>http://bit.ly/1jjvaQa</center></h3>
 
 - [Eekmex Twitter](https://twitter.com/eekmex)
-- [Eekmex Short Url](http://bit.ly/1jjvaQa)
+
