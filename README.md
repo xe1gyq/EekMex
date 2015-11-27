@@ -5,5 +5,3 @@
 <h2><center>by Xe1GyQ</center></h2>
 <h3><center>http://bit.ly/1jjvaQa</center></h3>
 
-- [Eekmex Twitter](https://twitter.com/eekmex)
-
