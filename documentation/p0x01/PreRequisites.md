@@ -1,7 +1,8 @@
 PreRequisites
 ==
 
-- Laptop
+# Personal Computer
+
 - Internet Connection
 - Linux Debian Based (Virtualized or Installed)
   - If virtualized, install Virtual Box + Debian XFCE vesion
