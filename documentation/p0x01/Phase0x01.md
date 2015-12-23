@@ -1,7 +1,6 @@
 Phase 0x01
 ==
 
-
 Mission Control 	= 	PC capable of sending APRS
 Deep Space Network 	= 	Local APRS network
 Mars Orbiter		= 	Local PC with XBee Transceiver
