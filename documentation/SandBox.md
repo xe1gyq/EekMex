@@ -2,10 +2,12 @@ SandBox
 ==
 
 Use Freeboard to create its Control Panel
+http://www.instructables.com/id/Intel-Edison-Sensor-Dashboard-Using-FreeboardPytho/?ALLSTEPS
 
 # Hardware
 
 - http://www.seeedstudio.com/wiki/Grove_-_GPS
+- 
 
 # SandBox
 
