@@ -1,7 +1,7 @@
 SandBox
 ==
 
-Use Freeboard to create its 
+Use Freeboard to create its Control Panel
 
 # Hardware
 
