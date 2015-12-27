@@ -1,6 +1,8 @@
 SandBox
 ==
 
+Use Freeboard to create its 
+
 # Hardware
 
 - http://www.seeedstudio.com/wiki/Grove_-_GPS
