@@ -20,7 +20,7 @@ We will use WiFi
   - Antenna
 - Power Subsystem
   - Battery
-  - Solar Panels
+  - Solar Panels (On Hold)
 
 ## Operations
 
