@@ -37,4 +37,4 @@ We will use WiFi Network
   - Packets Transmission
   - Packets Reception
 - Power Subsystem
-  - Battery
+  - Provide sufficient power for our system to function
