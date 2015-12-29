@@ -11,6 +11,7 @@
    * [PreRequisites](documentation/p0x01/PreRequisites.md)
    * [Mission](documentation/p0x01/Mission.md)
    * [Spacecraft](documentation/p0x01/Spacecraft.md)
+       * Hardware
    * [Hardware](documentation/p0x01/Hardware.md)
    * [Software](documentation/p0x01/Software.md)
    * [Protocols](documentation/p0x01/Protocols.md)
