@@ -19,7 +19,7 @@
    * [Software Define Radio](documentation/p0x01/SoftwareDefineRadio.md)
 * [Phase 0x02](documentation/p0x02/Phase0x02.md)
    * [PreRequisites](documentation/p0x02/Prerequisites.md)
-   * Mission
+   * [Mission](documentation/p0x02/Mission.md)
    * [PubNub](documentation/p0x02/PubNub.md)
    * [Freeboard.Io](documentation/p0x02/FreeboardIo.md)
    * [Dweet.Io](documentation/p0x02/DweetIo.md)
