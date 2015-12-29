@@ -17,6 +17,7 @@
    * [Development Host](documentation/p0x01/DevelopmentHost.md)
    * [Operating System Abstraction Layer](documentation/p0x01/OperatingSystemAbstractionLayer.md)
    * [Software Define Radio](documentation/p0x01/SoftwareDefineRadio.md)
+   * Spacecraft
 * [Phase 0x02](documentation/p0x02/Phase0x02.md)
    * [PreRequisites](documentation/p0x02/Prerequisites.md)
    * [Mission](documentation/p0x02/Mission.md)
