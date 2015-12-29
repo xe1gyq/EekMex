@@ -12,6 +12,7 @@
    * [Mission](documentation/p0x01/Mission.md)
    * [Spacecraft](documentation/p0x01/Spacecraft.md)
        * [Hardware](documentation/p0x01/SpacecraftHardware.md)
+       * Software
    * [Hardware](documentation/p0x01/Hardware.md)
    * [Software](documentation/p0x01/Software.md)
    * [Protocols](documentation/p0x01/Protocols.md)
