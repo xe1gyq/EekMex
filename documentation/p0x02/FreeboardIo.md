@@ -12,3 +12,10 @@ Freeboard.Io
    -  Move to a Private dashboard
    -  Delete
 4. Click on [__EekMex__](https://freeboard.io/board/huO_H7) to open the dashboard
+
+## Freeboard EekMex Dashboard
+
+We need to work with
+
+- __Data Sources__ named as "__DATASOURCES__" and initialized by clicking on "__ADD__"
+- __Panes__ initialized by clicking on "__ADD PANE__"
