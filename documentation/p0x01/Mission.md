@@ -22,7 +22,7 @@ We will use WiFi Network
   - Battery
   - Solar Panels (On Hold)
 
-## Operations
+### Operations
 
 - Payload to gather data
   - Temperature
@@ -31,10 +31,10 @@ We will use WiFi Network
   - Altitude
   - Position
 - On Board Data Handling to process data
-  - Data Packets Coding
-  - Data Packets Decoding
+  - Data packets coding
+  - Data packets decoding
 - Communication Subsystems
-  - Packets Transmission
-  - Packets Reception
+  - Packets transmission
+  - Packets reception
 - Power Subsystem
   - Provide sufficient power for our system to function
