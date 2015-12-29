@@ -33,5 +33,4 @@ We will use WiFi
 - On Board Data Handling to process data
   - Data Packets creation
   - Data Packets transmission
-- Ground Station visualization
 - Automatic Packet Reporting System
