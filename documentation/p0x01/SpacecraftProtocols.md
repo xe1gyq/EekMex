@@ -11,7 +11,6 @@ Protocols
 
 - [Elinux - Interfacing with I2C Devices](http://elinux.org/Interfacing_with_I2C_Devices)
 
-
     edison@ubilinux:~$ su
     Password: 
     root@ubilinux:/home/edison# cd
