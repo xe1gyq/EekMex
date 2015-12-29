@@ -10,4 +10,5 @@
     Receiving objects: 100% (3993/3993), 358.09 KiB | 0 bytes/s, done.
     Resolving deltas: 100% (2731/2731), done.
     Checking connectivity... done.
-    $ cd eekmex 
+    $ cd eekmex/simulator
+    
