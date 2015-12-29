@@ -11,6 +11,6 @@ PreRequisites
 
 ## Accounts
 
-- [Gmail Account](https://gmail.com)
-- [Github Account](https://github.com/)
+- [Gmail](https://gmail.com)
+- [Github](https://github.com/)
  
