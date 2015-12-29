@@ -11,4 +11,7 @@
     Resolving deltas: 100% (2731/2731), done.
     Checking connectivity... done.
     $ cd eekmex/simulator
-    $ 
+    $ python eekmex.py -c files
+    root: eekmex     INFO EekMex, Aerospace Learning Platform
+    root: eekmex     INFO Mode Clean Up, Remove Files
+
