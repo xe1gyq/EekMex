@@ -30,6 +30,7 @@ We will use WiFi Network
   - Sea Level Pressure
   - Altitude
   - Position
+  - 
 - On Board Data Handling to process data
   - Data packets coding
   - Data packets decoding
