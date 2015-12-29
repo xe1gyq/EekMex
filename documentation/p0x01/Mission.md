@@ -8,7 +8,7 @@ Mission
 
 ## Deep Space Network
 
-
+We will use WiFi
 
 ## Planet Orbiter
 
