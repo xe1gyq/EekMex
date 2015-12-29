@@ -31,5 +31,8 @@ We will use WiFi Network
   - Altitude
   - Position
 - On Board Data Handling to process data
-  - Data Packets creation
-  - Data Packets transmission
+  - Data Packets Coding
+  - Data Packets Decoding
+- Communication Subsystems
+  - Packets Transmission
+  - Packets Reception
