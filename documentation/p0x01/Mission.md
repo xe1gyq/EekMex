@@ -6,7 +6,9 @@ Mission
 - Planet Orbiter	 = 	Intel Edison
 - Planet Rover 		 =	None
 
-## Architecture
+## Planet Orbiter
+
+### Architecture
 
 - Payload
 - On Board Data Handling
