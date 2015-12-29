@@ -215,7 +215,9 @@ Software
     root@ubilinux:~# vi /etc/fstab
     /dev/mmcblk1p1 /media/sdcard
 
-### EekMex Git Repository
+### EekMex Source Code
+
+We have a git repository
 
     edison@ubilinux:~$
     edison@ubilinux:/home/edison# su
