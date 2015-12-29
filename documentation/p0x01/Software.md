@@ -205,7 +205,7 @@ Software
     edison@ubilinux:~/RTIMULib/Linux/python$ cd
     edison@ubilinux:~$
 
-#### SD Card
+### SD Card
 
     edison@ubilinux:~$ su
     Password: 
