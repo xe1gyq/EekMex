@@ -10,7 +10,7 @@ Mission
 
 We will use WiFi Network
 
-## Planet Orbiter
+## Spacecraft
 
 ### Architecture
 
