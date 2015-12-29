@@ -10,11 +10,16 @@ Introduction
 
 # Infrastructure
 
-- [ ] Control Center
-- [ ] Ground Station
+- [ ] Mission Control / Control Center
+- [ ] Ground Stations
 - [ ] Spacecraft
 - [ ] Unmanned Autonomous Vehicle
 - [ ] Space Helicopter
+
+- Mission Control 	 = 	None
+- Deep Space Network = 	WiFi
+- Planet Orbiter	 = 	Intel Edison
+- Planet Rover 		 =	None
 
 # Subsystem Operations
 
