@@ -13,7 +13,6 @@
    * [Spacecraft](documentation/p0x01/Spacecraft.md)
        * [Hardware](documentation/p0x01/SpacecraftHardware.md)
        * [Software](documentation/p0x01/SpacecraftSoftware.md)
-   * [Hardware](documentation/p0x01/Hardware.md)
    * [Software](documentation/p0x01/Software.md)
    * [Protocols](documentation/p0x01/Protocols.md)
    * [Devices](documentation/p0x01/Devices.md)
