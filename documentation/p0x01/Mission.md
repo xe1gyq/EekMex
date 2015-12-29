@@ -1,10 +1,10 @@
 Mission
 ==
 
-- Mission Control 	 = 	None
-- Deep Space Network = 	WiFi
-- Planet Orbiter	 = 	Intel Edison
-- Planet Rover 		 =	None
+- Mission Control = None
+- Deep Space Network = WiFi
+- Spacecraft = Intel Edison
+- Unmanned Autonomous Vehicle =	None
 
 ## Deep Space Network
 
