@@ -3,7 +3,7 @@ Mission
 
 - Mission Control 	 = 	None
 - Deep Space Network = 	WiFi
-- Planet Orbiter	 = 	Local PC with XBee Transceiver
+- Planet Orbiter	 = 	Intel Edison
 - Planet Rover 		 =	None
 
 ## Architecture
