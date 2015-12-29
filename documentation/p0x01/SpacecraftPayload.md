@@ -67,8 +67,6 @@
 
 ## Inertial Measurement Unit
 
-
-
     edison@ubilinux:~$ cd
     edison@ubilinux:~$ su
     Password: 
