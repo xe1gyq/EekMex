@@ -4,6 +4,7 @@
 * [Space Exploration](documentation/SpaceExploration.md)
    * [Hardware](documentation/spaceexploration/hardware.md)
    * [Software](documentation/spaceexploration/software.md)
+   * Books
 * [Cube Satellites](documentation/CubeSatellites.md)
 * [EekMex](documentation/EekMex.md)
 * [Phase 0x01](documentation/p0x01/Phase0x01.md)
