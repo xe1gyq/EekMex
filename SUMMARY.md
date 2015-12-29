@@ -14,7 +14,6 @@
        * [Hardware](documentation/p0x01/SpacecraftHardware.md)
        * [Software](documentation/p0x01/SpacecraftSoftware.md)
        * [Protocols](documentation/p0x01/SpacecraftProtocols.md)
-   * [Protocols](documentation/p0x01/Protocols.md)
    * [Devices](documentation/p0x01/Devices.md)
    * [Development Host](documentation/p0x01/DevelopmentHost.md)
    * [Operating System Abstraction Layer](documentation/p0x01/OperatingSystemAbstractionLayer.md)
