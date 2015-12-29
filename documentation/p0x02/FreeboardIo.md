@@ -11,4 +11,4 @@ Freeboard.Io
    -  Change the Name
    -  Move to a Private dashboard
    -  Delete
-
+4. Click on "[__EekMex__](https://freeboard.io/board/huO_H7)" name of the dashboard to open
