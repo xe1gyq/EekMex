@@ -1,6 +1,6 @@
 # Payload
 
-## Sensors
+## General Sensors
 
   - Temperature
   - Pressure
