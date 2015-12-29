@@ -17,7 +17,6 @@
    * [Operating System Abstraction Layer](documentation/p0x01/OperatingSystemAbstractionLayer.md)
    * [Software Define Radio](documentation/p0x01/SoftwareDefineRadio.md)
 * [Phase 0x02](documentation/p0x02/Phase0x02.md)
-   * [Simulator](documentation/p0x02/Simulator.md)
    * [Freeboard.Io](documentation/p0x02/FreeboardIo.md)
 * [SandBox](documentation/SandBox.md)
 
