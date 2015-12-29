@@ -25,7 +25,11 @@ We will use WiFi
 ## Operations
 
 - Payload to gather data
-  - Temperature 
+  - Temperature
+  - Pressure
+  - Sea Level Pressure
+  - Altitude
+  - Position
 - On Board Data Handling to process data
 - Data Packets creation
 - Data Packets transmission
