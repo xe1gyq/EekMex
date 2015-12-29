@@ -69,7 +69,7 @@ Software
     root@ubilinux:~# apt-get install python-smbus lm-sensors
     root@ubilinux:~# apt-get install gpsd gpsd-clients python-gps libxml2-dev libxslt1-dev
 
-### Packages Pip Installation
+### Packages Python Pip Installation
 
     root@ubilinux:~# pip install numpy psutil XBee pyserial pykml
     root@ubilinux:~# exit
