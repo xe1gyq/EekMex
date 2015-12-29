@@ -36,3 +36,5 @@ We will use WiFi Network
 - Communication Subsystems
   - Packets Transmission
   - Packets Reception
+- Power Subsystem
+  - Battery
