@@ -25,6 +25,7 @@ We will use WiFi
 ## Operations
 
 - Payload to gather data
+  - Temperature 
 - On Board Data Handling to process data
 - Data Packets creation
 - Data Packets transmission
