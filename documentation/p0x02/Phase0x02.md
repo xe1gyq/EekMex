@@ -6,5 +6,5 @@ Phase 0x02
 - Planet Orbiter	 = 	Local PC with XBee Transceiver
 - Planet Rover 		 =	Boe-Bot with XBee Transceiver
 
-- Ground Station visualization
+- Ground Station Visualization
 - Automatic Packet Reporting System
