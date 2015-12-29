@@ -10,7 +10,7 @@
 * [Phase 0x01](documentation/p0x01/Phase0x01.md)
    * [PreRequisites](documentation/p0x01/PreRequisites.md)
    * [Mission](documentation/p0x01/Mission.md)
-   * Spacecraft
+   * [Spacecraft](documentation/p0x01/Spacecraft.md)
    * [Hardware](documentation/p0x01/Hardware.md)
    * [Software](documentation/p0x01/Software.md)
    * [Protocols](documentation/p0x01/Protocols.md)
