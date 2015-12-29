@@ -3,7 +3,7 @@ Software
 
 ## Spacecraft
 
-### Operating System Installation
+### Operating System
 
 #### Ubilinux
 
