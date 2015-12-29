@@ -1,6 +1,8 @@
 SandBox
 ==
 
+https://www.youtube.com/watch?v=QptmfLsftDg
+
 Use Freeboard to create its Control Panel
 http://www.instructables.com/id/Intel-Edison-Sensor-Dashboard-Using-FreeboardPytho/?ALLSTEPS
 
