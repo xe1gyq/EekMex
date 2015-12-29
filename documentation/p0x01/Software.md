@@ -222,14 +222,3 @@ Software
     root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -c files
     root@ubilinux:/home/edison/eekmex/eekmex# git config --global user.email "you@example.com"
     root@ubilinux:/home/edison/eekmex/eekmex# git config --global user.name "Your Name"
-
-## Ground Station
-
-Who want to develop it? Please use wx python library
-
-    Debian GNU/Linux 8 eekmex tty1
-
-    eekmex login: eekmex
-    Password: eekmex
-    ...
-    eekmex@eekmex:~$
