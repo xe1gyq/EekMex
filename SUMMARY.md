@@ -18,6 +18,6 @@
    * [Software Define Radio](documentation/p0x01/SoftwareDefineRadio.md)
 * [Phase 0x02](documentation/p0x02/Phase0x02.md)
    * [Freeboard.Io](documentation/p0x02/FreeboardIo.md)
-   * Simulator
+   * [Simulator](documentation/p0x02/Simulator.md)
 * [SandBox](documentation/SandBox.md)
 
