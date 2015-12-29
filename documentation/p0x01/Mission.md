@@ -33,4 +33,3 @@ We will use WiFi
 - On Board Data Handling to process data
   - Data Packets creation
   - Data Packets transmission
-- Automatic Packet Reporting System
