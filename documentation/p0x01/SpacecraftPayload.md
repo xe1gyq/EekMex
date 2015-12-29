@@ -68,6 +68,7 @@
 - [Elinux - Interfacing with I2C Devices](http://elinux.org/Interfacing_with_I2C_Devices)
 
 
+    edison@ubilinux:~$ cd
     edison@ubilinux:~$ su
     Password: 
     root@ubilinux:/home/edison# i2cdetect -y -r 1
