@@ -16,6 +16,7 @@
 - [GPSD Homepage](http://www.catb.org/gpsd/)
 
 
+    edison@ubilinux:~$ cd
     edison@ubilinux:~$ su
     Password: 
     root@ubilinux:/home/edison# dmesg
