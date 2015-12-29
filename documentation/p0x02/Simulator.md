@@ -14,5 +14,7 @@
     $ python eekmex.py -c files
     root: eekmex     INFO EekMex, Aerospace Learning Platform
     root: eekmex     INFO Mode Clean Up, Remove Files
-    $ 
+    $ python eekmex.py -d gps
+    $ python eekmex.py -d imu
+    $ python eekmex.py -d sensors
 
