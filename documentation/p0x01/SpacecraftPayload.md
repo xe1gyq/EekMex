@@ -2,6 +2,7 @@
 
 ## Sensors
 
+    edison@ubilinux:~$ cd
     edison@ubilinux:~$ su
     Password: 
     root@ubilinux:/home/edison# cd eekmex/eekmex
