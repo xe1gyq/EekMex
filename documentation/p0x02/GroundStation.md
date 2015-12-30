@@ -33,6 +33,10 @@ Components
 
 1. Date
 2. Mission Messages
+3. Sensors
+   - Temperature
+   - Pressure
+   - Sea Level Pressure 
 
 We need to work with
 
