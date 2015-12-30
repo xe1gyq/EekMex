@@ -45,6 +45,7 @@ Components
    - Altitude
  4. Position
    - Global Positioning System
+ 5. Attitude
    - Inertial Measurement Unit
 
 We need to work with
