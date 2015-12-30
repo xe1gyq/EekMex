@@ -1,7 +1,7 @@
 Mission
 ==
 
-- Mission Control Center = Personal Computer
+- Mission Control Center = Nne
 - Ground Station = Personal Computer
 - Deep Space Network = APRS
 - Spacecraft = Embedded System
