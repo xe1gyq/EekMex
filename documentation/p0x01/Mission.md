@@ -30,7 +30,7 @@ We will use WiFi Network
   - Pressure
   - Sea Level Pressure
   - Altitude
-  - Position
+  - Global Positioning System
   - Inertial Measurement Unit
 - On Board Data Handling to process data
   - Data packets coding
