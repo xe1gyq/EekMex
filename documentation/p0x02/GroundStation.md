@@ -48,8 +48,8 @@ Components
 
 We need to work with
 
-- __Data Sources__ named as "__DATASOURCES__" and initialized by clicking on "__ADD__" fetch data from an external place
-- __Panes__ initialized by clicking on "__ADD PANE__"
+- __Data Sources__ named as "__DATASOURCES__" and initialized by clicking on "__ADD__". They gather data from a specific source as dweet.io, pubnub, or other.
+- __Panes__ initialized by clicking on "__ADD PANE__". They 
 - __Widgets__ display data in some textual or graphical form
 
     Datasources fetch data from an external place. It can be a data broker service (dweet.io, FI-WARE Orion or PubNub are supported), some JSON content from an HTTP server or a piece of JavaScript code.
