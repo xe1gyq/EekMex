@@ -25,7 +25,7 @@ Mission Control Center
    -  Delete
 4. Click on [__EekMex__](https://freeboard.io/board/huO_H7) to open the dashboard
 
-## Freeboard EekMex Dashboard
+### Freeboard EekMex Dashboard
 
 Components
 
