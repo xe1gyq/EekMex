@@ -32,6 +32,7 @@ Ground Station
 Components
 
 1. Mission Information
+   - Date
    - 
 2. Messages
    - Mission Control Center
