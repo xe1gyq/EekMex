@@ -53,6 +53,7 @@ We need to work with
 - __Panes__ initialized by clicking on "__ADD PANE__"
 
 1. Go to "__DATASOURCE__"
+   - Type: Dweet.io
    - Name: EekMex Aerospace Learning Platform
    - Thing Name: EekMexArejXe
 
