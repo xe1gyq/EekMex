@@ -15,7 +15,7 @@
        * [Software](documentation/p0x01/SpacecraftSoftware.md)
        * [Protocols](documentation/p0x01/SpacecraftProtocols.md)
        * [Payload](documentation/p0x01/SpacecraftPayload.md)
-   * [Development Host](documentation/p0x01/DevelopmentHost.md)
+   * [Simulator](documentation/p0x01/Simulator.md)
    * [Operating System Abstraction Layer](documentation/p0x01/OperatingSystemAbstractionLayer.md)
    * [Software Define Radio](documentation/p0x01/SoftwareDefineRadio.md)
 * [Phase 0x02](documentation/p0x02/Phase0x02.md)
