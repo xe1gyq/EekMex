@@ -33,7 +33,7 @@ Components
 
 1. Date
 2. Messages
-   - Mission
+   - Mission Control Center
    - Twitter
 3. Sensors
    - Temperature
