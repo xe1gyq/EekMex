@@ -40,8 +40,9 @@ Components
    - Pressure
    - Sea Level Pressure
    - Altitude
- 4. Global Positioning System
- 5. 
+ 4. Position
+   - Global Positioning System
+   - Inertial Measurement Unit
 
 We need to work with
 
