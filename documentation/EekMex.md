@@ -10,7 +10,7 @@ Introduction
 
 # Infrastructure
 
-- [ ] Mission Control / Control Center
+- [ ] Mission Control Center / Control Center
 - [ ] Ground Stations
 - [ ] Spacecraft / Planet Orbiter
 - [ ] Unmanned Autonomous Vehicle / Planet Rover
