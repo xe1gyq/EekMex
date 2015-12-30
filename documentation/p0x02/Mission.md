@@ -9,4 +9,3 @@ Mission
 
 - Ground Station Visualization
 - Automatic Packet Reporting System
-
