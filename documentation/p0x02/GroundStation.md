@@ -52,7 +52,6 @@ We need to work with
 - __Panes__ initialized by clicking on "__ADD PANE__". They hold Widgets
 - __Widgets__ display data in some textual or graphical form
 
-
 1. Go to "__DATASOURCE__"
    - Type: Dweet.io
    - Name: EekMex Aerospace Learning Platform
