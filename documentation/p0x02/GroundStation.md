@@ -58,6 +58,16 @@ We need to work with
 
 ## Dweet.Io
 
+
+```Python
+    data = {}
+    data['altitude'] = altitude
+    data['pressure'] = pressure
+    data['sealevelpressure'] = sealevelpressure
+    data['temperature'] = temperature
+    dweepy.dweet_for('EekMexArejXe', data)
+```
+
 ### Setup
 
 1. Go to [dweet.io](http://dweet.io/)
