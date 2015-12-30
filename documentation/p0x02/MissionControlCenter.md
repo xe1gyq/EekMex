@@ -9,7 +9,7 @@ Mission Control Center
 2. Once logged in, change "App Name" to Eekmex
 
 
-    # pin install pubnub
+    # pip install pubnub
 
 ## Freeboard.Io
 
