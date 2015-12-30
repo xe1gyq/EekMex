@@ -15,6 +15,10 @@ Freeboard.Io
 
 ## Freeboard EekMex Dashboard
 
+Components
+
+
+
 We need to work with
 
 - __Data Sources__ named as "__DATASOURCES__" and initialized by clicking on "__ADD__"
