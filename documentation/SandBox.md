@@ -11,10 +11,15 @@ https://www.youtube.com/watch?v=QptmfLsftDg
 Use Freeboard to create its Control Panel
 http://www.instructables.com/id/Intel-Edison-Sensor-Dashboard-Using-FreeboardPytho/?ALLSTEPS
 
-
+Launch
 - Launch Facility
 - Launch Site
 - Complex Site
+
+MCC
+- mission control center 
+- flight control center
+- operations center
 
 # Hardware
 
