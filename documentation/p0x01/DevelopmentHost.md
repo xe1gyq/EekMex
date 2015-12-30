@@ -1,6 +1,8 @@
 Host Development
 ==
 
+We will work in our Linux Debian based Personal Computer
+
 ## PreRequisites
 
     Debian GNU/Linux 8 eekmex tty1
