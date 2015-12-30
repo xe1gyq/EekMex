@@ -64,8 +64,9 @@ We need to work with
 
 ```json
 {
+  "altitude": 1800
   "temperature": 21.5,
-  "humidity": 65
+  
 }
 ```
 
