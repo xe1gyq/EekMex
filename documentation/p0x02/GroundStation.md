@@ -70,7 +70,6 @@ We need to work with
   "temperature": 21.5,
 }
 ```
-  "pressure": "1400"
   
 ```Python
     data = {}
