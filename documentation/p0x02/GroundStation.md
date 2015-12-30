@@ -38,7 +38,7 @@ Components
    - Pressure
    - Sea Level Pressure
    - Altitude
- 4. 
+ 4. Global Positioning System
 
 We need to work with
 
