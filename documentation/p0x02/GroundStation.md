@@ -58,6 +58,9 @@ We need to work with
 
 ## Dweet.Io
 
+```sh
+    # pip install RandomWords
+```
 
 ```Python
     data = {}
