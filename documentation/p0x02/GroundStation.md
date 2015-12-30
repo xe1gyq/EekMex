@@ -32,7 +32,7 @@ Ground Station
 Components
 
 1. Date
-2. 
+2. Mission Messages
 
 We need to work with
 
