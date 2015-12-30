@@ -32,8 +32,9 @@ Ground Station
 Components
 
 1. Mission Information
+   - City
+   - State
    - Date
-   - 
 2. Messages
    - Mission Control Center
    - Twitter
