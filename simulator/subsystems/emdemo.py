@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+import dweepy
+import json
 import logging
 import sys
 import time
@@ -58,6 +60,13 @@ class emDemo(object):
         sensorsdata = ("Sensors: {0}," "{1}," "{2}," "{3}".format( \
                         altitude, pressure, sealevelpressure, temperature))
         logging.info(sensorsdata)
+        data = {}
+        data['altitude'] = altitude
+        data['pressure'] = pressure
+        data['sealevelpressure'] = sealevelpressure
+        data['temperature'] = temperature
+        json_data = json.dumps(data)
+        dweepy.dweet_for('EekMexArejXe', data)
 
     def emDemoSetup(self):
         if self.subsystem == 'imu':

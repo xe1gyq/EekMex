@@ -86,6 +86,7 @@ if __name__=='__main__':
             except KeyboardInterrupt:
                 logging.info('Mode Demo ... Exiting')
                 sys.exit(0)
+            time.sleep(1)
 
     if args.project == '0x01':
 
