@@ -21,6 +21,6 @@
 * [Phase 0x02](documentation/p0x02/Phase0x02.md)
    * [PreRequisites](documentation/p0x02/Prerequisites.md)
    * [Mission](documentation/p0x02/Mission.md)
-   * [Ground Station](documentation/p0x02/MissionControlCenter.md)
+   * [Ground Station](documentation/p0x02/GroundStation.md)
 * [SandBox](documentation/SandBox.md)
 
