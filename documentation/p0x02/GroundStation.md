@@ -37,7 +37,7 @@ Components
    - Date
 2. Messages
    - Mission Control Center
-   - Twitter
+   - Twitter @EekMex #EekMex
 3. Sensors
    - Temperature
    - Pressure
