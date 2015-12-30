@@ -52,7 +52,7 @@ We need to work with
 - __Data Sources__ named as "__DATASOURCES__" and initialized by clicking on "__ADD__"
 - __Panes__ initialized by clicking on "__ADD PANE__"
 
-1. Go to "__DATASOURCE"
+1. Go to "__DATASOURCE__"
    - Name: EekMex Aerospace Learning Platform
    - Thing Name: EekMexArejXe
 
