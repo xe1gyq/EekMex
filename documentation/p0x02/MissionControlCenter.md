@@ -35,3 +35,9 @@ We need to work with
 
 - __Data Sources__ named as "__DATASOURCES__" and initialized by clicking on "__ADD__"
 - __Panes__ initialized by clicking on "__ADD PANE__"
+
+## Dweet.Io
+
+### Setup
+
+1. Go to [dweet.io](http://dweet.io/)
