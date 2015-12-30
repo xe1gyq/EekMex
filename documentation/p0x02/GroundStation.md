@@ -1,8 +1,6 @@
 Ground Station
 ==
 
-
-
 ## PubNub
 
 ### Setup
