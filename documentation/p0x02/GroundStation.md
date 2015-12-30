@@ -62,6 +62,13 @@ We need to work with
     # pip install RandomWords
 ```
 
+```json
+{
+  "temperature": 21.5,
+  "humidity": 65
+}
+```
+
 ```Python
     data = {}
     data['altitude'] = altitude
