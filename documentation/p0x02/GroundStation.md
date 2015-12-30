@@ -36,7 +36,8 @@ Components
 3. Sensors
    - Temperature
    - Pressure
-   - Sea Level Pressure 
+   - Sea Level Pressure
+   - Altitude
 
 We need to work with
 
