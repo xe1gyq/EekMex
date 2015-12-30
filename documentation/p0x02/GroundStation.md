@@ -31,7 +31,8 @@ Ground Station
 
 Components
 
-1. Date
+1. Mission Information
+   - 
 2. Messages
    - Mission Control Center
    - Twitter
