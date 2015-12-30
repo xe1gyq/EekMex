@@ -48,7 +48,7 @@ Components
 
 We need to work with
 
-- __Data Sources__ named as "__DATASOURCES__" and initialized by clicking on "__ADD__"
+- __Data Sources__ named as "__DATASOURCES__" and initialized by clicking on "__ADD__" fetch data from an external place
 - __Panes__ initialized by clicking on "__ADD PANE__"
 - __Widgets__ display data in some textual or graphical form
 
