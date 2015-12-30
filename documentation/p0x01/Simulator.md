@@ -1,7 +1,7 @@
 Simulator
 ==
 
-We will work in our Linux Debian based Personal Computer
+We will work in our Linux Debian based Personal Computer to have a Spacecraft simulated
 
 ## PreRequisites
 
