@@ -1,16 +1,6 @@
 Ground Station
 ==
 
-## PubNub
-
-### Setup
-
-1. Go to [PubNub](https://www.pubnub.com/) and signup
-2. Once logged in, change "App Name" to Eekmex
-
-
-    # pip install pubnub
-
 ## Freeboard.Io
 
 ### Setup
@@ -86,3 +76,14 @@ We need to work with
 1. Go to [dweet.io](http://dweet.io/)
 
     pip install dweepy
+
+## PubNub
+
+### Setup
+
+1. Go to [PubNub](https://www.pubnub.com/) and signup
+2. Once logged in, change "App Name" to Eekmex
+
+
+    # pip install pubnub
+
