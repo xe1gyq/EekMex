@@ -52,10 +52,6 @@ We need to work with
 - __Panes__ initialized by clicking on "__ADD PANE__". They hold Widgets
 - __Widgets__ display data in some textual or graphical form
 
-    Datasources fetch data from an external place. It can be a data broker service (dweet.io, FI-WARE Orion or PubNub are supported), some JSON content from an HTTP server or a piece of JavaScript code.
-    Widgets display data in some textual or graphical form. Supported widgets types are text, gauge, graph, indicator light and even a Google map insert to name a few.
-    Panes contain widgets to make your dashboard organised and neat.
-
 
 1. Go to "__DATASOURCE__"
    - Type: Dweet.io
