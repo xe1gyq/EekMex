@@ -54,7 +54,7 @@ We need to work with
 
 1. Go to "__DATASOURCE"
    - Name: EekMex Aerospace Learning Platform
-   - 
+   - Thing Name: EekMexArejXe
 
 ## Dweet.Io
 
