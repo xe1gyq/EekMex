@@ -41,3 +41,6 @@ We need to work with
 ### Setup
 
 1. Go to [dweet.io](http://dweet.io/)
+
+
+    pip install dweepy
