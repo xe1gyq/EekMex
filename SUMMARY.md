@@ -22,6 +22,5 @@
    * [PreRequisites](documentation/p0x02/Prerequisites.md)
    * [Mission](documentation/p0x02/Mission.md)
    * [Mission Control Center](documentation/p0x02/MissionControlCenter.md)
-   * [Dweet.Io](documentation/p0x02/DweetIo.md)
 * [SandBox](documentation/SandBox.md)
 
