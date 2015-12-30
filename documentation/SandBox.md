@@ -1,6 +1,11 @@
 SandBox
 ==
 
+- Mission Control 	 = 	PC capable of sending APRS
+- Deep Space Network = 	Local APRS network
+- Planet Orbiter	 = 	Local PC with XBee Transceiver
+- Planet Rover 		 =	Boe-Bot with XBee Transceiver
+
 https://www.youtube.com/watch?v=QptmfLsftDg
 
 Use Freeboard to create its Control Panel
