@@ -65,11 +65,13 @@ We need to work with
 ```json
 {
   "altitude": 1800
+  "pressure": "1400"
+  "sealevelpressure": "1400"
   "temperature": 21.5,
-  
 }
 ```
-
+  "pressure": "1400"
+  
 ```Python
     data = {}
     data['altitude'] = altitude
