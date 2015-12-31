@@ -61,8 +61,8 @@ Protocols
     [  514.959360] usb 1-1.2: Endpoint 2 MaxPacketSize 64
     [  514.959378] usb 1-1.2: Setting MaxPacketSize 64
     [  514.960259] usb 1-1.2: FTDI USB Serial Device conerverter now attached to ttyUSB0
-    root@eekmex:/home/eekmex/eekmex/spacecraft# gpsd /dev/ttyUSB0 -F /var/run/gpsd.sock
-    root@eekmex:/home/eekmex/eekmex/spacecraft# cgps -s
+    root@spacecraft:~# gpsd /dev/ttyUSB0 -F /var/run/gpsd.sock
+    root@spacecraft:~# cgps -s
     lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqklqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk
     x    Time:       2011-11-13T00:00:39.090Z   xxPRN:   Elev:  Azim:  SNR:  Used: x
     x    Latitude:   n/a                        xx                                 x
