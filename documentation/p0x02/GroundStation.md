@@ -17,7 +17,13 @@ Ground Station
 
 ### Freeboard EekMex Dashboard
 
-Components
+We need to work with
+
+- __Data Sources__ named as "__DATASOURCES__" and initialized by clicking on "__ADD__". They gather data from a specific source as dweet.io, pubnub, or other.
+- __Panes__ initialized by clicking on "__ADD PANE__". They hold Widgets
+- __Widgets__ display data in some textual or graphical form
+
+The followin Components will be created:
 
 1. Mission Information
    - City
@@ -35,12 +41,6 @@ Components
    - Global Positioning System
  5. Attitude
    - Inertial Measurement Unit
-
-We need to work with
-
-- __Data Sources__ named as "__DATASOURCES__" and initialized by clicking on "__ADD__". They gather data from a specific source as dweet.io, pubnub, or other.
-- __Panes__ initialized by clicking on "__ADD PANE__". They hold Widgets
-- __Widgets__ display data in some textual or graphical form
 
 1. Go to "__DATASOURCE__"
    - Type: Dweet.io
