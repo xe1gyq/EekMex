@@ -15,7 +15,7 @@
    * [Spacecraft](documentation/p0x01/Spacecraft.md)
        * [Hardware](documentation/p0x01/SpacecraftHardware.md)
        * [Software](documentation/p0x01/SpacecraftSoftware.md)
-           * Intel Edison
+           * [Intel Edison](documentation/p0x01/IntelEdison.md)
        * [Protocols](documentation/p0x01/SpacecraftProtocols.md)
        * [Payload](documentation/p0x01/SpacecraftPayload.md)
 * [Phase 0x02](documentation/p0x02/Phase0x02.md)
