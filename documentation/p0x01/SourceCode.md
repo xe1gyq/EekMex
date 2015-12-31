@@ -2,16 +2,16 @@
 
 We have a git repository
 
-    user@board:~$
-    user@board:/home/user# su
+    user@spacecraft:~$
+    user@spacecraft:/home/user# su
     Password: 
-    user@board:/home/user# apt-get update
-    user@board:/home/user# apt-get install git
-    user@board:/home/user# exit
-    user@board:~$ git clone https://github.com/xe1gyq/eekmex.git
-    user@board:~$ cd eekmex
-    user@board:~/eekmex$ ls
+    root@spacecraft:/home/user# apt-get update
+    root@spacecraft:/home/user# apt-get install git
+    root@spacecraft:/home/user# exit
+    user@spacecraft:~$ git clone https://github.com/xe1gyq/eekmex.git
+    user@spacecraft:~$ cd eekmex
+    user@spacecraft:~/eekmex$ ls
     documentation  LICENSE  README.md  sandbox  spacecraft  SUMMARY.md
-    user@board:/home/user/eekmex# su
+    root@spacecraft:/home/user/eekmex$ su
     Password: passwd
-    user@board:/home/user/eekmex/spacecraft# python eekmex.py -c files
+    user@spacecraft:/home/user/eekmex/spacecraft# python eekmex.py -c files
