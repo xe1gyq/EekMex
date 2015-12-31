@@ -36,7 +36,7 @@ The following widgets will be created:
    - Name
    - Launch Site
    - Date
-   - time
+   - Time
    - Mission Control Center Messages
 3. Sensors
    - Temperature
