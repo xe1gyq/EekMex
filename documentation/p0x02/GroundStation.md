@@ -23,7 +23,7 @@ We need to work with
 - __Panes__ initialized by clicking on "__ADD PANE__". They hold Widgets
 - __Widgets__ display data in some textual or graphical form
 
-The followin Components will be created:
+The following Components will be created:
 
 1. Mission Information
    - City
@@ -41,6 +41,8 @@ The followin Components will be created:
    - Global Positioning System
  5. Attitude
    - Inertial Measurement Unit
+
+### Freeboard Data Sources
 
 1. Go to "__DATASOURCE__"
    - Type: Dweet.io
