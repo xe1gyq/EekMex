@@ -53,7 +53,7 @@ The following widgets will be created:
 
 ## Dweet.Io
 
-> 
+> Ridiculously simple data sharing for the Internet of Things.
 
 ### Setup
 
