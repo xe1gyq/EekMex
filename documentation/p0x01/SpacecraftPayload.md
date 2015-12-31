@@ -41,7 +41,7 @@
     ...
 ```
 
-## Global Positioning System
+## Position (Global Positioning System)
 
   - Latitude
   - Longitude
