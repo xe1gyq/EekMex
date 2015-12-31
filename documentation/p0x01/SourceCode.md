@@ -14,6 +14,6 @@ We have a git repository
     documentation  eekmex  LICENSE  README.md  sandbox  simulator  SUMMARY.md  training
     root@ubilinux:/home/edison/eekmex# su
     Password: edison
-    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -c files
-    root@ubilinux:/home/edison/eekmex/eekmex# git config --global user.email "you@example.com"
-    root@ubilinux:/home/edison/eekmex/eekmex# git config --global user.name "Your Name"
+    root@ubilinux:/home/edison/eekmex/spacecraft# python eekmex.py -c files
+    root@ubilinux:/home/edison/eekmex/spacecraft# git config --global user.email "you@example.com"
+    root@ubilinux:/home/edison/eekmex/spacecraft# git config --global user.name "Your Name"
