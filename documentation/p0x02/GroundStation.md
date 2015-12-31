@@ -68,11 +68,6 @@ The following widgets will be created:
 
 ### Setup
 
-```sh
-    # pip install dweepy
-    # pip install RandomWords
-```
-
 ```json
 {
   "altitude": 1800
