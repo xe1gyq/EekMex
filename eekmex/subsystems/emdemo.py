@@ -16,16 +16,14 @@ class emDemo(object):
         logging.info('Demo')
         self.subsystem = subsystem
 
-        self.emDemoSetup()
-
-        #thread = Thread(target=self.emDemoExecute)
-        #thread.start()
+        thread = Thread(target=self.emDemoExecute)
+        thread.start()
 
     def emDemoGps(self):
 
         from subsystems.emgps import emGps
 
-        self.emgpsfd = emGps()
+        self.emgpsfd = emGps("demo")
 
         latitude = self.emgpsfd.emGpsLatitudeGet()
         longitude = self.emgpsfd.emGpsLongitudeGet()
@@ -33,28 +31,19 @@ class emDemo(object):
         gpsdata = ("Gps: {0}," "{1}," "{2}".format( \
                     latitude, longitude, altitude))
         logging.info(gpsdata)
+        return latitude, longitude, altitude
 
-    def emDemoImuSetup(self):
+    def emDemoImu(self):
 
         from subsystems.emimu import emImu
 
         self.emimu = emImu("demo")
-
-    def emDemoImu(self):
-
         roll = self.emimu.emImuRollGet()
         pitch = self.emimu.emImuPitchGet()
         yaw = self.emimu.emImuYawGet()
         imudata = ("Imu: {0}," "{1}," "{2},".format(roll, pitch, yaw))
-
-        li = LoremIpsum()
-        data = {}
-        data['roll'] = roll
-        data['pitch'] = pitch
-        data['yaw'] = yaw
-        data['message'] = li.get_sentence()
-        dweepy.dweet_for('EekMexArejXe', data)
         logging.info(imudata)
+        return roll, pitch, yaw
 
     def emDemoSensors(self):
 
@@ -69,33 +58,37 @@ class emDemo(object):
         temperature = emTemperatureGet("demo")
         sensorsdata = ("Sensors: {0}," "{1}," "{2}," "{3}".format( \
                         altitude, pressure, sealevelpressure, temperature))
-
-        li = LoremIpsum()
-        data = {}
-        data['alive'] = "1"
-        data['altitude'] = altitude
-        data['pressure'] = pressure
-        data['sealevelpressure'] = sealevelpressure
-        data['temperature'] = temperature
-        data['message'] = li.get_sentence()
-        json_data = json.dumps(data)
-        dweepy.dweet_for('EekMexArejXe', data)
-
         logging.info(sensorsdata)
-
-    def emDemoSetup(self):
-        if self.subsystem == 'imu':
-            self.emDemoImuSetup()
+        return altitude, pressure, sealevelpressure, temperature
 
     def emDemoExecute(self):
-        if self.subsystem == 'gps':
-            self.emDemoGps()
-        elif self.subsystem == 'imu':
-            self.emDemoImu()
-        elif self.subsystem == 'sensors':
-            self.emDemoSensors()
+
+        li = LoremIpsum()
+
+        if self.subsystem == 'all':
+
+            while True:
+
+                latitude, longitude, altitudegps = self.emDemoGps()
+                roll, pitch, yaw = self.emDemoImu()
+                altitude, pressure, sealevelpressure, temperature = self.emDemoSensors()
+
+                data = {}
+                data['alive'] = "1"
+                data['altitude'] = altitude
+                data['pressure'] = pressure
+                data['sealevelpressure'] = sealevelpressure
+                data['temperature'] = temperature
+                data['roll'] = roll
+                data['pitch'] = pitch
+                data['yaw'] = yaw
+                data['latitude'] = latitude
+                data['longitude'] = longitude
+                data['altitudegps'] = altitudegps 
+                data['message'] = li.get_sentence()
+                dweepy.dweet_for('EekMexArejXe', data)
         else:
+
             logging.info('Specific Demo Not Found!')
-            sys.exit(1)
 
 # End of File

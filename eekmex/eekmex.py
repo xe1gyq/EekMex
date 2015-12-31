@@ -82,11 +82,10 @@ if __name__=='__main__':
         emdemo = emDemo(args.demo)
         while True:
             try:
-                emdemo.emDemoExecute()
+                pass
             except KeyboardInterrupt:
                 logging.info('Mode Demo ... Exiting')
                 sys.exit(0)
-            time.sleep(1)
 
     if args.project == '0x01':
 

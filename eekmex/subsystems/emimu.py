@@ -24,6 +24,7 @@ class emImu(object):
 
         if mode is None:
             self.emImuInitialize()
+
         thread = Thread(target=self.emImuPoller)
         thread.start()
 

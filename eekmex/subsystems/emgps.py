@@ -3,6 +3,8 @@
 import logging 
 import os
 from gps import *
+import random
+from random import randint
 from time import *
 import time
 import threading
@@ -11,11 +13,18 @@ from threading import Thread
 
 class emGps(object):
 
-    def __init__(self):
+    def __init__(self, mode=None):
 
         logging.info('Global Positioning System')
         self.gpsd = None
-        self.emGpsInitialize()
+        self.mode = mode
+        self.latitude = None
+        self.longitude = None
+        self.altitude = None
+
+        if mode is None:
+            self.emGpsInitialize()
+
         thread = Thread(target=self.emGpsPoller)
         thread.start()
 
@@ -24,16 +33,24 @@ class emGps(object):
 
     def emGpsPoller(self):
         while True:
-            self.gpsd.next()
+            if self.mode is None:
+                self.gpsd.next()
+                self.latitude = self.gpsd.fix.latitude
+                self.longitude = self.gpsd.fix.longitude
+                self.altitude = self.gpsd.fix.altitude
+            else:
+                self.latitude = random.uniform(21.11400000, 21.11600000)
+                self.longitude = random.uniform(-101.664000, -101.665000)
+                self.altitude = randint(1000, 2000)
 
     def emGpsLatitudeGet(self):
-        return self.gpsd.fix.latitude
+        return self.latitude
 
     def emGpsLongitudeGet(self):
-        return self.gpsd.fix.longitude
+        return self.longitude
 
     def emGpsAltitudeGet(self):
-        return self.gpsd.fix.altitude
+        return self.altitude
 
     def emGpsSatellitesNumberGet(self):
         return self.gpsd.satellites

@@ -9,7 +9,6 @@ except ImportError:
     pass
 
 def emAltitudeGet(mode=None):
-
     if mode is None:
         #altitude = upmBmpx8x.BMPX8X(1, upmBmpx8x.ADDR);
         #altitudedata = altitude.getAltitude()
