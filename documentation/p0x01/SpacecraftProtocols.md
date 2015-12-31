@@ -11,7 +11,7 @@ Protocols
 
 - [Elinux - Interfacing with I2C Devices](http://elinux.org/Interfacing_with_I2C_Devices)
 
-
+```sh
     user@spacecraft:~$ su
     Password: 
     user@spacecraft:/home/edison# cd
@@ -35,3 +35,4 @@ Protocols
     root@spacecraft:~# i2cget
     root@spacecraft:~# sensors-detect
     root@spacecraft:~# sensors
+```
