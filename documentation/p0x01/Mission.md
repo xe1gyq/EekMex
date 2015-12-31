@@ -7,10 +7,6 @@ Mission
 - __Spacecraft__ = Intel Edison
 - Unmanned Autonomous Vehicle =	None
 
-## Deep Space Network
-
-We will use WiFi Network
-
 ## Spacecraft
 
 ### Architecture
