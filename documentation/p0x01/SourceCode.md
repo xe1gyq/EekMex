@@ -15,5 +15,3 @@ We have a git repository
     user@board:/home/user/eekmex# su
     Password: passwd
     user@board:/home/user/eekmex/spacecraft# python eekmex.py -c files
-    user@board:/home/user/eekmex/spacecraft# git config --global user.email "you@example.com"
-    user@board:/home/user/eekmex/spacecraft# git config --global user.name "Your Name"
