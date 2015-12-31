@@ -32,8 +32,11 @@ Some theory before
 The following widgets will be created:
 
 1. Mission Information
-   - City
+   - Mode
+   - Name
+   - Launch Site
    - Date
+   - time
    - Mission Control Center Messages
 3. Sensors
    - Temperature
