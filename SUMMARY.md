@@ -6,7 +6,6 @@
    * [Software](documentation/spaceexploration/software.md)
        * [Software Define Radio](documentation/spaceexploration/SoftwareDefineRadio.md)
    * [Operating System Abstraction Layer](documentation/p0x01/OperatingSystemAbstractionLayer.md)
-   * [Software Define Radio](documentation/p0x01/SoftwareDefineRadio.md)
    * [References](documentation/References.md)
 * [Cube Satellites](documentation/CubeSatellites.md)
 * [EekMex](documentation/EekMex.md)
