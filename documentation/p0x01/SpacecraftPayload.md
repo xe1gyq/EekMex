@@ -47,8 +47,7 @@
   - Longitude
   - Altitude
 
-### EekMex Simulator
-
+```sh
     root@eekmex:/home/eekmex/eekmex/spacecraft# python eekmex.py -d all
     root: eekmex     INFO EekMex, Aerospace Learning Platform
     root: eekmex     INFO Mode Demo
@@ -56,6 +55,7 @@
     root: emgps      INFO Global Positioning System
     root: emgps      INFO Gps: 21.1640478895,-101.613045967,1828
     ...
+```
 
 ## Inertial Measurement Unit
 
@@ -65,6 +65,7 @@
 - Pitch
 - Yaw
 
+```sh
     edison@ubilinux:~$ cd
     edison@ubilinux:~$ su
     Password: 
@@ -77,9 +78,9 @@
     60: -- -- -- -- -- -- -- -- -- -- -- 6b -- -- -- -- 
     70: -- -- -- -- -- -- -- 77
     ...
+```
 
-### EekMex Simulator
-
+```sh
     root@eekmex:/home/eekmex# cd eekmex/eekmex
     root@eekmex:/home/eekmex/eekmex/spacecraft# python eekmex.py -d all
     root: eekmex     INFO EekMex, Aerospace Learning Platform
@@ -88,3 +89,4 @@
     root: emimu      INFO Inertial Measurement Unit
     root: emimu      INFO Imu: -153,64,39,
     ...
+```
