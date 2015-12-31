@@ -1,8 +1,8 @@
 Mission
 ==
 
-- Mission Control Center = Personal Computer
 - Ground Station = Personal Computer
+- Mission Control Center = Personal Computer
 - Deep Space Network = APRS
 - Spacecraft = Embedded System
 - Unmanned Autonomous Vehicle = mBot
