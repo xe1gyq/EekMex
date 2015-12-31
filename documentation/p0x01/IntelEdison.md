@@ -16,6 +16,7 @@ Intel Edison
 
 ### Boot Up
 
+```sh
     Debian GNU/Linux 7 ubilinux ttyMFD2
 
     ubilinux login: edison
@@ -25,9 +26,11 @@ Intel Edison
     Password: edison
     root@ubilinux:/home/edison# date -s "10/22/2015 16:01:00"
     Thu Oct 22 16:01:00 UTC 2015
+```
 
 ### WiFi
 
+```sh
     edison@ubilinux:~$ su
     Password: edison
     root@ubilinux:/home/edison# cd 
@@ -55,9 +58,11 @@ Intel Edison
     root@ubilinux:~# reboot
 
     <reboot your board, sign in and become root>
+```
 
 ## Packages Apt-Get Installation
 
+```sh
     edison@ubilinux:~$ su
     Password: edison
     root@ubilinux:/home/edison# cd 
@@ -66,17 +71,21 @@ Intel Edison
     root@ubilinux:~# apt-get install git build-essential python-dev swig
     root@ubilinux:~# apt-get install python-smbus lm-sensors
     root@ubilinux:~# apt-get install gpsd gpsd-clients python-gps libxml2-dev libxslt1-dev
+```
 
 ## Packages Python Pip Installation
 
+```sh
     root@ubilinux:~# pip install numpy psutil XBee pyserial pykml
     root@ubilinux:~# exit
     edison@ubilinux:~$ 
+```
 
 ## Packages Manual Installation
 
 ### Adafruit BMP180 Python Library
 
+```sh
     edison@ubilinux:~$ cd
     edison@ubilinux:~$ git clone https://github.com/adafruit/Adafruit_Python_BMP.git
     edison@ubilinux:~$ cd Adafruit_Python_BMP
@@ -86,6 +95,7 @@ Intel Edison
     root@ubilinux:/home/edison/Adafruit_Python_BMP# exit
     edison@ubilinux:~/Adafruit_Python_BMP$ cd
     edison@ubilinux:~$
+```
 
 [Why not using UPM Library?](https://github.com/xe1gyq/eekmex/issues/1)
 
@@ -96,7 +106,7 @@ Intel Edison
 
 - [MRAA Github](https://github.com/intel-iot-devkit/mraa)
 
-
+```sh
     edison@ubilinux:~$ su
     Password: 
     root@ubilinux:/home/edison# cd
@@ -126,11 +136,13 @@ Intel Edison
     edison@ubilinux:~/mraa/build$ export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
     edison@ubilinux:~/mraa/build$ cd
     edison@ubilinux:~$ 
+```
 
 ### Cmake
 
 > Welcome to CMake, the cross-platform, open-source build system. CMake is a family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files. CMake generates native makefiles and workspaces that can be used in the compiler environment of your choice.
 
+```sh
     edison@ubilinux:~$ cd
     edison@ubilinux:~$ wget http://www.cmake.org/files/v3.2/cmake-3.2.2.tar.gz
     edison@ubilinux:~$ tar xvf cmake-3.2.2.tar.gz
@@ -143,6 +155,7 @@ Intel Edison
     root@ubilinux:/home/edison/cmake-3.2.2# exit 
     edison@ubilinux:~/cmake-3.2.2$ cd
     edison@ubilinux:~$ 
+```
 
 ### Upm
 
@@ -153,7 +166,7 @@ Intel Edison
 - [UPM Github](https://github.com/intel-iot-devkit/upm)
 - [UPM Python Exampes](https://github.com/intel-iot-devkit/upm/tree/master/examples/python)
 
-
+```sh
     edison@ubilinux:~$ cd
     edison@ubilinux:~$ git clone https://github.com/intel-iot-devkit/upm.git
     edison@ubilinux:~$ cd upm
@@ -175,11 +188,13 @@ Intel Edison
     edison@ubilinux:~/upm/build$ export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
     edison@ubilinux:~/upm/build$ cd
     edison@ubilinux:~$ 
+```
 
 ### RTIMULib
 
 > RTIMULib is the simplest way to connect a 9-dof, 10-dof or 11-dof IMU to an embedded Linux system and obtain quaternion or Euler angle pose data. Basically, two simple function calls (IMUInit() and IMURead()) are pretty much all that's needed to integrate RTIMULib.
 
+```sh
     edison@ubilinux:~$ cd
     edison@ubilinux:~$ git clone https://github.com/richards-tech/RTIMULib.git
     edison@ubilinux:~$ mkdir -p RTIMULib/RTIMULib/build
@@ -202,9 +217,11 @@ Intel Edison
     root@ubilinux:/home/edison/RTIMULib/Linux/python# exit
     edison@ubilinux:~/RTIMULib/Linux/python$ cd
     edison@ubilinux:~$
+```
 
 ## Storage
 
+```sh
     edison@ubilinux:~$ su
     Password: 
     root@ubilinux:/home/edison# cd
@@ -212,3 +229,4 @@ Intel Edison
     root@ubilinux:~# mount /dev/mmcblk1 /media/sdcard/
     root@ubilinux:~# vi /etc/fstab
     /dev/mmcblk1p1 /media/sdcard
+```
