@@ -1,5 +1,7 @@
-Host Development
+Simulator
 ==
+
+We will work in our Linux Debian based Personal Computer to have a Spacecraft simulated
 
 ## PreRequisites
 
@@ -38,22 +40,6 @@ Host Development
     root: eekmex     INFO EekMex, Aerospace Learning Platform
     root: eekmex     INFO Mode Clean Up, Remove Files
 
-### Simulator Demo Sensors
-
-    eekmex@eekmex:~/eekmex/simulator$ python eekmex.py -d sensors
-    root: eekmex     INFO EekMex, Aerospace Learning Platform
-    root: eekmex     INFO Mode Demo
-    root: emdemo     INFO Demo
-    root: emaltitude INFO Altitude 2020
-    root: empressure INFO Pressure 1484
-    root: emsealevelpressure INFO Sea Level Pressure 1900
-    root: emtemperature INFO Temperature 40
-    root: emdemo     INFO Sensors: 2020,1484,1900,40
-    ...
-    ...
-    ^Z
-    eekmex@eekmex:~/eekmex/simulator$ 
-
 ### Simulator Demo IMU
 
     eekmex@eekmex:~/eekmex/simulator$ python eekmex.py -d imu
@@ -89,3 +75,18 @@ Host Development
     ^Z
     eekmex@eekmex:~/eekmex/simulator$ 
 
+### Simulator Demo Sensors
+
+    eekmex@eekmex:~/eekmex/simulator$ python eekmex.py -d sensors
+    root: eekmex     INFO EekMex, Aerospace Learning Platform
+    root: eekmex     INFO Mode Demo
+    root: emdemo     INFO Demo
+    root: emaltitude INFO Altitude 2020
+    root: empressure INFO Pressure 1484
+    root: emsealevelpressure INFO Sea Level Pressure 1900
+    root: emtemperature INFO Temperature 40
+    root: emdemo     INFO Sensors: 2020,1484,1900,40
+    ...
+    ...
+    ^Z
+    eekmex@eekmex:~/eekmex/simulator$ 

@@ -3,7 +3,17 @@ Software
 
 ## Spacecraft
 
-### Ubilinux Installation
+### Operating System
+
+> An operating system (OS) is system software that manages computer hardware and software resources and provides common services for computer programs. The operating system is a component of the system software in a computer system. Application programs usually require an operating system to function. Wikipedia
+
+- [Wikipedia Operating System](https://en.wikipedia.org/wiki/Operating_system)
+
+#### Installation
+
+> ubilinux™ is an embedded Linux distribution from Emutex and is based on Debian "Wheezy". It is targeted at embedded devices that have limited memory and storage capabilities.
+
+- [Emutex Labs ubilinux™ Homepage](http://www.emutexlabs.com/ubilinux)
 - [Loading Debian (Ubilinux) on the Edison ](https://learn.sparkfun.com/tutorials/loading-debian-ubilinux-on-the-edison)
 
 #### Boot Up
@@ -59,7 +69,7 @@ Software
     root@ubilinux:~# apt-get install python-smbus lm-sensors
     root@ubilinux:~# apt-get install gpsd gpsd-clients python-gps libxml2-dev libxslt1-dev
 
-### Packages Pip Installation
+### Packages Python Pip Installation
 
     root@ubilinux:~# pip install numpy psutil XBee pyserial pykml
     root@ubilinux:~# exit
@@ -168,7 +178,7 @@ Software
     edison@ubilinux:~/upm/build$ cd
     edison@ubilinux:~$ 
 
-### RTIMULib
+#### RTIMULib
 
 > RTIMULib is the simplest way to connect a 9-dof, 10-dof or 11-dof IMU to an embedded Linux system and obtain quaternion or Euler angle pose data. Basically, two simple function calls (IMUInit() and IMURead()) are pretty much all that's needed to integrate RTIMULib.
 
@@ -195,7 +205,7 @@ Software
     edison@ubilinux:~/RTIMULib/Linux/python$ cd
     edison@ubilinux:~$
 
-#### SD Card
+### Storage
 
     edison@ubilinux:~$ su
     Password: 
@@ -205,7 +215,11 @@ Software
     root@ubilinux:~# vi /etc/fstab
     /dev/mmcblk1p1 /media/sdcard
 
-#### EekMex Git Repository
+### EekMex Source Code
+
+#### 
+
+We have a git repository
 
     edison@ubilinux:~$
     edison@ubilinux:/home/edison# su
@@ -222,14 +236,3 @@ Software
     root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -c files
     root@ubilinux:/home/edison/eekmex/eekmex# git config --global user.email "you@example.com"
     root@ubilinux:/home/edison/eekmex/eekmex# git config --global user.name "Your Name"
-
-## Ground Station
-
-Who want to develop it? Please use wx python library
-
-    Debian GNU/Linux 8 eekmex tty1
-
-    eekmex login: eekmex
-    Password: eekmex
-    ...
-    eekmex@eekmex:~$

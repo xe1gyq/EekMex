@@ -10,10 +10,10 @@ Introduction
 
 # Infrastructure
 
-- [ ] Control Center
-- [ ] Ground Station
-- [ ] Spacecraft
-- [ ] Unmanned Autonomous Vehicle
+- [ ] Mission Control Center / Control Center
+- [ ] Ground Stations
+- [ ] Spacecraft / Planet Orbiter
+- [ ] Unmanned Autonomous Vehicle / Planet Rover
 - [ ] Space Helicopter
 
 # Subsystem Operations

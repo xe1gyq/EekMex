@@ -1,11 +1,19 @@
 Mission
 ==
 
-## Time
+- Mission Control Center = None
+- Ground Station = None
+- Deep Space Network = WiFi
+- Spacecraft = Intel Edison
+- Unmanned Autonomous Vehicle =	None
 
-3 Hours
+## Deep Space Network
 
-## Architecture
+We will use WiFi Network
+
+## Spacecraft
+
+### Architecture
 
 - Payload
 - On Board Data Handling
@@ -13,13 +21,22 @@ Mission
   - Antenna
 - Power Subsystem
   - Battery
-  - Solar Panels
+  - Solar Panels (On Hold)
 
-## Operations
+### Operations
 
 - Payload to gather data
+  - Temperature
+  - Pressure
+  - Sea Level Pressure
+  - Altitude
+  - Position Global Positioning System
+  - Attitude Inertial Measurement Unit
 - On Board Data Handling to process data
-- Data Packets creation
-- Data Packets transmission
-- Ground Station visualization
-- Automatic Packet Reporting System
+  - Data packets coding
+  - Data packets decoding
+- Communication Subsystems
+  - Packets transmission
+  - Packets reception
+- Power Subsystem
+  - Provide sufficient power for our system to function

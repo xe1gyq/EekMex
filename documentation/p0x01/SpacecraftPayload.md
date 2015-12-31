@@ -1,15 +1,29 @@
-Devices
-==
+# Payload
 
-### Global Positioning System
+## General Sensors
 
-#### Gpsd Daemon
+  - Temperature
+  - Pressure
+  - Sea Level Pressure
+  - Altitude
+
+
+    edison@ubilinux:~$ cd
+    edison@ubilinux:~$ su
+    Password: 
+    root@ubilinux:/home/edison# cd eekmex/eekmex
+    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d sensors
+
+## Global Positioning System
+
+### Gpsd Daemon
 
 > gpsd is a service daemon that monitors one or more GPSes or AIS receivers attached to a host computer through serial or USB ports, making all data on the location/course/velocity of the sensors available
 
 - [GPSD Homepage](http://www.catb.org/gpsd/)
 
 
+    edison@ubilinux:~$ cd
     edison@ubilinux:~$ su
     Password: 
     root@ubilinux:/home/edison# dmesg
@@ -51,15 +65,11 @@ Devices
     root@ubilinux:/home/edison# cd eekmex/eekmex
     root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d gps
 
-### Inertial Measurement Unit
+## Inertial Measurement Unit
 
-#### i2c-tools
+> LSM9DS0 9DOF IMU for full-range motion sensing. This chip combines a 3-axis accelerometer, a 3-axis gyroscope, and a 3-axis magnetometer.
 
-> A set of I²C programs that make it easy to debug I²C devices without having to write any code.
-
-- [Elinux - Interfacing with I2C Devices](http://elinux.org/Interfacing_with_I2C_Devices)
-
-
+    edison@ubilinux:~$ cd
     edison@ubilinux:~$ su
     Password: 
     root@ubilinux:/home/edison# i2cdetect -y -r 1
@@ -73,10 +83,3 @@ Devices
     ...
     root@ubilinux:/home/edison# cd eekmex/eekmex
     root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d imu
-
-### Sensors
-
-    edison@ubilinux:~$ su
-    Password: 
-    root@ubilinux:/home/edison# cd eekmex/eekmex
-    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d sensors
