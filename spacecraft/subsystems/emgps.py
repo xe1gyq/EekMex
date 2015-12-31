@@ -32,7 +32,7 @@ class emGps(threading.Thread):
                 self.gpsd.next()
 
     def emGpsData(self):
-'        if self.mode is None:
+        if self.mode is None:
             self.latitude = self.gpsd.fix.latitude
             self.longitude = self.gpsd.fix.longitude
             self.altitude = self.gpsd.fix.altitude
