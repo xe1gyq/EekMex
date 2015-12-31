@@ -85,6 +85,10 @@
 
 > LSM9DS0 9DOF IMU for full-range motion sensing. This chip combines a 3-axis accelerometer, a 3-axis gyroscope, and a 3-axis magnetometer.
 
+- Roll
+- Pitch
+- Yaw
+
     edison@ubilinux:~$ cd
     edison@ubilinux:~$ su
     Password: 
