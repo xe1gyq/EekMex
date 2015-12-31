@@ -7,14 +7,26 @@
   - Sea Level Pressure
   - Altitude
 
-
     edison@ubilinux:~$ cd
     edison@ubilinux:~$ su
     Password: 
+
+### EekMex Simulator
+
     root@ubilinux:/home/edison# cd eekmex/eekmex
-    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d sensors
+    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d all
+    root: eekmex     INFO EekMex, Aerospace Learning Platform
+    root: eekmex     INFO Mode Demo
+    root: emdemo     INFO Demo
+    root: emsensors  INFO Sensors
+    root: emsensors  INFO Sensors: 2839,1586,1603,29
+    ...
 
 ## Global Positioning System
+
+  - Latitude
+  - Longitude
+  - Altitude
 
 ### Gpsd Daemon
 
@@ -62,12 +74,25 @@
     x    Time offset:     124046999.723         xx                                 x
     x    Grid Square:     n/a                   xx                                 x
     mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqjmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+### EekMex Simulator
+
     root@ubilinux:/home/edison# cd eekmex/eekmex
-    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d gps
+    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d all
+    root: eekmex     INFO EekMex, Aerospace Learning Platform
+    root: eekmex     INFO Mode Demo
+    root: emdemo     INFO Demo
+    root: emgps      INFO Global Positioning System
+    root: emgps      INFO Gps: 21.1640478895,-101.613045967,1828
+    ...
 
 ## Inertial Measurement Unit
 
 > LSM9DS0 9DOF IMU for full-range motion sensing. This chip combines a 3-axis accelerometer, a 3-axis gyroscope, and a 3-axis magnetometer.
+
+- Roll
+- Pitch
+- Yaw
 
     edison@ubilinux:~$ cd
     edison@ubilinux:~$ su
@@ -81,5 +106,14 @@
     60: -- -- -- -- -- -- -- -- -- -- -- 6b -- -- -- -- 
     70: -- -- -- -- -- -- -- 77
     ...
+
+### EekMex Simulator
+
     root@ubilinux:/home/edison# cd eekmex/eekmex
-    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d imu
+    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d all
+    root: eekmex     INFO EekMex, Aerospace Learning Platform
+    root: eekmex     INFO Mode Demo
+    root: emdemo     INFO Demo
+    root: emimu      INFO Inertial Measurement Unit
+    root: emimu      INFO Imu: -153,64,39,
+    ...
