@@ -69,7 +69,14 @@
     x    Grid Square:     n/a                   xx                                 x
     mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqjmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
     root@ubilinux:/home/edison# cd eekmex/eekmex
-    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d gps
+    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d all
+    root: eekmex     INFO EekMex, Aerospace Learning Platform
+    root: eekmex     INFO Mode Demo
+    root: emdemo     INFO Demo
+    root: emgps      INFO Global Positioning System
+    root: emgps      INFO Gps: 21.1640478895,-101.613045967,1828
+    ...
+
 
 ## Inertial Measurement Unit
 
