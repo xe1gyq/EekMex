@@ -18,10 +18,9 @@ from threading import Thread
 
 class emDemo(object):
 
-    def __init__(self, subsystem):
+    def __init__(self):
 
         logging.info('Demo')
-        self.subsystem = subsystem
 
         self.altitude = None
         self.temperature = None
@@ -34,9 +33,9 @@ class emDemo(object):
         self.longitude = None
         self.altitudegps = None
 
+        self.li = LoremIpsum()
         self.emgpsfd = emGps("demo")
         self.emimu = emImu("demo")
-        self.li = LoremIpsum()
 
         threadDemoExecute = Thread(target=self.emDemoExecute)
         threadDemoExecute.start()
@@ -45,7 +44,6 @@ class emDemo(object):
         threadDemoDweet.start()
 
     def emDemoGps(self):
-
         self.latitude = self.emgpsfd.emGpsLatitudeGet()
         self.longitude = self.emgpsfd.emGpsLongitudeGet()
         self.altitudegps = self.emgpsfd.emGpsAltitudeGet()
@@ -54,7 +52,6 @@ class emDemo(object):
         logging.info(gpsdata)
 
     def emDemoImu(self):
-
         self.roll = self.emimu.emImuRollGet()
         self.pitch = self.emimu.emImuPitchGet()
         self.yaw = self.emimu.emImuYawGet()
@@ -62,7 +59,6 @@ class emDemo(object):
         logging.info(imudata)
 
     def emDemoSensors(self):
-
         self.altitude = emAltitudeGet("demo")
         self.pressure = emPressureGet("demo")
         self.sealevelpressure = emSeaLevelPressureGet("demo")
@@ -72,16 +68,12 @@ class emDemo(object):
         logging.info(sensorsdata)
 
     def emDemoExecute(self):
-        if self.subsystem == 'all':
-            while True:
-                self.emDemoGps()
-                self.emDemoImu()
-                self.emDemoSensors()
-        else:
-            logging.info('Specific Demo Not Found!')
+        while True:
+            self.emDemoGps()
+            self.emDemoImu()
+            self.emDemoSensors()
 
     def emDemoDweet(self):
-
         while True:
             data = {}
             data['alive'] = "1"

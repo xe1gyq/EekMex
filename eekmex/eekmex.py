@@ -79,7 +79,8 @@ if __name__=='__main__':
     if args.demo:
 
         logging.info('Mode Demo')
-        emdemo = emDemo(args.demo)
+
+        emdemo = emDemo()
         while True:
             try:
                 pass
@@ -87,8 +88,8 @@ if __name__=='__main__':
                 logging.info('Mode Demo ... Exiting')
                 sys.exit(0)
 
-    if args.project == '0x01':
+    if args.project:
 
-        logging.info('Mode Project, 0x01')
+        logging.info('Mode Project')
 
 # End of File
