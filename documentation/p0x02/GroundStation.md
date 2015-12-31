@@ -33,7 +33,6 @@ The following widgets will be created:
 
 1. Mission Information
    - City
-   - State
    - Date
    - Mission Control Center Messages
 3. Sensors
