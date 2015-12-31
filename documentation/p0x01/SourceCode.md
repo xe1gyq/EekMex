@@ -2,14 +2,14 @@
 
 We have a git repository
 
-    edison@ubilinux:~$
-    edison@ubilinux:/home/edison# su
+    user@board:~$
+    user@board:/home/edison# su
     Password: 
-    root@ubilinux:/home/edison# apt-get update
-    root@ubilinux:/home/edison# apt-get install git
-    root@ubilinux:/home/edison# exit
-    edison@ubilinux:~$ git clone https://github.com/xe1gyq/eekmex.git
-    edison@ubilinux:~$ cd eekmex
+    user@board:/home/edison# apt-get update
+    user@board:/home/edison# apt-get install git
+    user@board:/home/edison# exit
+    user@board:~$ git clone https://github.com/xe1gyq/eekmex.git
+    user@board:~$ cd eekmex
     edison@ubilinux:~/eekmex$ ls
     documentation  eekmex  LICENSE  README.md  sandbox  simulator  SUMMARY.md  training
     root@ubilinux:/home/edison/eekmex# su
