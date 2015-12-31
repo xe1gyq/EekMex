@@ -17,7 +17,4 @@ Operating System Abstraction Layer
     xe1gyq@jessie:~/Projects/osal$ export OSAL_SRC=/home/xe1gyq/Projects/osal/src
     xe1gyq@jessie:~/Projects/osal$ cd build/
     xe1gyq@jessie:~/Projects/osal$ make
-
-## Links
-
 - 
