@@ -14,7 +14,7 @@ Protocols
 ```sh
     user@spacecraft:~$ su
     Password: 
-    user@spacecraft:/home/edison# cd
+    user@spacecraft:/home/user# cd
     user@spacecraft:~# i2cdetect -y -r 1
          0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
     00:          -- -- -- -- -- -- -- -- -- -- -- -- -- 
@@ -60,7 +60,7 @@ Protocols
     [  514.959341] usb 1-1.2: Endpoint 1 MaxPacketSize 64
     [  514.959360] usb 1-1.2: Endpoint 2 MaxPacketSize 64
     [  514.959378] usb 1-1.2: Setting MaxPacketSize 64
-    [  514.960259] usb 1-1.2: FTDI USB Serial Device converter now attached to ttyUSB0
+    [  514.960259] usb 1-1.2: FTDI USB Serial Device conerverter now attached to ttyUSB0
     root@eekmex:/home/eekmex/eekmex/spacecraft# gpsd /dev/ttyUSB0 -F /var/run/gpsd.sock
     root@eekmex:/home/eekmex/eekmex/spacecraft# cgps -s
     lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqklqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk
