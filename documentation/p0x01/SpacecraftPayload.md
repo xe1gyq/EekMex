@@ -28,8 +28,6 @@
   - Sea Level Pressure
   - Altitude
 
-### EekMex Simulator
-
     root@ubilinux:/home/edison# cd eekmex/spacecraft
     root@ubilinux:/home/edison/eekmex/spacecraft# python eekmex.py -d all
     root: eekmex     INFO EekMex, Aerospace Learning Platform
