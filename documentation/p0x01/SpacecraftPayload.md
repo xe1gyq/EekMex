@@ -94,5 +94,10 @@
     70: -- -- -- -- -- -- -- 77
     ...
     root@ubilinux:/home/edison# cd eekmex/eekmex
-    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d imu
+    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d all
+    root: eekmex     INFO EekMex, Aerospace Learning Platform
+    root: eekmex     INFO Mode Demo
+    root: emdemo     INFO Demo
+    root: emimu      INFO Inertial Measurement Unit
+    root: emimu      INFO Imu: -153,64,39,
     
