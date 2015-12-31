@@ -35,8 +35,7 @@ The following widgets will be created:
    - City
    - State
    - Date
-2. Information
-   - Mission Control Center
+   - Mission Control Center Messages
 3. Sensors
    - Temperature
    - Pressure
