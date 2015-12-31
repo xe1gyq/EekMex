@@ -5,6 +5,8 @@ Ground Station
 
 
 
+- [freeboard.io homepage](https://freeboard.io/)
+
 ### Setup
 
 1. Go to [freeboard.io](https://freeboard.io/) and sign up
