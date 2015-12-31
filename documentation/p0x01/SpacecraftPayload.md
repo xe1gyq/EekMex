@@ -66,7 +66,6 @@
 - Yaw
 
 ```sh
-    root@eekmex:/home/eekmex# cd eekmex/eekmex
     root@eekmex:/home/eekmex/eekmex/spacecraft# python eekmex.py -d all
     root: eekmex     INFO EekMex, Aerospace Learning Platform
     root: eekmex     INFO Mode Demo
