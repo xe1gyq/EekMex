@@ -44,6 +44,7 @@ Payload
     x    Time offset:     124046999.723         xx                                 x
     x    Grid Square:     n/a                   xx                                 x
     mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqjmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+    root@spacecraft:~# gpsd-clients python-gps
 
 ## Simulator
 
