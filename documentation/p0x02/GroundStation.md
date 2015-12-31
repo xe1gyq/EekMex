@@ -55,6 +55,8 @@ The following widgets will be created:
 
 > Ridiculously simple data sharing for the Internet of Things.
 
+- [dweet.io homepage](http://dweet.io/)
+
 ### Setup
 
 1. Go to [dweet.io](http://dweet.io/)
