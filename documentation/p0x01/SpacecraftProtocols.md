@@ -37,6 +37,10 @@ Protocols
     root@spacecraft:~# sensors
 ```
 
+## Serial
+
+
+
 ## Gpsd Daemon
 
 > gpsd is a service daemon that monitors one or more GPSes or AIS receivers attached to a host computer through serial or USB ports, making all data on the location/course/velocity of the sensors available
