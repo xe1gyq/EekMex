@@ -139,7 +139,7 @@ satellites = len(gpsc.satellites)
     ...
 ```
 
-https://github.com/martinohanlon/vidGPSOverlay/blob/master/GPSController.py
+ - [1](https://github.com/martinohanlon/vidGPSOverlay/blob/master/GPSController.py)
 
 ## Attitude (Inertial Measurement Unit)
 
