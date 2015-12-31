@@ -2,22 +2,28 @@
 
 import logging
 import math
+from random import randint
 from time import *
 import time
 import threading
 from threading import Thread
-import RTIMU
+try:
+    import RTIMU
+except ImportError:
+    pass
 
 class emImu(object):
 
-    def __init__(self):
+    def __init__(self, mode=None):
 
         logging.info('Inertial Measurement Unit')
+        self.mode = mode
         self.roll = None
         self.pitch = None
         self.yaw = None
 
-        self.emImuInitialize()
+        if mode is None:
+            self.emImuInitialize()
         thread = Thread(target=self.emImuPoller)
         thread.start()
 
@@ -43,13 +49,18 @@ class emImu(object):
 
     def emImuPoller(self):
         while True:
-            if self.imu.IMURead():
-                data = self.imu.getIMUData()
-                fusionPose = data["fusionPose"]
-                self.roll = math.degrees(fusionPose[0])
-                self.pitch = math.degrees(fusionPose[1])
-                self.yaw = math.degrees(fusionPose[2])
-                time.sleep(self.poll_interval*1.0/1000.0)
+            if self.mode is None: 
+                if self.imu.IMURead():
+                    data = self.imu.getIMUData()
+                    fusionPose = data["fusionPose"]
+                    self.roll = math.degrees(fusionPose[0])
+                    self.pitch = math.degrees(fusionPose[1])
+                    self.yaw = math.degrees(fusionPose[2])
+                    time.sleep(self.poll_interval*1.0/1000.0)
+            else:
+                self.roll = randint(0,180)
+                self.pitch = randint(0,180)
+                self.yaw = randint(0,180)
 
     def emImuRollGet(self):
         return self.roll

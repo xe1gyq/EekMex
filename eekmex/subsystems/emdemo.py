@@ -1,8 +1,12 @@
 #!/usr/bin/python
 
+import dweepy
+import json
 import logging
 import sys
 import time
+
+from random_words import LoremIpsum
 from threading import Thread
 
 class emDemo(object):
@@ -34,7 +38,7 @@ class emDemo(object):
 
         from subsystems.emimu import emImu
 
-        self.emimu = emImu()
+        self.emimu = emImu("demo")
 
     def emDemoImu(self):
 
@@ -51,12 +55,24 @@ class emDemo(object):
         from sensors.emsealevelpressure import emSeaLevelPressureGet
         from sensors.emtemperature import emTemperatureGet
 
-        altitude = emAltitudeGet()
-        pressure = emPressureGet()
-        sealevelpressure = emSeaLevelPressureGet()
-        temperature = emTemperatureGet()
+        altitude = emAltitudeGet("demo")
+        pressure = emPressureGet("demo")
+        sealevelpressure = emSeaLevelPressureGet("demo")
+        temperature = emTemperatureGet("demo")
         sensorsdata = ("Sensors: {0}," "{1}," "{2}," "{3}".format( \
                         altitude, pressure, sealevelpressure, temperature))
+
+        li = LoremIpsum()
+        data = {}
+        data['alive'] = "1"
+        data['altitude'] = altitude
+        data['pressure'] = pressure
+        data['sealevelpressure'] = sealevelpressure
+        data['temperature'] = temperature
+        data['message'] = li.get_sentence()
+        json_data = json.dumps(data)
+        dweepy.dweet_for('EekMexArejXe', data)
+
         logging.info(sensorsdata)
 
     def emDemoSetup(self):

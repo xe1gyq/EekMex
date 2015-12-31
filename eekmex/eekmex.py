@@ -18,7 +18,7 @@ def eekMexLogging():
 
     logging.basicConfig(level=logging.INFO,
                         format='%(asctime)s %(name)-2s %(module)-10s %(levelname)-4s %(message)s',
-                        filename='eekmex.log',
+                        filename='output/eekmexmain.log',
                         filemode='a')
 
     # ------------------------------------------------------------
@@ -28,10 +28,10 @@ def eekMexLogging():
     loggerConsole = logging.StreamHandler()
     loggerConsole.setLevel(logging.INFO)
 
-    loggerFile = logging.FileHandler('/media/sdcard/eekmex.log', 'a')
+    loggerFile = logging.FileHandler('output/eekmexbackup.log', 'a')
     loggerFile.setLevel(logging.INFO)
 
-    loggerFileGoogleEarth = logging.FileHandler('/media/sdcard/eekmexprekml.log', 'a')
+    loggerFileGoogleEarth = logging.FileHandler('output/eekmexprekml.log', 'a')
     loggerFileGoogleEarth.setLevel(logging.WARNING)
 
     # ------------------------------------------------------------
@@ -72,9 +72,9 @@ if __name__=='__main__':
 
         logging.info('Mode Clean Up, Remove Files')
 
-        os.remove('eekmex.log')
-        os.remove('/media/sdcard/eekmex.log')
-        os.remove('/media/sdcard/eekmexprekml.log')
+        os.remove('output/eekmexmain.log')
+        os.remove('output/eekmexbackup.log')
+        os.remove('output/eekmexprekml.log')
 
     if args.demo:
 
@@ -86,6 +86,7 @@ if __name__=='__main__':
             except KeyboardInterrupt:
                 logging.info('Mode Demo ... Exiting')
                 sys.exit(0)
+            time.sleep(1)
 
     if args.project == '0x01':
 

@@ -1,15 +1,21 @@
 #!/usr/bin/python
 
 import logging
-import pyupm_bmpx8x as upmBmpx8x
-import Adafruit_BMP.BMP085 as BMP085
+from random import randint
+try:
+    #import pyupm_bmpx8x as upmBmpx8x
+    import Adafruit_BMP.BMP085 as BMP085
+except ImportError:
+    pass
 
-def emTemperatureGet():
-
-    #temperature = upmBmpx8x.BMPX8X(1, upmBmpx8x.ADDR);
-    #temperaturedata = temperature.getTemperature()
-    sensor = BMP085.BMP085(busnum=1)
-    temperaturedata = sensor.read_temperature()
+def emTemperatureGet(mode=None):
+    if mode is None:
+        #temperature = upmBmpx8x.BMPX8X(1, upmBmpx8x.ADDR);
+        #temperaturedata = temperature.getTemperature()
+        sensor = BMP085.BMP085(busnum=1)
+        temperaturedata = sensor.read_temperature()
+    else:
+        temperaturedata = randint(20,40)
     logging.info('Temperature %s' % temperaturedata)
     return temperaturedata
 
