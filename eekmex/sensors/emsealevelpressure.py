@@ -17,7 +17,6 @@ def emSeaLevelPressureGet(mode=None):
         sealevelpressuredata = sensor.read_sealevel_pressure()
     else:
         sealevelpressuredata = randint(1000,2000)
-    logging.info('Sea Level Pressure %s' % sealevelpressuredata)
     return sealevelpressuredata
 
 # End of File

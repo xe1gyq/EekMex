@@ -17,7 +17,6 @@ def emPressureGet(mode=None):
         pressuredata = sensor.read_pressure()
     else:
         pressuredata = randint(1000,2000)
-    logging.info('Pressure %s' % pressuredata)
     return pressuredata
 
 # End of File

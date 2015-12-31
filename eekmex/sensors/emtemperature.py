@@ -16,7 +16,6 @@ def emTemperatureGet(mode=None):
         temperaturedata = sensor.read_temperature()
     else:
         temperaturedata = randint(20,40)
-    logging.info('Temperature %s' % temperaturedata)
     return temperaturedata
 
 # End of File

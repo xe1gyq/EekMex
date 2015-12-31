@@ -16,7 +16,6 @@ def emAltitudeGet(mode=None):
         altitudedata = sensor.read_altitude()
     else:
         altitudedata = randint(2000,3000)
-    logging.info('Altitude %s' % altitudedata)
     return altitudedata
 
 # End of File

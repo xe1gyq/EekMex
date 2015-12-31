@@ -8,10 +8,7 @@ import time
 
 from subsystems.emgps import emGps
 from subsystems.emimu import emImu
-from sensors.emaltitude import emAltitudeGet
-from sensors.empressure import emPressureGet
-from sensors.emsealevelpressure import emSeaLevelPressureGet
-from sensors.emtemperature import emTemperatureGet
+from subsystems.emsensors import emSensors
 
 from random_words import LoremIpsum
 from threading import Thread
@@ -32,10 +29,12 @@ class emDemo(object):
         self.latitude = None
         self.longitude = None
         self.altitudegps = None
+        self.satellites = None
 
         self.li = LoremIpsum()
         self.emgpsfd = emGps("demo")
         self.emimu = emImu("demo")
+        self.emsensors = emSensors("demo")
 
         threadDemoExecute = Thread(target=self.emDemoExecute)
         threadDemoExecute.start()
@@ -44,34 +43,20 @@ class emDemo(object):
         threadDemoDweet.start()
 
     def emDemoGps(self):
-        self.latitude = self.emgpsfd.emGpsLatitudeGet()
-        self.longitude = self.emgpsfd.emGpsLongitudeGet()
-        self.altitudegps = self.emgpsfd.emGpsAltitudeGet()
-        gpsdata = ("Gps: {0}," "{1}," "{2}".format( \
-                    self.latitude, self.longitude, self.altitudegps))
-        logging.info(gpsdata)
+        self.latitude, self.longitude, self.altitudegps, self.satellites = self.emgpsfd.emGpsData()
 
     def emDemoImu(self):
-        self.roll = self.emimu.emImuRollGet()
-        self.pitch = self.emimu.emImuPitchGet()
-        self.yaw = self.emimu.emImuYawGet()
-        imudata = ("Imu: {0}," "{1}," "{2},".format(self.roll, self.pitch, self.yaw))
-        logging.info(imudata)
+        self.roll, self.pitch, self.yaw = self.emimu.emImuData()
 
     def emDemoSensors(self):
-        self.altitude = emAltitudeGet("demo")
-        self.pressure = emPressureGet("demo")
-        self.sealevelpressure = emSeaLevelPressureGet("demo")
-        self.temperature = emTemperatureGet("demo")
-        sensorsdata = ("Sensors: {0}," "{1}," "{2}," "{3}".format( \
-                        self.altitude, self.pressure, self.sealevelpressure, self.temperature))
-        logging.info(sensorsdata)
+        self.altitude, self.pressure, self.sealevelpressure, self.temperature = self.emsensors.emSensorsData()
 
     def emDemoExecute(self):
         while True:
             self.emDemoGps()
             self.emDemoImu()
             self.emDemoSensors()
+            time.sleep(1)
 
     def emDemoDweet(self):
         while True:
@@ -86,8 +71,10 @@ class emDemo(object):
             data['yaw'] = self.yaw
             data['latitude'] = self.latitude
             data['longitude'] = self.longitude
-            data['altitudegps'] = self.altitudegps 
+            data['altitudegps'] = self.altitudegps
+            data['satellites'] = self.satellites
             data['message'] = self.li.get_sentence()
             dweepy.dweet_for('EekMexArejXe', data)
+            time.sleep(1)
 
 # End of File
