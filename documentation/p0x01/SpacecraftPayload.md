@@ -18,6 +18,7 @@
     root: emdemo     INFO Demo
     root: emsensors  INFO Sensors
     root: emsensors  INFO Sensors: 2839,1586,1603,29
+    ...
 
 ## Global Positioning System
 
