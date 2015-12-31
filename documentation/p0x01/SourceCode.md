@@ -2,6 +2,7 @@
 
 We have a git repository
 
+```sh
     user@spacecraft:~$
     user@spacecraft:/home/user# su
     Password: 
@@ -15,3 +16,4 @@ We have a git repository
     user@spacecraft:/home/user/eekmex$ su
     Password: passwd
     root@spacecraft:/home/user/eekmex/spacecraft# python eekmex.py -c files
+```
