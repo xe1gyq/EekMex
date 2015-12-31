@@ -3,6 +3,13 @@ Ground Station
 
 ## Freeboard.Io
 
+We need to work with
+
+- __Data Sources__ named as "__DATASOURCES__" and initialized by clicking on "__ADD__". They gather data from a specific source as dweet.io, pubnub, or other.
+- __Panes__ initialized by clicking on "__ADD PANE__". They hold Widgets
+- __Widgets__ display data in some textual or graphical form
+
+
 ### Setup
 
 1. Go to [freeboard.io](https://freeboard.io/) and sign up
@@ -16,12 +23,6 @@ Ground Station
 4. Click on [__EekMex__](https://freeboard.io/board/huO_H7) to open the dashboard
 
 ### Freeboard EekMex Dashboard
-
-We need to work with
-
-- __Data Sources__ named as "__DATASOURCES__" and initialized by clicking on "__ADD__". They gather data from a specific source as dweet.io, pubnub, or other.
-- __Panes__ initialized by clicking on "__ADD PANE__". They hold Widgets
-- __Widgets__ display data in some textual or graphical form
 
 The following Components will be created:
 
