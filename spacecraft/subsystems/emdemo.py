@@ -42,20 +42,12 @@ class emDemo(object):
         threadDemoDweet = Thread(target=self.emDemoDweet)
         threadDemoDweet.start()
 
-    def emDemoGps(self):
-        self.latitude, self.longitude, self.altitudegps, self.satellites = self.emgpsfd.emGpsData()
-
-    def emDemoImu(self):
-        self.roll, self.pitch, self.yaw = self.emimu.emImuData()
-
-    def emDemoSensors(self):
-        self.altitude, self.pressure, self.sealevelpressure, self.temperature = self.emsensors.emSensorsData()
-
     def emDemoExecute(self):
+        self.emgpsfd.start()
         while True:
-            self.emDemoGps()
-            self.emDemoImu()
-            self.emDemoSensors()
+            self.latitude, self.longitude, self.altitudegps, self.satellites = self.emgpsfd.emGpsData()
+            self.roll, self.pitch, self.yaw = self.emimu.emImuData()
+            self.altitude, self.pressure, self.sealevelpressure, self.temperature = self.emsensors.emSensorsData()
             time.sleep(1)
 
     def emDemoDweet(self):

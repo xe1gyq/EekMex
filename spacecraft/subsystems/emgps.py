@@ -2,66 +2,63 @@
 
 import logging 
 import os
-from gps import *
 import random
-from random import randint
-from time import *
-import time
 import threading
-import gps
-from threading import Thread
 
-class emGps(object):
+from random import randint
+
+class emGps(threading.Thread):
 
     def __init__(self, mode=None):
-
+        threading.Thread.__init__(self)
         logging.info('Global Positioning System')
+
         self.gpsd = None
+        self.running = False
+
         self.mode = mode
         self.latitude = None
         self.longitude = None
         self.altitude = None
         self.satellites = None
 
-        if mode is None:
-            self.emGpsInitialize()
+        if self.mode is None:
+            self.gpsd = gps.gps(mode=WATCH_ENABLE)
 
-        thread = Thread(target=self.emGpsPoller)
-        thread.start()
-
-    def emGpsInitialize(self):
-        self.gpsd = gps.gps(mode=WATCH_ENABLE)
-
-    def emGpsPoller(self):
-        while True:
+    def run(self):
+        self.running = True
+        while self.running:
             if self.mode is None:
                 self.gpsd.next()
-                self.latitude = self.gpsd.fix.latitude
-                self.longitude = self.gpsd.fix.longitude
-                self.altitude = self.gpsd.fix.altitude
-                self.satellites = self.gpsd.satellites
-            else:
-                self.latitude = random.uniform(21.14000000, 21.18000000)
-                self.longitude = random.uniform(-101.600000, -101.660000)
-                self.altitude = randint(1000, 2000)
-                self.satellites = randint(1,10)
 
     def emGpsData(self):
+'        if self.mode is None:
+            self.latitude = self.gpsd.fix.latitude
+            self.longitude = self.gpsd.fix.longitude
+            self.altitude = self.gpsd.fix.altitude
+            self.satellites = self.gpsd.satellites
+        else:
+            self.latitude = random.uniform(21.14000000, 21.18000000)
+            self.longitude = random.uniform(-101.600000, -101.660000)
+            self.altitude = randint(1000, 2000)
+            self.satellites = randint(1,10)
+
         gpsdata = ("Gps: {0}," "{1}," "{2}".format( \
                     self.latitude, self.longitude, self.altitude, self.satellites))
         logging.info(gpsdata)
-        return self.latitude, self.longitude, self.altitude, self.satellites
+        return self.latitude, self.longitude, \
+               self.altitude, self.satellites \
 
-    def emGpsLatitude(self):
-        return self.latitude
+    @property
+    def fix(self):
+        return self.gpsd.fix
 
-    def emGpsLongitude(self):
-        return self.longitude
+    @property
+    def utc(self):
+        return self.gpsd.utc
 
-    def emGpsAltitude(self):
-        return self.altitude
-
-    def emGpsSatellites(self):
-        return self.satellites
+    @property
+    def satellitess(self):
+        return self.gpsd.satellites
 
 # End of File
