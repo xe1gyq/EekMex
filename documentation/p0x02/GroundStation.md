@@ -53,7 +53,12 @@ The following widgets will be created:
 
 ## Dweet.Io
 
+### Setup
+
+1. Go to [dweet.io](http://dweet.io/)
+
 ```sh
+    # pip install dweepy
     # pip install RandomWords
 ```
 
@@ -74,12 +79,6 @@ The following widgets will be created:
     data['temperature'] = temperature
     dweepy.dweet_for('EekMexArejXe', data)
 ```
-
-### Setup
-
-1. Go to [dweet.io](http://dweet.io/)
-
-    pip install dweepy
 
 ## PubNub
 
