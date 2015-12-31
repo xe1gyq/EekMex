@@ -25,7 +25,7 @@ Some theory before
 
 ### Freeboard EekMex Dashboard
 
-The following Components will be created:
+The following widgets will be created:
 
 1. Mission Information
    - City
