@@ -1,5 +1,24 @@
 # Payload
 
+## Simulator
+
+
+## PreRequisites
+
+    Debian GNU/Linux 8 eekmex tty1
+
+    eekmex login: eekmex
+    Password: eekmex
+    ...
+    eekmex@eekmex:~$ su
+    Password: edison
+    eekmex@eekmex:/home/eekmex# cd
+    root@ubilinux:~# apt-get update
+    root@ubilinux:~# apt-get install python-pip
+    root@ubilinux:~# apt-get install git build-essential python-dev swig libtool zlib1g-dev
+    root@ubilinux:~# apt-get install python-smbus lm-sensors
+    root@ubilinux:~# apt-get install gpsd gpsd-clients python-gps libxml2-dev libxslt1-dev
+
 ## General Sensors
 
   - Temperature
