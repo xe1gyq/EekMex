@@ -39,8 +39,8 @@ class emGps(object):
                 self.longitude = self.gpsd.fix.longitude
                 self.altitude = self.gpsd.fix.altitude
             else:
-                self.latitude = random.uniform(21.11400000, 21.11600000)
-                self.longitude = random.uniform(-101.664000, -101.665000)
+                self.latitude = random.uniform(21.14000000, 21.18000000)
+                self.longitude = random.uniform(-101.600000, -101.660000)
                 self.altitude = randint(1000, 2000)
 
     def emGpsLatitudeGet(self):

@@ -6,6 +6,13 @@ import logging
 import sys
 import time
 
+from subsystems.emgps import emGps
+from subsystems.emimu import emImu
+from sensors.emaltitude import emAltitudeGet
+from sensors.empressure import emPressureGet
+from sensors.emsealevelpressure import emSeaLevelPressureGet
+from sensors.emtemperature import emTemperatureGet
+
 from random_words import LoremIpsum
 from threading import Thread
 
@@ -16,14 +23,13 @@ class emDemo(object):
         logging.info('Demo')
         self.subsystem = subsystem
 
+        self.emgpsfd = emGps("demo")
+        self.emimu = emImu("demo")
+
         thread = Thread(target=self.emDemoExecute)
         thread.start()
 
     def emDemoGps(self):
-
-        from subsystems.emgps import emGps
-
-        self.emgpsfd = emGps("demo")
 
         latitude = self.emgpsfd.emGpsLatitudeGet()
         longitude = self.emgpsfd.emGpsLongitudeGet()
@@ -35,9 +41,6 @@ class emDemo(object):
 
     def emDemoImu(self):
 
-        from subsystems.emimu import emImu
-
-        self.emimu = emImu("demo")
         roll = self.emimu.emImuRollGet()
         pitch = self.emimu.emImuPitchGet()
         yaw = self.emimu.emImuYawGet()
@@ -46,11 +49,6 @@ class emDemo(object):
         return roll, pitch, yaw
 
     def emDemoSensors(self):
-
-        from sensors.emaltitude import emAltitudeGet
-        from sensors.empressure import emPressureGet
-        from sensors.emsealevelpressure import emSeaLevelPressureGet
-        from sensors.emtemperature import emTemperatureGet
 
         altitude = emAltitudeGet("demo")
         pressure = emPressureGet("demo")
