@@ -1,6 +1,13 @@
 Protocols
 ==
 
+
+```sh
+    user@spacecraft:~$ su
+    Password: 
+    root@spacecraft:/home/user# cd
+```
+
 ## I2C
 
 > I²C (Inter-Integrated Circuit), pronounced I-squared-C, is a multi-master, multi-slave, single-ended, serial computer bus invented by Philips Semiconductor (now NXP Semiconductors). It is typically used for attaching lower-speed peripheral ICs to processors and microcontrollers. Alternatively I²C is spelled I2C (pronounced I-two-C) or IIC (pronounced I-I-C).Wikipedia
@@ -12,9 +19,6 @@ Protocols
 - [Elinux - Interfacing with I2C Devices](http://elinux.org/Interfacing_with_I2C_Devices)
 
 ```sh
-    user@spacecraft:~$ su
-    Password: 
-    root@spacecraft:/home/user# cd
     root@spacecraft:~# i2cdetect -y -r 1
          0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
     00:          -- -- -- -- -- -- -- -- -- -- -- -- -- 
