@@ -3,17 +3,17 @@
 We have a git repository
 
     user@board:~$
-    user@board:/home/edison# su
+    user@board:/home/user# su
     Password: 
-    user@board:/home/edison# apt-get update
-    user@board:/home/edison# apt-get install git
-    user@board:/home/edison# exit
+    user@board:/home/user# apt-get update
+    user@board:/home/user# apt-get install git
+    user@board:/home/user# exit
     user@board:~$ git clone https://github.com/xe1gyq/eekmex.git
     user@board:~$ cd eekmex
-    edison@ubilinux:~/eekmex$ ls
-    documentation  eekmex  LICENSE  README.md  sandbox  simulator  SUMMARY.md  training
-    root@ubilinux:/home/edison/eekmex# su
-    Password: edison
-    root@ubilinux:/home/edison/eekmex/spacecraft# python eekmex.py -c files
-    root@ubilinux:/home/edison/eekmex/spacecraft# git config --global user.email "you@example.com"
-    root@ubilinux:/home/edison/eekmex/spacecraft# git config --global user.name "Your Name"
+    user@board:~/eekmex$ ls
+    documentation  LICENSE  README.md  sandbox  spacecraft  SUMMARY.md
+    user@board:/home/user/eekmex# su
+    Password: passwd
+    user@board:/home/user/eekmex/spacecraft# python eekmex.py -c files
+    user@board:/home/user/eekmex/spacecraft# git config --global user.email "you@example.com"
+    user@board:/home/user/eekmex/spacecraft# git config --global user.name "Your Name"
