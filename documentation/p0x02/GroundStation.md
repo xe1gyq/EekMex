@@ -3,12 +3,11 @@ Ground Station
 
 ## Freeboard.Io
 
-We need to work with
+Some theory before
 
 - __Data Sources__ named as "__DATASOURCES__" and initialized by clicking on "__ADD__". They gather data from a specific source as dweet.io, pubnub, or other.
 - __Panes__ initialized by clicking on "__ADD PANE__". They hold Widgets
 - __Widgets__ display data in some textual or graphical form
-
 
 ### Setup
 
