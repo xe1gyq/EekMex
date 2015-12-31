@@ -1,20 +1,20 @@
 Intel Edison
 ==
 
-### Operating System
+## Operating System
 
 > An operating system (OS) is system software that manages computer hardware and software resources and provides common services for computer programs. The operating system is a component of the system software in a computer system. Application programs usually require an operating system to function. Wikipedia
 
 - [Wikipedia Operating System](https://en.wikipedia.org/wiki/Operating_system)
 
-#### Installation
+### Installation
 
 > ubilinux™ is an embedded Linux distribution from Emutex and is based on Debian "Wheezy". It is targeted at embedded devices that have limited memory and storage capabilities.
 
 - [Emutex Labs ubilinux™ Homepage](http://www.emutexlabs.com/ubilinux)
 - [Loading Debian (Ubilinux) on the Edison ](https://learn.sparkfun.com/tutorials/loading-debian-ubilinux-on-the-edison)
 
-#### Boot Up
+### Boot Up
 
     Debian GNU/Linux 7 ubilinux ttyMFD2
 
@@ -26,7 +26,7 @@ Intel Edison
     root@ubilinux:/home/edison# date -s "10/22/2015 16:01:00"
     Thu Oct 22 16:01:00 UTC 2015
 
-#### WiFi
+### WiFi
 
     edison@ubilinux:~$ su
     Password: edison
@@ -56,7 +56,7 @@ Intel Edison
 
     <reboot your board, sign in and become root>
 
-### Packages Apt-Get Installation
+## Packages Apt-Get Installation
 
     edison@ubilinux:~$ su
     Password: edison
@@ -67,15 +67,15 @@ Intel Edison
     root@ubilinux:~# apt-get install python-smbus lm-sensors
     root@ubilinux:~# apt-get install gpsd gpsd-clients python-gps libxml2-dev libxslt1-dev
 
-### Packages Python Pip Installation
+## Packages Python Pip Installation
 
     root@ubilinux:~# pip install numpy psutil XBee pyserial pykml
     root@ubilinux:~# exit
     edison@ubilinux:~$ 
 
-### Packages Manual Installation
+## Packages Manual Installation
 
-#### Adafruit BMP180 Python Library
+### Adafruit BMP180 Python Library
 
     edison@ubilinux:~$ cd
     edison@ubilinux:~$ git clone https://github.com/adafruit/Adafruit_Python_BMP.git
@@ -89,7 +89,7 @@ Intel Edison
 
 [Why not using UPM Library?](https://github.com/xe1gyq/eekmex/issues/1)
 
-#### Mraa
+### Mraa
 
 > Low Level Skeleton Library for IO Communication on GNU/Linux platforms
 > C/C++ library with bindings to JavaScript and Python to interface with the I/O on the Intel® Galileo board, Intel® Edison board, and other platforms. With board detection done at runtime, you can create portable code that works across multiple platforms.
@@ -127,7 +127,7 @@ Intel Edison
     edison@ubilinux:~/mraa/build$ cd
     edison@ubilinux:~$ 
 
-#### Cmake
+### Cmake
 
 > Welcome to CMake, the cross-platform, open-source build system. CMake is a family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files. CMake generates native makefiles and workspaces that can be used in the compiler environment of your choice.
 
@@ -144,7 +144,7 @@ Intel Edison
     edison@ubilinux:~/cmake-3.2.2$ cd
     edison@ubilinux:~$ 
 
-#### Upm
+### Upm
 
 > UPM - Sensor/Actuator repository for libmraa. High-level repository for sensors and actuators that use libmraa. In other words, UPM gives you easy function calls to use your sensors, such as reading temperature values or writing data to an LCD screen. With over a hundred sensors and more being added, this library speeds up your development time.
 
@@ -176,7 +176,7 @@ Intel Edison
     edison@ubilinux:~/upm/build$ cd
     edison@ubilinux:~$ 
 
-#### RTIMULib
+### RTIMULib
 
 > RTIMULib is the simplest way to connect a 9-dof, 10-dof or 11-dof IMU to an embedded Linux system and obtain quaternion or Euler angle pose data. Basically, two simple function calls (IMUInit() and IMURead()) are pretty much all that's needed to integrate RTIMULib.
 
@@ -203,7 +203,7 @@ Intel Edison
     edison@ubilinux:~/RTIMULib/Linux/python$ cd
     edison@ubilinux:~$
 
-### Storage
+## Storage
 
     edison@ubilinux:~$ su
     Password: 
@@ -213,7 +213,7 @@ Intel Edison
     root@ubilinux:~# vi /etc/fstab
     /dev/mmcblk1p1 /media/sdcard
 
-### EekMex Source Code
+## EekMex Source Code
 
 #### 
 
