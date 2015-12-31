@@ -46,6 +46,7 @@
   - Latitude
   - Longitude
   - Altitude
+  - Satellites
 
 ```sh
     root@eekmex:/home/eekmex/eekmex/spacecraft# python eekmex.py -d all
