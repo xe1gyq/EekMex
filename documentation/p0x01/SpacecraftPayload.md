@@ -54,7 +54,7 @@
     root: eekmex     INFO Mode Demo
     root: emdemo     INFO Demo
     root: emgps      INFO Global Positioning System
-    root: emgps      INFO Gps: 21.1640478895,-101.613045967,1828
+    root: emgps      INFO Gps: 21.1640478895,-101.613045967,1828, 7
     ...
 ```
 
