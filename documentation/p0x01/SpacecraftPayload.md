@@ -66,21 +66,6 @@
 - Yaw
 
 ```sh
-    edison@ubilinux:~$ cd
-    edison@ubilinux:~$ su
-    Password: 
-    root@ubilinux:/home/edison# i2cdetect -y -r 1
-     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
-    00:          -- -- -- -- -- -- -- -- -- -- -- -- -- 
-    ...
-    10: -- -- -- -- -- -- -- -- -- -- -- -- -- 1d -- -- 
-    ...
-    60: -- -- -- -- -- -- -- -- -- -- -- 6b -- -- -- -- 
-    70: -- -- -- -- -- -- -- 77
-    ...
-```
-
-```sh
     root@eekmex:/home/eekmex# cd eekmex/eekmex
     root@eekmex:/home/eekmex/eekmex/spacecraft# python eekmex.py -d all
     root: eekmex     INFO EekMex, Aerospace Learning Platform
