@@ -12,10 +12,10 @@ Protocols
 - [Elinux - Interfacing with I2C Devices](http://elinux.org/Interfacing_with_I2C_Devices)
 
 
-    edison@ubilinux:~$ su
+    user@spacecraft:~$ su
     Password: 
-    root@ubilinux:/home/edison# cd
-    root@ubilinux:~# i2cdetect -y -r 1
+    user@spacecraft:/home/edison# cd
+    user@spacecraft:~# i2cdetect -y -r 1
          0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
     00:          -- -- -- -- -- -- -- -- -- -- -- -- -- 
     10: -- -- -- -- -- -- -- -- -- -- -- -- -- 1d -- -- 
@@ -25,13 +25,13 @@ Protocols
     50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
     60: -- -- -- -- -- -- -- -- -- -- -- 6b -- -- -- -- 
     70: -- -- -- -- -- -- -- 77
-    root@ubilinux:~# i2cdump -y 1 0x6b
+    user@spacecraft:~# i2cdump -y 1 0x6b
     No size specified (using byte-data access)
          0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f    0123456789abcdef
     00: b7 5b 08 fc 02 50 53 81 c1 c2 bb 8f 48 c5 00 d4    ?[???PS?????H?.?
     
     f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
-    root@ubilinux:~# i2cset
-    root@ubilinux:~# i2cget
-    root@ubilinux:~# sensors-detect
-    root@ubilinux:~# sensors
+    root@spacecraft:~# i2cset
+    root@spacecraft:~# i2cget
+    root@spacecraft:~# sensors-detect
+    root@spacecraft:~# sensors
