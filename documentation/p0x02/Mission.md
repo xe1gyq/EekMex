@@ -7,5 +7,7 @@ Mission
 - Spacecraft = Embedded System
 - Unmanned Autonomous Vehicle = mBot
 
+Features
+
 - Ground Station Visualization
 - Automatic Packet Reporting System
