@@ -14,12 +14,12 @@
     eekmex@eekmex:~$ su
     Password: edison
     eekmex@eekmex:/home/eekmex# cd
-    root@ubilinux:~# apt-get update
-    root@ubilinux:~# apt-get install python-pip
-    root@ubilinux:~# apt-get install git build-essential python-dev swig libtool zlib1g-dev
-    root@ubilinux:~# apt-get install python-smbus lm-sensors
-    root@ubilinux:~# apt-get install gpsd gpsd-clients python-gps libxml2-dev libxslt1-dev
-    root@ubilinux:~# pip install dweepy RandomWords LoremIpsum
+    root@eekmex:~# apt-get update
+    root@eekmex:~# apt-get install python-pip
+    root@eekmex:~# apt-get install git build-essential python-dev swig libtool zlib1g-dev
+    root@eekmex:~# apt-get install python-smbus lm-sensors
+    root@eekmex:~# apt-get install gpsd gpsd-clients python-gps libxml2-dev libxslt1-dev
+    root@eekmex:~# pip install dweepy RandomWords LoremIpsum
 
 ## General Sensors
 
