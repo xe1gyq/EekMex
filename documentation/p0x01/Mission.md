@@ -3,8 +3,8 @@ Mission
 
 - Ground Station = None
 - Mission Control Center = None
-- Deep Space Network = WiFi
-- Spacecraft = Intel Edison
+- __Deep Space Network__ = None
+- __Spacecraft__ = Intel Edison
 - Unmanned Autonomous Vehicle =	None
 
 ## Deep Space Network
