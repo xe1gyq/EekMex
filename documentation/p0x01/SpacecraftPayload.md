@@ -46,6 +46,27 @@ Payload
     mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqjmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
     root@spacecraft:~# gpscat -s [baudrate] [serial_port]
 
+
+```sh
+      print
+      print ' GPS reading'
+      print '----------------------------------------'
+      print 'latitude    ' , gpsd.fix.latitude
+      print 'longitude   ' , gpsd.fix.longitude
+      print 'time utc    ' , gpsd.utc,' + ', gpsd.fix.time
+      print 'altitude (m)' , gpsd.fix.altitude
+      print 'eps         ' , gpsd.fix.eps
+      print 'epx         ' , gpsd.fix.epx
+      print 'epv         ' , gpsd.fix.epv
+      print 'ept         ' , gpsd.fix.ept
+      print 'speed (m/s) ' , gpsd.fix.speed
+      print 'climb       ' , gpsd.fix.climb
+      print 'track       ' , gpsd.fix.track
+      print 'mode        ' , gpsd.fix.mode
+      print
+      print 'sats        ' , gpsd.satellites
+```
+
 ## Simulator
 
 > Simulator Definition
