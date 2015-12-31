@@ -6,6 +6,7 @@
 
 ## PreRequisites
 
+```sh
     Debian GNU/Linux 8 eekmex tty1
 
     eekmex login: eekmex
@@ -20,6 +21,7 @@
     root@eekmex:~# apt-get install python-smbus lm-sensors
     root@eekmex:~# apt-get install gpsd gpsd-clients python-gps libxml2-dev libxslt1-dev
     root@eekmex:~# pip install dweepy RandomWords LoremIpsum
+```
 
 ## General Sensors
 
@@ -28,6 +30,7 @@
   - Sea Level Pressure
   - Altitude
 
+```sh
     root@ubilinux:/home/edison# cd eekmex/spacecraft
     root@ubilinux:/home/edison/eekmex/spacecraft# python eekmex.py -d all
     root: eekmex     INFO EekMex, Aerospace Learning Platform
@@ -36,6 +39,7 @@
     root: emsensors  INFO Sensors
     root: emsensors  INFO Sensors: 2839,1586,1603,29
     ...
+```
 
 ## Global Positioning System
 
