@@ -94,8 +94,8 @@
 
 ### EekMex Simulator
 
-    root@ubilinux:/home/eekmex# cd eekmex/eekmex
-    root@ubilinux:/home/eekmex/eekmex/spacecraft# python eekmex.py -d all
+    root@eekmex:/home/eekmex# cd eekmex/eekmex
+    root@eekmex:/home/eekmex/eekmex/spacecraft# python eekmex.py -d all
     root: eekmex     INFO EekMex, Aerospace Learning Platform
     root: eekmex     INFO Mode Demo
     root: emdemo     INFO Demo
@@ -126,8 +126,8 @@
 
 ### EekMex Simulator
 
-    root@ubilinux:/home/edison# cd eekmex/eekmex
-    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d all
+    root@eekmex:/home/eekmex# cd eekmex/eekmex
+    root@eekmex:/home/edison/eekmex/spacecraft# python eekmex.py -d all
     root: eekmex     INFO EekMex, Aerospace Learning Platform
     root: eekmex     INFO Mode Demo
     root: emdemo     INFO Demo
