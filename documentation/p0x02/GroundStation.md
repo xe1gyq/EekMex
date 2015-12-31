@@ -43,17 +43,15 @@ The following widgets will be created:
    - Pressure
    - Sea Level Pressure
    - Altitude
- 4. Position
-   - Global Positioning System
-     - Latitude
-     - Longitude
-     - Altitude
-     - Satellites
- 5. Attitude
-   - Inertial Measurement Unit
-     - Roll
-     - Pitch
-     - Yaw
+ 4. Position (Global Positioning System)
+    - Latitude
+    - Longitude
+    - Altitude
+    - Satellites
+ 5. Attitude (Inertial Measurement Unit)
+    - Roll
+    - Pitch
+    - Yaw
 
 ### Freeboard Data Sources
 
