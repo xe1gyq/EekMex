@@ -52,10 +52,7 @@
 - [GPSD Homepage](http://www.catb.org/gpsd/)
 
 
-    eekmex@eekmex:~$ cd
-    eekmex@eekmex:~$ su
-    Password: passwd
-    eekmex@eekmex:/home/eekmex# dmesg
+    root@eekmex:/home/eekmex/eekmex/spacecraft# dmesg
     [  514.492900] usb 1-1: reset full-speed USB device number 2 using dwc3-host
     [  514.513505] dwc3-host dwc3-host.2: xHCI xhci_drop_endpoint called with disabled ep f5626500
     [  514.513566] usb 1-1: ep 0x81 - rounding interval to 1024 microframes, ep desc says 2040 microframes
