@@ -22,9 +22,8 @@
 
 ## Global Positioning System
 
-  - Temperature
-  - Pressure
-  - Sea Level Pressure
+  - Latitude
+  - Longitude
   - Altitude
 
 ### Gpsd Daemon
