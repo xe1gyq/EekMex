@@ -23,70 +23,79 @@ class emDemo(object):
         logging.info('Demo')
         self.subsystem = subsystem
 
+        self.altitude = None
+        self.temperature = None
+        self.sealevelpressure = None
+        self.pressure = None
+        self.roll = None
+        self.pitch = None
+        self.yaw = None
+        self.latitude = None
+        self.longitude = None
+        self.altitudegps = None
+
         self.emgpsfd = emGps("demo")
         self.emimu = emImu("demo")
+        self.li = LoremIpsum()
 
-        thread = Thread(target=self.emDemoExecute)
-        thread.start()
+        threadDemoExecute = Thread(target=self.emDemoExecute)
+        threadDemoExecute.start()
+
+        threadDemoDweet = Thread(target=self.emDemoDweet)
+        threadDemoDweet.start()
 
     def emDemoGps(self):
 
-        latitude = self.emgpsfd.emGpsLatitudeGet()
-        longitude = self.emgpsfd.emGpsLongitudeGet()
-        altitude = self.emgpsfd.emGpsAltitudeGet()
+        self.latitude = self.emgpsfd.emGpsLatitudeGet()
+        self.longitude = self.emgpsfd.emGpsLongitudeGet()
+        self.altitudegps = self.emgpsfd.emGpsAltitudeGet()
         gpsdata = ("Gps: {0}," "{1}," "{2}".format( \
-                    latitude, longitude, altitude))
+                    self.latitude, self.longitude, self.altitudegps))
         logging.info(gpsdata)
-        return latitude, longitude, altitude
 
     def emDemoImu(self):
 
-        roll = self.emimu.emImuRollGet()
-        pitch = self.emimu.emImuPitchGet()
-        yaw = self.emimu.emImuYawGet()
-        imudata = ("Imu: {0}," "{1}," "{2},".format(roll, pitch, yaw))
+        self.roll = self.emimu.emImuRollGet()
+        self.pitch = self.emimu.emImuPitchGet()
+        self.yaw = self.emimu.emImuYawGet()
+        imudata = ("Imu: {0}," "{1}," "{2},".format(self.roll, self.pitch, self.yaw))
         logging.info(imudata)
-        return roll, pitch, yaw
 
     def emDemoSensors(self):
 
-        altitude = emAltitudeGet("demo")
-        pressure = emPressureGet("demo")
-        sealevelpressure = emSeaLevelPressureGet("demo")
-        temperature = emTemperatureGet("demo")
+        self.altitude = emAltitudeGet("demo")
+        self.pressure = emPressureGet("demo")
+        self.sealevelpressure = emSeaLevelPressureGet("demo")
+        self.temperature = emTemperatureGet("demo")
         sensorsdata = ("Sensors: {0}," "{1}," "{2}," "{3}".format( \
-                        altitude, pressure, sealevelpressure, temperature))
+                        self.altitude, self.pressure, self.sealevelpressure, self.temperature))
         logging.info(sensorsdata)
-        return altitude, pressure, sealevelpressure, temperature
 
     def emDemoExecute(self):
-
-        li = LoremIpsum()
-
         if self.subsystem == 'all':
-
             while True:
-
-                latitude, longitude, altitudegps = self.emDemoGps()
-                roll, pitch, yaw = self.emDemoImu()
-                altitude, pressure, sealevelpressure, temperature = self.emDemoSensors()
-
-                data = {}
-                data['alive'] = "1"
-                data['altitude'] = altitude
-                data['pressure'] = pressure
-                data['sealevelpressure'] = sealevelpressure
-                data['temperature'] = temperature
-                data['roll'] = roll
-                data['pitch'] = pitch
-                data['yaw'] = yaw
-                data['latitude'] = latitude
-                data['longitude'] = longitude
-                data['altitudegps'] = altitudegps 
-                data['message'] = li.get_sentence()
-                dweepy.dweet_for('EekMexArejXe', data)
+                self.emDemoGps()
+                self.emDemoImu()
+                self.emDemoSensors()
         else:
-
             logging.info('Specific Demo Not Found!')
+
+    def emDemoDweet(self):
+
+        while True:
+            data = {}
+            data['alive'] = "1"
+            data['altitude'] = self.altitude
+            data['pressure'] = self.pressure
+            data['sealevelpressure'] = self.sealevelpressure
+            data['temperature'] = self.temperature
+            data['roll'] = self.roll
+            data['pitch'] = self.pitch
+            data['yaw'] = self.yaw
+            data['latitude'] = self.latitude
+            data['longitude'] = self.longitude
+            data['altitudegps'] = self.altitudegps 
+            data['message'] = self.li.get_sentence()
+            dweepy.dweet_for('EekMexArejXe', data)
 
 # End of File
