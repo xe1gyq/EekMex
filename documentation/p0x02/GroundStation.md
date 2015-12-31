@@ -59,7 +59,6 @@ The following widgets will be created:
 
 ### Setup
 
-1. Go to [dweet.io](http://dweet.io/)
 
 ```sh
     # pip install dweepy
