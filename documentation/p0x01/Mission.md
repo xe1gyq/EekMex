@@ -1,15 +1,11 @@
 Mission
 ==
 
-- Mission Control Center = None
 - Ground Station = None
-- Deep Space Network = WiFi
-- Spacecraft = Intel Edison
+- Mission Control Center = None
+- Deep Space Network = None
+- __Spacecraft__ = Intel Edison
 - Unmanned Autonomous Vehicle =	None
-
-## Deep Space Network
-
-We will use WiFi Network
 
 ## Spacecraft
 

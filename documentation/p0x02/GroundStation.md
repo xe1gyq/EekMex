@@ -3,6 +3,10 @@ Ground Station
 
 ## Freeboard.Io
 
+> Freeboard is a turn-key HTML-based "engine" for dashboards. Besides a nice looking layout engine, it provides a plugin architecture for creating datasources (which fetch data) and widgets (which display data)— freeboard then does all the work to connect the two together. Freeboard Github Repository
+
+- [freeboard.io homepage](https://freeboard.io/)
+
 ### Setup
 
 1. Go to [freeboard.io](https://freeboard.io/) and sign up
@@ -15,9 +19,17 @@ Ground Station
    -  Delete
 4. Click on [__EekMex__](https://freeboard.io/board/huO_H7) to open the dashboard
 
+### Freeboard Components
+
+Some theory before
+
+- __Data Sources__ named as "__DATASOURCES__" and initialized by clicking on "__ADD__". They gather data from a specific source as dweet.io, pubnub, or other.
+- __Panes__ initialized by clicking on "__ADD PANE__". They hold Widgets
+- __Widgets__ display data in some textual or graphical form
+
 ### Freeboard EekMex Dashboard
 
-Components
+The following widgets will be created:
 
 1. Mission Information
    - City
@@ -36,11 +48,7 @@ Components
  5. Attitude
    - Inertial Measurement Unit
 
-We need to work with
-
-- __Data Sources__ named as "__DATASOURCES__" and initialized by clicking on "__ADD__". They gather data from a specific source as dweet.io, pubnub, or other.
-- __Panes__ initialized by clicking on "__ADD PANE__". They hold Widgets
-- __Widgets__ display data in some textual or graphical form
+### Freeboard Data Sources
 
 1. Go to "__DATASOURCE__"
    - Type: Dweet.io
@@ -49,7 +57,14 @@ We need to work with
 
 ## Dweet.Io
 
+> Ridiculously simple data sharing for the Internet of Things.
+
+- [dweet.io homepage](http://dweet.io/)
+
+### Setup
+
 ```sh
+    # pip install dweepy
     # pip install RandomWords
 ```
 
@@ -70,12 +85,6 @@ We need to work with
     data['temperature'] = temperature
     dweepy.dweet_for('EekMexArejXe', data)
 ```
-
-### Setup
-
-1. Go to [dweet.io](http://dweet.io/)
-
-    pip install dweepy
 
 ## PubNub
 
