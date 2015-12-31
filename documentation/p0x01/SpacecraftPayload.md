@@ -52,10 +52,10 @@
 - [GPSD Homepage](http://www.catb.org/gpsd/)
 
 
-    edison@ubilinux:~$ cd
-    edison@ubilinux:~$ su
-    Password: 
-    root@ubilinux:/home/edison# dmesg
+    eekmex@eekmex:~$ cd
+    eekmex@eekmex:~$ su
+    Password: passwd
+    eekmex@eekmex:/home/eekmex# dmesg
     [  514.492900] usb 1-1: reset full-speed USB device number 2 using dwc3-host
     [  514.513505] dwc3-host dwc3-host.2: xHCI xhci_drop_endpoint called with disabled ep f5626500
     [  514.513566] usb 1-1: ep 0x81 - rounding interval to 1024 microframes, ep desc says 2040 microframes
@@ -72,8 +72,8 @@
     [  514.959360] usb 1-1.2: Endpoint 2 MaxPacketSize 64
     [  514.959378] usb 1-1.2: Setting MaxPacketSize 64
     [  514.960259] usb 1-1.2: FTDI USB Serial Device converter now attached to ttyUSB0
-    root@ubilinux:/home/edison# gpsd /dev/ttyUSB0 -F /var/run/gpsd.sock
-    root@ubilinux:/home/edison# cgps -s
+    root@eekmex:/home/eekmex# gpsd /dev/ttyUSB0 -F /var/run/gpsd.sock
+    root@eekmex:/home/eekmex# cgps -s
     lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqklqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk
     x    Time:       2011-11-13T00:00:39.090Z   xxPRN:   Elev:  Azim:  SNR:  Used: x
     x    Latitude:   n/a                        xx                                 x
@@ -94,8 +94,8 @@
 
 ### EekMex Simulator
 
-    root@ubilinux:/home/edison# cd eekmex/eekmex
-    root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d all
+    root@ubilinux:/home/eekmex# cd eekmex/eekmex
+    root@ubilinux:/home/eekmex/eekmex/spacecraft# python eekmex.py -d all
     root: eekmex     INFO EekMex, Aerospace Learning Platform
     root: eekmex     INFO Mode Demo
     root: emdemo     INFO Demo
