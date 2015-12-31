@@ -7,7 +7,6 @@
   - Sea Level Pressure
   - Altitude
 
-
     edison@ubilinux:~$ cd
     edison@ubilinux:~$ su
     Password: 
