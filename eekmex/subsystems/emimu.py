@@ -58,9 +58,9 @@ class emImu(object):
                     self.yaw = math.degrees(fusionPose[2])
                     time.sleep(self.poll_interval*1.0/1000.0)
             else:
-                self.roll = randint(0,180)
-                self.pitch = randint(0,180)
-                self.yaw = randint(0,180)
+                self.roll = randint(-180,180)
+                self.pitch = randint(-180,180)
+                self.yaw = randint(-180,180)
 
     def emImuRollGet(self):
         return self.roll

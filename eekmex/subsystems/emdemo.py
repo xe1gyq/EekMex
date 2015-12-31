@@ -46,6 +46,14 @@ class emDemo(object):
         pitch = self.emimu.emImuPitchGet()
         yaw = self.emimu.emImuYawGet()
         imudata = ("Imu: {0}," "{1}," "{2},".format(roll, pitch, yaw))
+
+        li = LoremIpsum()
+        data = {}
+        data['roll'] = roll
+        data['pitch'] = pitch
+        data['yaw'] = yaw
+        data['message'] = li.get_sentence()
+        dweepy.dweet_for('EekMexArejXe', data)
         logging.info(imudata)
 
     def emDemoSensors(self):
