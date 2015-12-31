@@ -107,7 +107,6 @@
 
 ### EekMex Simulator
 
-
     root@ubilinux:/home/edison# cd eekmex/eekmex
     root@ubilinux:/home/edison/eekmex/eekmex# python eekmex.py -d all
     root: eekmex     INFO EekMex, Aerospace Learning Platform
