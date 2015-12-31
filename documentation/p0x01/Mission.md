@@ -1,8 +1,8 @@
 Mission
 ==
 
-- Mission Control Center = None
 - Ground Station = None
+- Mission Control Center = None
 - Deep Space Network = WiFi
 - Spacecraft = Intel Edison
 - Unmanned Autonomous Vehicle =	None
