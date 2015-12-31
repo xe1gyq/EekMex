@@ -35,7 +35,7 @@ The following widgets will be created:
    - City
    - State
    - Date
-2. Messages
+2. Information
    - Mission Control Center
    - Twitter @EekMex #EekMex
 3. Sensors
