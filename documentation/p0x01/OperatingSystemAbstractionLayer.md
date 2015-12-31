@@ -1,8 +1,6 @@
 Operating System Abstraction Layer
 ==
 
-Plus Learning!
-
     xe1gyq@jessie:~/Projects$ git clone https://github.com/nasa/osal.git
     Cloning into 'osal'...
     remote: Counting objects: 444, done.
