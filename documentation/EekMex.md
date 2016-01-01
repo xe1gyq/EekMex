@@ -17,7 +17,7 @@ Introduction
 - [ ] Unmanned Autonomous Vehicle / Planet Rover
 - [ ] Space Helicopter
 
-# Subsystem Operations
+# Spacecraft Subsystem Operations
 
 - [ ] Sensors
 - [ ] Orbit Control
