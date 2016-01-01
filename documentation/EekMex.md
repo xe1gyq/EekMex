@@ -10,8 +10,9 @@ Introduction
 
 # Infrastructure
 
-- [ ] Mission Control Center / Control Center
-- [ ] Ground Stations
+- [ ] Ground Segment
+  - [ ] Mission Control Center / Control Center
+  - [ ] Ground Stations
 - [ ] Spacecraft / Planet Orbiter
 - [ ] Unmanned Autonomous Vehicle / Planet Rover
 - [ ] Space Helicopter
