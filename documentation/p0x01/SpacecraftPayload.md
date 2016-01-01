@@ -118,7 +118,7 @@ Payload
     root@ubilinux:/home/edison/eekmex/spacecraft# python eekmex.py -d all
     root: eekmex     INFO EekMex, Aerospace Learning Platform
     root: eekmex     INFO Mode Demo
-    root: emdemo     INFO Demo
+    root: emvirtual  INFO Virtual
     root: emsensors  INFO Sensors
     root: emsensors  INFO Sensors: 2839,1586,1603,29
     ...
