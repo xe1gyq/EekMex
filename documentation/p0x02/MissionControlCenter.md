@@ -1,8 +1,7 @@
 Mission Control Center
 ==
 
-## 
-
+## Functions
 
 - to collect, store and sort the data from spacecraft
 - to provide international and national data exchange within the EekMex System
