@@ -44,29 +44,35 @@ class emDemo(object):
 
     def emDemoExecute(self):
         self.emgpsfd.start()
-        while True:
-            self.latitude, self.longitude, self.altitudegps, self.satellites = self.emgpsfd.emGpsData()
-            self.roll, self.pitch, self.yaw = self.emimu.emImuData()
-            self.altitude, self.pressure, self.sealevelpressure, self.temperature = self.emsensors.emSensorsData()
-            time.sleep(1)
+        try:
+            while True:
+                self.latitude, self.longitude, self.altitudegps, self.satellites = self.emgpsfd.emGpsData()
+                self.roll, self.pitch, self.yaw = self.emimu.emImuData()
+                self.altitude, self.pressure, self.sealevelpressure, self.temperature = self.emsensors.emSensorsData()
+                time.sleep(1)
+        except (StopIteration, KeyboardInterrupt, SystemExit):
+            pass
 
     def emDemoDweet(self):
-        while True:
-            data = {}
-            data['alive'] = "1"
-            data['altitude'] = self.altitude
-            data['pressure'] = self.pressure
-            data['sealevelpressure'] = self.sealevelpressure
-            data['temperature'] = self.temperature
-            data['roll'] = self.roll
-            data['pitch'] = self.pitch
-            data['yaw'] = self.yaw
-            data['latitude'] = self.latitude
-            data['longitude'] = self.longitude
-            data['altitudegps'] = self.altitudegps
-            data['satellites'] = self.satellites
-            data['message'] = self.li.get_sentence()
-            dweepy.dweet_for('EekMexArejXe', data)
-            time.sleep(1)
+        try:
+            while True:
+                data = {}
+                data['alive'] = "1"
+                data['altitude'] = self.altitude
+                data['pressure'] = self.pressure
+                data['sealevelpressure'] = self.sealevelpressure
+                data['temperature'] = self.temperature
+                data['roll'] = self.roll
+                data['pitch'] = self.pitch
+                data['yaw'] = self.yaw
+                data['latitude'] = self.latitude
+                data['longitude'] = self.longitude
+                data['altitudegps'] = self.altitudegps
+                data['satellites'] = self.satellites
+                data['message'] = self.li.get_sentence()
+                dweepy.dweet_for('EekMexArejXe', data)
+                time.sleep(1)
+        except (StopIteration, KeyboardInterrupt, SystemExit):
+            pass
 
 # End of File

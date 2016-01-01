@@ -31,6 +31,9 @@ class emGps(threading.Thread):
             if self.mode is None:
                 self.gpsd.next()
 
+    def stop(self):
+        self.running = False
+
     def emGpsData(self):
         if self.mode is None:
             self.latitude = self.gpsd.fix.latitude
