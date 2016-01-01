@@ -1,6 +1,14 @@
 Mission Control Center
 ==
 
+## 
+
+
+- to collect, store and sort the data from LUTs and other MCCs;
+- to provide international and national data exchange within the Cospas-Sarsat System; and
+- to distribute alert and location data to associated Rescue coordination centres (RCCs) or SAR Points of Contact (SPOCs)
+
+
 ## Cloudinary
 
 - [1](https://cloudinary.com/console/welcome)
