@@ -1,6 +1,9 @@
 Ground Station
 ==
 
+
+> A ground segment consists of all the ground-based elements of a spacecraft system, as opposed to the space segment, consisting of the spacecraft itself. Ground segment elements may be located together or separately, and may be operated by different parties.
+
 ## Freeboard.Io
 
 > Freeboard is a turn-key HTML-based "engine" for dashboards. Besides a nice looking layout engine, it provides a plugin architecture for creating datasources (which fetch data) and widgets (which display data)— freeboard then does all the work to connect the two together. Freeboard Github Repository
