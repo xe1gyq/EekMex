@@ -17,6 +17,7 @@ Mission Control Center
 ## Telemetry
 
 https://github.com/g0hww/fcsched
+Search for Funcube
 
 ## Software Architecture
 
