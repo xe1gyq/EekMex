@@ -10,6 +10,7 @@ https://www.youtube.com/watch?v=QptmfLsftDg
 https://github.com/hizzle/Design-Patterns-in-Python
 https://github.com/martinohanlon/vidGPSOverlay/blob/master/GPSController.py
 https://github.com/martinohanlon/pyobd
+http://atlee.ca/software/poster/
 
 Use Freeboard to create its Control Panel
 http://www.instructables.com/id/Intel-Edison-Sensor-Dashboard-Using-FreeboardPytho/?ALLSTEPS
