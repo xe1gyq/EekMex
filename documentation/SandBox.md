@@ -1,6 +1,11 @@
 SandBox
 ==
 
+## Telemetry
+
+https://www.google.com.mx/search?client=ubuntu&channel=fs&q=Telemetry%2C+Commanding+and+Ranging&ie=utf-8&oe=utf-8&gfe_rd=cr&ei=NMWGVo2KJqKn8wf4yafwAQ
+
+
 - Mission Control 	 = 	PC capable of sending APRS
 - Deep Space Network = 	Local APRS network
 - Planet Orbiter	 = 	Local PC with XBee Transceiver
