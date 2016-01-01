@@ -8,13 +8,13 @@ Ground Station
 
 ## Software Architecture
 
-## Freeboard.Io
+### Freeboard.Io
 
 > Freeboard is a turn-key HTML-based "engine" for dashboards. Besides a nice looking layout engine, it provides a plugin architecture for creating datasources (which fetch data) and widgets (which display data)— freeboard then does all the work to connect the two together. Freeboard Github Repository
 
 - [freeboard.io homepage](https://freeboard.io/)
 
-### Setup
+#### Setup
 
 1. Go to [freeboard.io](https://freeboard.io/) and sign up
 2. Go to [freeboard.io account](https://freeboard.io/account/), under "My Freeboards"
@@ -26,7 +26,7 @@ Ground Station
    -  Delete
 4. Click on [__EekMex__](https://freeboard.io/board/huO_H7) to open the dashboard
 
-### Freeboard Components
+#### Freeboard.IO Components
 
 These are some freeboard.io concepts:
 
