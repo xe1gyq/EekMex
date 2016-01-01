@@ -6,6 +6,7 @@ Payload
 > gpsd is a service daemon that monitors one or more GPSes or AIS receivers attached to a host computer through serial or USB ports, making all data on the location/course/velocity of the sensors available
 
 - [GPSD Homepage](http://www.catb.org/gpsd/)
+- [1](http://stackoverflow.com/questions/28511485/how-to-write-this-in-python)
 
 
     root@spacecraft:~# dmesg
