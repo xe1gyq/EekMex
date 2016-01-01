@@ -7,6 +7,7 @@ SandBox
 - Planet Rover 		 =	Boe-Bot with XBee Transceiver
 
 https://www.youtube.com/watch?v=QptmfLsftDg
+https://github.com/hizzle/Design-Patterns-in-Python
 
 Use Freeboard to create its Control Panel
 http://www.instructables.com/id/Intel-Edison-Sensor-Dashboard-Using-FreeboardPytho/?ALLSTEPS
