@@ -35,3 +35,4 @@ http://blog.frd.mn/how-to-set-up-proper-startstop-services-ubuntu-debian-mac-win
 ## Resources
 
 http://ocw.mit.edu/courses/aeronautics-and-astronautics/16-851-satellite-engineering-fall-2003/lecture-notes/l20_satellitettc.pdf
+http://www.ltas-vis.ulg.ac.be/cmsms/uploads/File/Lecture14_TMTC_2009-2010.pdf
