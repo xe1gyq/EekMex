@@ -6,7 +6,7 @@ Mission Control Center
 
 - to collect, store and sort the data from spacecraft
 - to provide international and national data exchange within the EekMex System
-- to distribute alert and location data to associated Rescue coordination centres (RCCs) or EekMex Points of Contact (EPOCs)
+- to distribute alert and location data to associated Rescue Coordination Centres (RCCs) or EekMex Points of Contact (EPOCs)
 
 
 ## Cloudinary
