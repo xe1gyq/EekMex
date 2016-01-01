@@ -7,7 +7,7 @@ Mission Control Center
 - to provide international and national data exchange within the EekMex System
 - to distribute alert and location data to associated Monitoring Centres (MCs) or EekMex Points of Contact (EPOCs)
 
-## Architecture
+## Software Architecture
 
 ### Cloudinary
 
