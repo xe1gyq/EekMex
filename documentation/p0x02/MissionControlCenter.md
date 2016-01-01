@@ -9,7 +9,10 @@ Mission Control Center
 
 ## Structure
 
-
+- Staffing
+- Telemetry
+- Commanding
+- Analysis
 
 ## Software Architecture
 
