@@ -130,6 +130,8 @@ Payload
   - Longitude
   - Altitude
   - Satellites
+  - Speed
+  - Track
 
 ```sh
     root@eekmex:/home/eekmex/eekmex/spacecraft# python eekmex.py -d all
