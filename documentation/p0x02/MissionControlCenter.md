@@ -9,3 +9,7 @@ Mission Control Center
 
     # pip install cloudinary
     https://github.com/cloudinary/pycloudinary/tree/master/samples/basic
+    
+## WebServr
+
+https://snipt.net/raw/f8ef141069c3e7ac7e0134c6b58c25bf/?nice
