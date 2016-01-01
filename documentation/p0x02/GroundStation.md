@@ -48,6 +48,7 @@ The following widgets will be created:
    - Longitude
    - Altitude
    - Satellites
+   - Speed
 5. Attitude (Inertial Measurement Unit)
    - Roll
    - Pitch
