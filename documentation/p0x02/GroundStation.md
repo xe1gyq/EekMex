@@ -67,7 +67,7 @@ The following widgets will be created:
 1. Go to "__DATASOURCE__"
    - Type: Dweet.io
    - Name: EekMex Aerospace Learning Platform
-   - Thing Name: EekMexArejXe
+   - Thing Name: EekMexS[pacecraft
 
 ## Dweet.Io
 
