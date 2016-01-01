@@ -118,7 +118,7 @@ Payload
     root@ubilinux:/home/edison/eekmex/spacecraft# python eekmex.py -d all
     root: eekmex     INFO EekMex, Aerospace Learning Platform
     root: eekmex     INFO Mode Demo
-    root: emdemo     INFO Demo
+    root: emvirtual  INFO Virtual
     root: emsensors  INFO Sensors
     root: emsensors  INFO Sensors: 2839,1586,1603,29
     ...
@@ -136,8 +136,8 @@ Payload
 ```sh
     root@eekmex:/home/eekmex/eekmex/spacecraft# python eekmex.py -d all
     root: eekmex     INFO EekMex, Aerospace Learning Platform
-    root: eekmex     INFO Mode Demo
-    root: emdemo     INFO Demo
+    root: eekmex     INFO Mode Virtual
+    root: emvirtual  INFO Virtual
     root: emgps      INFO Global Positioning System
     root: emgps      INFO Gps: 21.1640478895,-101.613045967,1828, 7, 31, 320
     ...
@@ -157,7 +157,7 @@ Payload
     root@eekmex:/home/eekmex/eekmex/spacecraft# python eekmex.py -d all
     root: eekmex     INFO EekMex, Aerospace Learning Platform
     root: eekmex     INFO Mode Demo
-    root: emdemo     INFO Demo
+    root: emvirtual  INFO Virtual
     root: emimu      INFO Inertial Measurement Unit
     root: emimu      INFO Imu: -153,64,39
     ...
