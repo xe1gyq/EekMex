@@ -66,20 +66,21 @@ Payload
       print 'mode        ' , gpsd.fix.mode
       print
       print 'sats        ' , gpsd.satellites
-latitude = gpsc.fix.latitude
-longitude = gpsc.fix.longitude
-timeUTC = gpsc.utc
-timeFIX = gpsc.fix.time
-altitudeGPS = gpsc.fix.altitude
-eps = gpsc.fix.eps #Speed error estimate in meter/sec
-epx = gpsc.fix.epx #Estimated Longitude error in meters
-epv = gpsc.fix.epv #Estimated vertical error in meters
-ept = gpsc.gpsd.fix.ept #Estimated timestamp error
-speed = gpsc.fix.speed
-climb = gpsc.fix.climb #Climb (positive) or sink (negative rate, meters per second
-track = gpsc.fix.track #Course over ground, degrees from true north
-mode = gpsc.fix.mode #NMEA mode: %d, 0=no mode value yet seen, 1=no fix, 2=2D, 3=3D
-satellites = len(gpsc.satellites)
+
+    latitude = gpsc.fix.latitude
+    longitude = gpsc.fix.longitude
+    timeUTC = gpsc.utc
+    timeFIX = gpsc.fix.time
+    altitudeGPS = gpsc.fix.altitude
+    eps = gpsc.fix.eps #Speed error estimate in meter/sec
+    epx = gpsc.fix.epx #Estimated Longitude error in meters
+    epv = gpsc.fix.epv #Estimated vertical error in meters
+    ept = gpsc.gpsd.fix.ept #Estimated timestamp error
+    speed = gpsc.fix.speed
+    climb = gpsc.fix.climb #Climb (positive) or sink (negative rate, meters per second
+    track = gpsc.fix.track #Course over ground, degrees from true north
+    mode = gpsc.fix.mode #NMEA mode: %d, 0=no mode value yet seen, 1=no fix, 2=2D, 3=3D
+    satellites = len(gpsc.satellites)
 ```
 
 ## Simulator
