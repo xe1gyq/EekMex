@@ -62,7 +62,7 @@ The following widgets will be created:
    - Pitch
    - Yaw
 
-### Freeboard Data Sources
+#### Freeboard Data Sources
 
 1. Go to "__DATASOURCE__"
    - Type: Dweet.io
