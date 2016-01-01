@@ -17,7 +17,7 @@ Introduction
   - [ ] Network Components
   - [ ] Integration and Test Facilities
   - [ ] Launch Sites
-- [ ]Satellite Space Segment
+- [ ] Satellite Space Segment
   - [ ] Spacecraft / Planet Orbiter
   - [ ] Unmanned Autonomous Vehicle / Planet Rover
   - [ ] Space Helicopter
