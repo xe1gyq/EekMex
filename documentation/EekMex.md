@@ -29,3 +29,7 @@ Introduction
 - [ ] On-Board Data Handling
 - [ ] Telemetry, Commanding and Ranging
 - [ ] Power
+
+# Operations
+
+- Launch Status check
