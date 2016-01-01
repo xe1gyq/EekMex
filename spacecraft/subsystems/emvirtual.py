@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-import dweepy
 import json
 import logging
 import sys
@@ -9,15 +8,17 @@ import time
 from subsystems.emgps import emGps
 from subsystems.emimu import emImu
 from subsystems.emsensors import emSensors
+from subsystems.emtelemetry import emTelemetry
 
 from random_words import LoremIpsum
 from threading import Thread
 
-class emDemo(object):
+class emVirtual(object):
 
     def __init__(self):
 
-        logging.info('Demo')
+        logging.info('Spacecraft Virtual')
+        self.mode = "virtual"
 
         self.altitude = None
         self.temperature = None
@@ -34,17 +35,18 @@ class emDemo(object):
         self.track = None
 
         self.li = LoremIpsum()
-        self.emgpsfd = emGps("demo")
-        self.emimu = emImu("demo")
-        self.emsensors = emSensors("demo")
+        self.emgpsfd = emGps(self.mode)
+        self.emimu = emImu(self.mode)
+        self.emsensors = emSensors(self.mode)
+        self.emtelemetry = emTelemetry(self.mode)
 
-        threadDemoExecute = Thread(target=self.emDemoExecute)
+        threadDemoExecute = Thread(target=self.emVirtualExecute)
         threadDemoExecute.start()
 
-        threadDemoDweet = Thread(target=self.emDemoDweet)
-        threadDemoDweet.start()
+        threadDemoTelemetry = Thread(target=self.emVirtualTelemetry)
+        threadDemoTelemetry.start()
 
-    def emDemoExecute(self):
+    def emVirtualExecute(self):
         self.emgpsfd.start()
         try:
             while True:
@@ -55,7 +57,7 @@ class emDemo(object):
         except (StopIteration, KeyboardInterrupt, SystemExit):
             pass
 
-    def emDemoDweet(self):
+    def emVirtualTelemetry(self):
         try:
             while True:
                 data = {}
@@ -74,9 +76,16 @@ class emDemo(object):
                 data['speed'] =  self.speed
                 data['track'] =  self.track
                 data['message'] = self.li.get_sentence()
-                dweepy.dweet_for('EekMexArejXe', data)
+                self.emtelemetry.emTelemetryDweetIo(data)
                 time.sleep(1)
         except (StopIteration, KeyboardInterrupt, SystemExit):
             pass
+
+    def emVirtualRecord(self):
+        datage = ("{0} " "{1} " "{2} " "{3} " \
+                  "{4} " "{5} " "{6} " "{6} ".format(
+                  self.latitude, self.longitude, self.altitude, self.pressure, \
+                  self.temperature, self.roll, self.pitch, self.yaw))
+        logging.warning(datage)
 
 # End of File

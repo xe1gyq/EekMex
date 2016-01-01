@@ -26,10 +26,10 @@ class emSensors(object):
 
     def emSensorsPoller(self):
         while True:
-            self.altitude = emAltitudeGet("demo")
-            self.pressure = emPressureGet("demo")
-            self.sealevelpressure = emSeaLevelPressureGet("demo")
-            self.temperature = emTemperatureGet("demo")
+            self.altitude = emAltitudeGet(self.mode)
+            self.pressure = emPressureGet(self.mode)
+            self.sealevelpressure = emSeaLevelPressureGet(self.mode)
+            self.temperature = emTemperatureGet(self.mode)
 
     def emSensorsData(self):
         sensorsdata = ("Sensors: {0}," "{1}," "{2}," "{3}".format( \

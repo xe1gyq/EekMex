@@ -8,7 +8,7 @@ import threading
 import time
 
 from subsystems.emobdh import emObdh
-from subsystems.emdemo import emDemo
+from subsystems.emvirtual import emVirtual
 
 def eekMexLogging():
 
@@ -64,8 +64,8 @@ if __name__=='__main__':
 
     parser = argparse.ArgumentParser(description)
     parser.add_argument('-c', '--clean', help='Mode Clean Up')
-    parser.add_argument('-d', '--demo', help='Mode Demo')
     parser.add_argument('-p', '--project', help='Mode Project')
+    parser.add_argument('-v', '--virtual', help='Mode Virtual')
     args = parser.parse_args()
 
     if args.clean == 'files':
@@ -76,16 +76,16 @@ if __name__=='__main__':
         os.remove('output/eekmexbackup.log')
         os.remove('output/eekmexprekml.log')
 
-    if args.demo:
+    if args.virtual:
 
-        logging.info('Mode Demo')
+        logging.info('Mode Virtual')
 
-        emdemo = emDemo()
+        emvirtual = emVirtual()
         while True:
             try:
                 pass
             except KeyboardInterrupt:
-                logging.info('Mode Demo ... Exiting')
+                logging.info('Mode Virtual ... Exiting')
                 sys.exit(0)
 
     if args.project:
