@@ -14,6 +14,10 @@ Mission Control Center
 - Commanding
 - Analysis
 
+## Telemetry
+
+https://github.com/g0hww/fcsched
+
 ## Software Architecture
 
 ### Cloudinary
