@@ -13,6 +13,8 @@ Introduction
 - [ ] Ground Segment
   - [ ] Mission Control Center / Control Center
   - [ ] Ground Stations
+  - [ ] User Terminals
+  - [ ] Network Components
   - [ ] Integration and Test Facilities
   - [ ] Launch Sites
 
