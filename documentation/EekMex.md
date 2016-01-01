@@ -32,4 +32,4 @@ Introduction
 
 # Operations
 
-- Launch Status check
+- Launch Status Check
