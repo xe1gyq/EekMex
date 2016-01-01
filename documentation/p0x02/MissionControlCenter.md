@@ -7,3 +7,4 @@ Mission Control Center
 
 
     # pip install cloudinary
+    https://github.com/cloudinary/pycloudinary/tree/master/samples/basic
