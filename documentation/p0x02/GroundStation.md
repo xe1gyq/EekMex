@@ -65,6 +65,7 @@ The following widgets will be created:
 #### Freeboard Data Sources
 
 1. Go to "__DATASOURCE__"
+
    - Type: Dweet.io
    - Name: EekMex Aerospace Learning Platform
    - Thing Name: EekMexSpacecraft
