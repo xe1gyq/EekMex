@@ -4,6 +4,7 @@ SandBox
 ## Telemetry
 
 https://www.google.com.mx/search?client=ubuntu&channel=fs&q=Telemetry%2C+Commanding+and+Ranging&ie=utf-8&oe=utf-8&gfe_rd=cr&ei=NMWGVo2KJqKn8wf4yafwAQ
+http://www.ltas-vis.ulg.ac.be/cmsms/uploads/File/Lecture14_TMTC_2009-2010.pdf
 
 
 - Mission Control 	 = 	PC capable of sending APRS
