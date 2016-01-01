@@ -4,7 +4,7 @@ Mission Control Center
 ## 
 
 
-- to collect, store and sort the data from spacecrafts
+- to collect, store and sort the data from spacecraft
 - to provide international and national data exchange within the Cospas-Sarsat System; and
 - to distribute alert and location data to associated Rescue coordination centres (RCCs) or SAR Points of Contact (SPOCs)
 
