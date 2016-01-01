@@ -70,13 +70,13 @@ The following widgets will be created:
    - Name: EekMex Aerospace Learning Platform
    - Thing Name: EekMexSpacecraft
 
-## Dweet.Io
+### Dweet.Io
 
 > Ridiculously simple data sharing for the Internet of Things.
 
 - [dweet.io homepage](http://dweet.io/)
 
-### Setup
+#### Setup
 
 ```json
 {
@@ -96,9 +96,9 @@ The following widgets will be created:
     dweepy.dweet_for('EekMexArejXe', data)
 ```
 
-## PubNub
+### PubNub
 
-### Setup
+#### Setup
 
 1. Go to [PubNub](https://www.pubnub.com/) and signup
 2. Once logged in, change "App Name" to Eekmex
