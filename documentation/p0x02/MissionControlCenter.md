@@ -7,7 +7,9 @@ Mission Control Center
 - to provide international and national data exchange within the EekMex System
 - to distribute alert and location data to associated Monitoring Centres (MCs) or EekMex Points of Contact (EPOCs)
 
-## Cloudinary
+## Architecture
+
+### Cloudinary
 
 - [1](https://cloudinary.com/console/welcome)
 - [2](https://github.com/cloudinary/pycloudinary)
@@ -16,7 +18,7 @@ Mission Control Center
     # pip install cloudinary
     https://github.com/cloudinary/pycloudinary/tree/master/samples/basic
     
-## WebServer
+### WebServer
 
 https://snipt.net/raw/f8ef141069c3e7ac7e0134c6b58c25bf/?nice
 http://joelinoff.com/blog/?p=1658
