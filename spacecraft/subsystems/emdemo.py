@@ -30,6 +30,8 @@ class emDemo(object):
         self.longitude = None
         self.altitudegps = None
         self.satellites = None
+        self.speed = None
+        self.track = None
 
         self.li = LoremIpsum()
         self.emgpsfd = emGps("demo")
@@ -46,7 +48,7 @@ class emDemo(object):
         self.emgpsfd.start()
         try:
             while True:
-                self.latitude, self.longitude, self.altitudegps, self.satellites = self.emgpsfd.emGpsData()
+                self.latitude, self.longitude, self.altitudegps, self.satellites, self.speed, self.track = self.emgpsfd.emGpsData()
                 self.roll, self.pitch, self.yaw = self.emimu.emImuData()
                 self.altitude, self.pressure, self.sealevelpressure, self.temperature = self.emsensors.emSensorsData()
                 time.sleep(1)
@@ -69,6 +71,8 @@ class emDemo(object):
                 data['longitude'] = self.longitude
                 data['altitudegps'] = self.altitudegps
                 data['satellites'] = self.satellites
+                data['speed'] =  self.speed
+                data['track'] =  self.track
                 data['message'] = self.li.get_sentence()
                 dweepy.dweet_for('EekMexArejXe', data)
                 time.sleep(1)

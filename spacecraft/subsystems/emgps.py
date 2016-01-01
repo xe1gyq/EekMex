@@ -40,17 +40,21 @@ class emGps(threading.Thread):
             self.longitude = self.gpsd.fix.longitude
             self.altitude = self.gpsd.fix.altitude
             self.satellites = self.gpsd.satellites
+            self.speed = self.gpsd.speed
+            self.track = self.gpsd.track
         else:
             self.latitude = random.uniform(21.14000000, 21.18000000)
             self.longitude = random.uniform(-101.600000, -101.660000)
             self.altitude = randint(1000, 2000)
             self.satellites = randint(1,10)
-
-        gpsdata = ("Gps: {0}," "{1}," "{2}".format( \
-                    self.latitude, self.longitude, self.altitude, self.satellites))
+            self.speed = randint(10, 100)
+            self.track = randint(0, 360)
+        gpsdata = ("Gps: {0}," "{1}," "{2}," "{3}," "{4}," "{5}".format( \
+                    self.latitude, self.longitude, self.altitude, self.satellites, self.speed, self.track))
         logging.info(gpsdata)
         return self.latitude, self.longitude, \
-               self.altitude, self.satellites \
+               self.altitude, self.satellites, \
+               self.speed, self.track
 
     @property
     def fix(self):
