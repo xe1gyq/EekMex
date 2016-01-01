@@ -26,7 +26,7 @@ Ground Station
    -  Delete
 4. Click on [__EekMex__](https://freeboard.io/board/huO_H7) to open the dashboard
 
-#### Freeboard.IO Components
+#### Freeboard.Io Components
 
 These are some freeboard.io concepts:
 
