@@ -23,6 +23,7 @@
    * [PreRequisites](documentation/p0x02/Prerequisites.md)
    * [Mission](documentation/p0x02/Mission.md)
    * [Ground Station](documentation/p0x02/GroundStation.md)
+   * Mission Control Center
 * [SandBox](documentation/SandBox.md)
 * [Simulator](documentation/p0x01/Simulator.md)
 
