@@ -2,7 +2,9 @@ Ground Station
 ==
 
 
-> A ground segment consists of all the ground-based elements of a spacecraft system, as opposed to the space segment, consisting of the spacecraft itself. Ground segment elements may be located together or separately, and may be operated by different parties.
+> A ground segment consists of all the ground-based elements of a spacecraft system, as opposed to the space segment, consisting of the spacecraft itself. Ground segment elements may be located together or separately, and may be operated by different parties. Wikipedia
+
+
 
 ## Freeboard.Io
 
