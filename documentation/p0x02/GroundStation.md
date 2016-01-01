@@ -34,7 +34,7 @@ These are some freeboard.io concepts:
 - __Panes__ initialized by clicking on "__ADD PANE__". They hold Widgets
 - __Widgets__ display data in some textual or graphical form
 
-### Freeboard EekMex Dashboard
+#### Freeboard.Io EekMex Dashboard
 
 The following widgets will be created:
 
