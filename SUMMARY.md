@@ -12,8 +12,6 @@
 * [Mapimi](Mapimi.md)
    * [PreRequisites](documentation/p0x01/PreRequisites.md)
    * [Mission](documentation/p0x01/Mission.md)
-   * Tbd
-* [Phase 0x01](documentation/p0x01/Phase0x01.md)
    * [Spacecraft](documentation/p0x01/Spacecraft.md)
        * [Hardware](documentation/p0x01/SpacecraftHardware.md)
        * Software
@@ -21,6 +19,8 @@
        * [Source Code](documentation/p0x01/SourceCode.md)
        * [Protocols](documentation/p0x01/SpacecraftProtocols.md)
        * [Payload](documentation/p0x01/SpacecraftPayload.md)
+   * Tbd
+* [Phase 0x01](documentation/p0x01/Phase0x01.md)
 * [Phase 0x02](documentation/p0x02/Phase0x02.md)
    * [PreRequisites](documentation/p0x02/Prerequisites.md)
    * [Mission](documentation/p0x02/Mission.md)
