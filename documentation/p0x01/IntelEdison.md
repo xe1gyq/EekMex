@@ -76,7 +76,7 @@ Intel Edison
 ## Packages Python Pip Installation
 
 ```sh
-    root@ubilinux:~# pip install numpy psutil XBee pyserial pykml LoremIpsum
+    root@ubilinux:~# pip install numpy psutil XBee pyserial pykml LoremIpsum randomwords
     root@ubilinux:~# exit
     edison@ubilinux:~$ 
 ```
