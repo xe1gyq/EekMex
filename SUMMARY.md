@@ -10,7 +10,7 @@
    * [Cube Satellites](documentation/CubeSatellites.md)
    * [References](documentation/References.md)
 * Releases
-   * [Mapimi](Mapimi.md)
+   * [Mapimi](documentation/p0x01/Mapimi.md)
        * [PreRequisites](documentation/p0x01/PreRequisites.md)
        * [Mission](documentation/p0x01/Mission.md)
        * [Spacecraft](documentation/p0x01/Spacecraft.md)
