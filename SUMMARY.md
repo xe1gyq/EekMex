@@ -14,7 +14,7 @@
    * [Mission](documentation/p0x01/Mission.md)
    * [Spacecraft](documentation/p0x01/Spacecraft.md)
        * [Hardware](documentation/p0x01/SpacecraftHardware.md)
-       * [Software](documentation/p0x01/SpacecraftSoftware.md)
+       * Software
            * [Intel Edison](documentation/p0x01/IntelEdison.md)
        * [Source Code](documentation/p0x01/SourceCode.md)
        * [Protocols](documentation/p0x01/SpacecraftProtocols.md)
