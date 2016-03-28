@@ -25,7 +25,7 @@
        * [Mission](documentation/p0x02/Mission.md)
        * [Ground Station](documentation/p0x02/GroundStation.md)
        * [Mission Control Center](documentation/p0x02/MissionControlCenter.md)
-   * Patzcuaro
+   * v0.3 Patzcuaro
        * [Mission](documentation/p0x03/Mission.md)
        * Tbd
    * Tbd
