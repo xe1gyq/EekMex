@@ -25,11 +25,11 @@
        * [Mission](documentation/p0x02/Mission.md)
        * [Ground Station](documentation/p0x02/GroundStation.md)
        * [Mission Control Center](documentation/p0x02/MissionControlCenter.md)
+   * Patzcuaro
+       * [Mission](documentation/p0x03/Mission.md)
+       * Tbd
    * Tbd
 * [SandBox](documentation/SandBox.md)
-* Patzcuaro
-   * [Mission](documentation/p0x03/Mission.md)
-   * Tbd
 * [Simulator](documentation/p0x01/Simulator.md)
 * [Telemetry](Telemetry.md)
 
