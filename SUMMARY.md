@@ -19,6 +19,7 @@
        * [Source Code](documentation/p0x01/SourceCode.md)
        * [Protocols](documentation/p0x01/SpacecraftProtocols.md)
        * [Payload](documentation/p0x01/SpacecraftPayload.md)
+* Dolores Hidalgo
 * [Phase 0x02](documentation/p0x02/Phase0x02.md)
    * [PreRequisites](documentation/p0x02/Prerequisites.md)
    * [Mission](documentation/p0x02/Mission.md)
@@ -27,5 +28,4 @@
 * [SandBox](documentation/SandBox.md)
 * [Simulator](documentation/p0x01/Simulator.md)
 * [Telemetry](Telemetry.md)
-* Dolores Hidalgo
 
