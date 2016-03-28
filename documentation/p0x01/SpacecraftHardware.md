@@ -14,12 +14,6 @@ Hardware
 
 - [1] [SparkFun Block for Intel® Edison - 9 Degrees of Freedom](https://www.sparkfun.com/products/13033)
 
-## Communications
-
-- [2] [XBee Pro 60mW Wire Antenna - Series 1 (802.15.4)](https://www.sparkfun.com/products/8742)
-- [1] [SparkFun XBee Explorer Dongle](https://www.sparkfun.com/products/11697)
-- [1] [SparkFun XBee Explorer USB ](https://www.sparkfun.com/products/11812)
-
 ## Global Positioning System
 
 - [1] [GPS Receiver - GP-2106 SiRF IV (48 Chaxnel)](https://www.sparkfun.com/products/10890)
