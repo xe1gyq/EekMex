@@ -10,9 +10,9 @@
    * [Cube Satellites](documentation/CubeSatellites.md)
    * [References](documentation/References.md)
 * [Mapimi](Mapimi.md)
+   * [PreRequisites](documentation/p0x01/PreRequisites.md)
    * Tbd
 * [Phase 0x01](documentation/p0x01/Phase0x01.md)
-   * [PreRequisites](documentation/p0x01/PreRequisites.md)
    * [Mission](documentation/p0x01/Mission.md)
    * [Spacecraft](documentation/p0x01/Spacecraft.md)
        * [Hardware](documentation/p0x01/SpacecraftHardware.md)
