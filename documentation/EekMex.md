@@ -36,4 +36,4 @@ Introduction
 
 # Code Names
 
-- Mapimi
+- Mapimi v1.0
