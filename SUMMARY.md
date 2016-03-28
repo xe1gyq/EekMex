@@ -20,12 +20,12 @@
            * [Source Code](documentation/p0x01/SourceCode.md)
            * [Protocols](documentation/p0x01/SpacecraftProtocols.md)
            * [Payload](documentation/p0x01/SpacecraftPayload.md)
+   * Dolores Hidalgo
+       * [PreRequisites](documentation/p0x02/Prerequisites.md)
+       * [Mission](documentation/p0x02/Mission.md)
+       * [Ground Station](documentation/p0x02/GroundStation.md)
+       * [Mission Control Center](documentation/p0x02/MissionControlCenter.md)
    * Tbd
-* Dolores Hidalgo
-   * [PreRequisites](documentation/p0x02/Prerequisites.md)
-   * [Mission](documentation/p0x02/Mission.md)
-   * [Ground Station](documentation/p0x02/GroundStation.md)
-   * [Mission Control Center](documentation/p0x02/MissionControlCenter.md)
 * Patzcuaro
    * [Mission](documentation/p0x03/Mission.md)
    * Tbd
