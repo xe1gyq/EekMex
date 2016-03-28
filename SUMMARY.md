@@ -8,7 +8,7 @@
        * [Software Defined Radio](documentation/spaceexploration/SoftwareDefinedRadio.md)
    * [References](documentation/References.md)
 * [Cube Satellites](documentation/CubeSatellites.md)
-* [EekMex](documentation/EekMex.md)
+* [Introduction](documentation/EekMex.md)
 * Mapimi
 * [Phase 0x01](documentation/p0x01/Phase0x01.md)
    * [PreRequisites](documentation/p0x01/PreRequisites.md)
