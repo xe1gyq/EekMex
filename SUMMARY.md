@@ -25,7 +25,7 @@
    * [Ground Station](documentation/p0x02/GroundStation.md)
    * [Mission Control Center](documentation/p0x02/MissionControlCenter.md)
 * Patzcuaro
-   * Mission
+   * [Mission](documentation/px003/Mission.md)
    * Tbd
 * [SandBox](documentation/SandBox.md)
 * [Simulator](documentation/p0x01/Simulator.md)
