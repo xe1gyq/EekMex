@@ -15,5 +15,6 @@ We have a git repository
     documentation  LICENSE  README.md  sandbox  spacecraft  SUMMARY.md
     user@spacecraft:/home/user/eekmex$ su
     Password: passwd
+    user@spacecraft:/home/user/eekmex$ cd spacecraft
     root@spacecraft:/home/user/eekmex/spacecraft# python eekmex.py -c files
 ```
