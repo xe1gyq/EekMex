@@ -1,5 +1,5 @@
 Mapimi
 ==
 
-v0.1
+v0.1 Alfa Release
 
