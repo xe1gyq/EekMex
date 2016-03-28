@@ -1,6 +1,7 @@
 # Summary
 
 * [Cover](README.md)
+* [Introduction](documentation/EekMex.md)
 * [Space Exploration](documentation/SpaceExploration.md)
    * [Hardware](documentation/spaceexploration/hardware.md)
    * [Software](documentation/spaceexploration/software.md)
@@ -8,7 +9,6 @@
        * [Software Defined Radio](documentation/spaceexploration/SoftwareDefinedRadio.md)
    * [Cube Satellites](documentation/CubeSatellites.md)
    * [References](documentation/References.md)
-* [Introduction](documentation/EekMex.md)
 * [Mapimi](Mapimi.md)
 * [Phase 0x01](documentation/p0x01/Phase0x01.md)
    * [PreRequisites](documentation/p0x01/PreRequisites.md)
