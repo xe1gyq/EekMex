@@ -20,7 +20,7 @@
            * [Source Code](documentation/p0x01/SourceCode.md)
            * [Protocols](documentation/p0x01/SpacecraftProtocols.md)
            * [Payload](documentation/p0x01/SpacecraftPayload.md)
-   * [Dolores Hidalgo](documentation/p0x01/DoloresHidalgo.md)
+   * [Dolores Hidalgo](documentation/p0x02/DoloresHidalgo.md)
        * [PreRequisites](documentation/p0x02/Prerequisites.md)
        * [Mission](documentation/p0x02/Mission.md)
        * [Ground Station](documentation/p0x02/GroundStation.md)
