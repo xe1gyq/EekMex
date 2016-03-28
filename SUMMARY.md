@@ -23,9 +23,9 @@
    * [PreRequisites](documentation/p0x02/Prerequisites.md)
    * [Mission](documentation/p0x02/Mission.md)
    * [Ground Station](documentation/p0x02/GroundStation.md)
+   * [Mission Control Center](documentation/p0x02/MissionControlCenter.md)
    * Tbd
 * [Phase 0x02](documentation/p0x02/Phase0x02.md)
-   * [Mission Control Center](documentation/p0x02/MissionControlCenter.md)
 * [SandBox](documentation/SandBox.md)
 * [Simulator](documentation/p0x01/Simulator.md)
 * [Telemetry](Telemetry.md)
