@@ -20,9 +20,9 @@
        * [Protocols](documentation/p0x01/SpacecraftProtocols.md)
        * [Payload](documentation/p0x01/SpacecraftPayload.md)
 * Dolores Hidalgo
+   * [PreRequisites](documentation/p0x02/Prerequisites.md)
    * Tbd
 * [Phase 0x02](documentation/p0x02/Phase0x02.md)
-   * [PreRequisites](documentation/p0x02/Prerequisites.md)
    * [Mission](documentation/p0x02/Mission.md)
    * [Ground Station](documentation/p0x02/GroundStation.md)
    * [Mission Control Center](documentation/p0x02/MissionControlCenter.md)
