@@ -10,17 +10,17 @@
    * [Cube Satellites](documentation/CubeSatellites.md)
    * [References](documentation/References.md)
 * Releases
+   * [Mapimi](Mapimi.md)
+       * [PreRequisites](documentation/p0x01/PreRequisites.md)
+       * [Mission](documentation/p0x01/Mission.md)
+       * [Spacecraft](documentation/p0x01/Spacecraft.md)
+           * [Hardware](documentation/p0x01/SpacecraftHardware.md)
+           * Software
+               * [Intel Edison](documentation/p0x01/IntelEdison.md)
+           * [Source Code](documentation/p0x01/SourceCode.md)
+           * [Protocols](documentation/p0x01/SpacecraftProtocols.md)
+           * [Payload](documentation/p0x01/SpacecraftPayload.md)
    * Tbd
-* [Mapimi](Mapimi.md)
-   * [PreRequisites](documentation/p0x01/PreRequisites.md)
-   * [Mission](documentation/p0x01/Mission.md)
-   * [Spacecraft](documentation/p0x01/Spacecraft.md)
-       * [Hardware](documentation/p0x01/SpacecraftHardware.md)
-       * Software
-           * [Intel Edison](documentation/p0x01/IntelEdison.md)
-       * [Source Code](documentation/p0x01/SourceCode.md)
-       * [Protocols](documentation/p0x01/SpacecraftProtocols.md)
-       * [Payload](documentation/p0x01/SpacecraftPayload.md)
 * Dolores Hidalgo
    * [PreRequisites](documentation/p0x02/Prerequisites.md)
    * [Mission](documentation/p0x02/Mission.md)
