@@ -1,6 +1,9 @@
 SandBox
 ==
 
+- [BeagleSat](http://nvisnjic.com/beaglesat/)
+- [Safari](http://techbus.safaribooksonline.com/book/hardware/9781783982929/beaglebone-black-cookbook/ch09_html#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODE3ODM5ODI5MjklMkZjaDA5bHZsMnNlYzI0MV9odG1sJnF1ZXJ5PQ==)
+
 ## Telemetry
 
 https://www.google.com.mx/search?client=ubuntu&channel=fs&q=Telemetry%2C+Commanding+and+Ranging&ie=utf-8&oe=utf-8&gfe_rd=cr&ei=NMWGVo2KJqKn8wf4yafwAQ
