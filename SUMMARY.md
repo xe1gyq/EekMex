@@ -9,6 +9,7 @@
         * [Software Defined Radio](documentation/spaceexploration/SoftwareDefinedRadio.md)
     * [Cube Satellites](documentation/CubeSatellites.md)
     * [References](documentation/References.md)
+    * [Apollo 11](documentation/apollo-11.md)
 * Releases
     * [v0.1 Mapimi](documentation/p0x01/Mapimi.md)
         * [PreRequisites](documentation/p0x01/PreRequisites.md)
